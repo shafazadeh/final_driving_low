@@ -1,0 +1,839 @@
+﻿<document>
+	<row>
+		<radif>1.</radif>
+		<ostan>فارس</ostan>
+		<shahr>آباده</shahr>
+		<amozeshgah>سامان</amozeshgah>
+		<address>ميدان گاز 20 متري معلم</address>
+		<tel>3334478</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>2.</radif>
+		<ostan>فارس</ostan>
+		<shahr>آباده</shahr>
+		<amozeshgah>سعيد</amozeshgah>
+		<address>خيابان قدس بعد از سه راه تکیه سمت راست</address>
+		<tel>3338441</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>3.</radif>
+		<ostan>فارس</ostan>
+		<shahr>آباده</shahr>
+		<amozeshgah>کوثر</amozeshgah>
+		<address>خيابان تختي روبروي نيروگاه برق</address>
+		<tel>3333881</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>4.</radif>
+		<ostan>فارس</ostan>
+		<shahr>ارسنجان</shahr>
+		<amozeshgah>ساحل</amozeshgah>
+		<address>بلوار شهید مصطفی اسکندری</address>
+		<tel>7622012</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>5.</radif>
+		<ostan>فارس</ostan>
+		<shahr>استهبان</shahr>
+		<amozeshgah>شاداب</amozeshgah>
+		<address>بلوار قائم خیابان میثم جنب آبشار 22 بهمن</address>
+		<tel>4241715</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>6.</radif>
+		<ostan>فارس</ostan>
+		<shahr>اقليد</shahr>
+		<amozeshgah>وليعصر</amozeshgah>
+		<address>بلوار ارجمان بلوار دکتر شریعتی</address>
+		<tel>4251550</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>7.</radif>
+		<ostan>فارس</ostan>
+		<shahr>بوانات</shahr>
+		<amozeshgah>زاگرس</amozeshgah>
+		<address>جیان شهرک قائم فاز 3 پلاک 73971-45176</address>
+		<tel>3223515</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>8.</radif>
+		<ostan>فارس</ostan>
+		<shahr>بیضا</shahr>
+		<amozeshgah>نسیم</amozeshgah>
+		<address>بیست متری صاحب الزمان(عج) انتهای خیابان</address>
+		<tel>7622265</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>9.</radif>
+		<ostan>فارس</ostan>
+		<shahr>پاسارگاد</shahr>
+		<amozeshgah>راضی</amozeshgah>
+		<address>میدان بسیج انتهای خیابان قصرالدشت</address>
+		<tel>7224204</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>10.</radif>
+		<ostan>فارس</ostan>
+		<shahr>جهرم</shahr>
+		<amozeshgah>آريايي</amozeshgah>
+		<address>میدان جهاد خيابان وليعصر نرسيده به پل سمت راست</address>
+		<tel>2221661</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>11.</radif>
+		<ostan>فارس</ostan>
+		<shahr>جهرم</shahr>
+		<amozeshgah>اسلامي</amozeshgah>
+		<address>روبروی اداره راهنمایی و رانندگی ابتدای خیابان مطهری </address>
+		<tel>3332209</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>12.</radif>
+		<ostan>فارس</ostan>
+		<shahr>جهرم</shahr>
+		<amozeshgah>دانش</amozeshgah>
+		<address>بلوار حافظ روبروی حوزه امام خمینی پلاک 84</address>
+		<tel>3335945</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>13.</radif>
+		<ostan>فارس</ostan>
+		<shahr>جهرم</shahr>
+		<amozeshgah>ولیعصر</amozeshgah>
+		<address>شهرک فاطمیه خیابان شهید محبی بالاتر از اداره گاز</address>
+		<tel>4445159</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>14.</radif>
+		<ostan>فارس</ostan>
+		<shahr>خرامه</shahr>
+		<amozeshgah>نیما</amozeshgah>
+		<address>ابتدای بلوار ورودی شهر روبروی بیمارستان ساختمان دادگاه سابق</address>
+		<tel>4627834</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>15.</radif>
+		<ostan>فارس</ostan>
+		<shahr>خرم بید</shahr>
+		<amozeshgah>ولیعصر</amozeshgah>
+		<address>خ ولیعصر</address>
+		<tel>3522733</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>16.</radif>
+		<ostan>فارس</ostan>
+		<shahr>خفر</shahr>
+		<amozeshgah>محمد(ص)</amozeshgah>
+		<address>میدان امام خمینی روبروی بلوار امام خمینی</address>
+		<tel>3222743</tel>
+		<F7/>
+	</row>
+			<row>
+		<radif>17.</radif>
+		<ostan>فارس</ostan>
+		<shahr>داراب</shahr>
+		<amozeshgah>حمایت از زندانیان</amozeshgah>
+		<address>بلوار آیت اله خامنه ای بالاتر از بیمارستان جدید سینمای قدیم</address>
+		<tel>6230460</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>18.</radif>
+		<ostan>فارس</ostan>
+		<shahr>داراب</shahr>
+		<amozeshgah>سبحان</amozeshgah>
+		<address>خيابان مدرس برق سابق</address>
+		<tel>6231100</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>19.</radif>
+		<ostan>فارس</ostan>
+		<shahr>داراب</shahr>
+		<amozeshgah>ولیعصر</amozeshgah>
+		<address>بلوار امام خمینی بلوار شهید مصطفی خمینی </address>
+		<tel>6240871</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>20.</radif>
+		<ostan>فارس</ostan>
+		<shahr>زرقان</shahr>
+		<amozeshgah>هاشمی نژاد</amozeshgah>
+		<address>بلوار امام خمینی بین بانک سپه داخل کوچه بهار 6 </address>
+		<tel>4222511</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>21.</radif>
+		<ostan>فارس</ostan>
+		<shahr>زرین دشت</shahr>
+		<amozeshgah>بهار</amozeshgah>
+		<address>خ ولی عصر کوچه جنب دانشگاه آزاد اسلامی </address>
+		<tel>7221606</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>22.</radif>
+		<ostan>فارس</ostan>
+		<shahr>سپیدان</shahr>
+		<amozeshgah>خاتم الانبیا</amozeshgah>
+		<address>شهرک شهید قاضی </address>
+		<tel>7221222</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>23.</radif>
+		<ostan>فارس</ostan>
+		<shahr>سپيدان</shahr>
+		<amozeshgah>شاهين</amozeshgah>
+		<address>خ فرمانداری کوچه شهید فریدونی </address>
+		<tel>7220453</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>24.</radif>
+		<ostan>فارس</ostan>
+		<shahr>سروستان</shahr>
+		<amozeshgah>زیتون</amozeshgah>
+		<address>بلوار رسالت نرسیده به کلانتری </address>
+		<tel>5223989</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>25.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>آريا</amozeshgah>
+		<address>بلوار عدالت ایستگاه آخر عادل آباد کوچه جنب بانک ملت کوچه 43</address>
+		<tel>8255440</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>26.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>احسان</amozeshgah>
+		<address>بلوار مدرس خ فضیلت چهارراه فضیلت خ نظام وظیفه</address>
+		<tel>7354873</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>27.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>البرز</amozeshgah>
+		<address>چهارراه ادبیات ابتدای بلوار چهل مقام سمت راست پشت پارکینگ</address>
+		<tel>2272854</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>28.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>امیر کبیر</amozeshgah>
+		<address>ورودی شهرک والفجر ورودی آزدگان جنب داروخانه</address>
+		<tel>8331333</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>29.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>انتظام</amozeshgah>
+		<address>بلوار مدرس نرسيده به پل غدير</address>
+		<tel>7252526</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>30.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>ایثار</amozeshgah>
+		<address>فلکه کوزه گری ابتدای خیابان کارگر</address>
+		<tel>7535515</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>31.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>بهران</amozeshgah>
+		<address>زرهی درمانگاه محمد رسول اله روبروی پارک حدیث</address>
+		<tel>8235432</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>32.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>پاسارگاد</amozeshgah>
+		<address>زرهي 20 متري شهيد آقائي</address>
+		<tel>8234107</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>33.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>پردیس</amozeshgah>
+		<address>شهرک گلستان خ آلاله</address>
+		<tel>6220400</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>34.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>پرسپولیس</amozeshgah>
+		<address>میدان آزادی کوچه جنب دادگستری ابریشمی</address>
+		<tel>2286438</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>35.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>پرواز</amozeshgah>
+		<address>فرهنگ شهر جنب استخر کوثر</address>
+		<tel>6303196</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>36.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>تخت جمشيد</amozeshgah>
+		<address>چهار راه ريشمک خيابان 20 متري شهيد صفايي 8</address>
+		<tel>8201077</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>37.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شیراز</shahr>
+		<amozeshgah>توحيد</amozeshgah>
+		<address>خ معالی آباد کوی خلبانان سمت چپ بعد از کوچه 4</address>
+		<tel>6247548</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>38.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>جام جم</amozeshgah>
+		<address>بلوار صنايع بعد از پل زيرگذر حسين آباد</address>
+		<tel>6351411</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>39.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>جنت</amozeshgah>
+		<address>بلوار رحمت روبروی نان فانتزی بین خیابان درکی و قالی شویی</address>
+		<tel>8311000</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>40.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>چراغ سبز</amozeshgah>
+		<address>فلکه احمدي‌نو</address>
+		<tel>7387682</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>41.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>حافظ</amozeshgah>
+		<address>بلوار ستارخان ابتدای ستارخان کوچه 17 آخر کوچه</address>
+		<tel>6282633</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>42.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>رازي</amozeshgah>
+		<address>بلوار مدرس کوی زهرا کوچه جنب پارک </address>
+		<tel>7273222</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>43.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>زاگرس</amozeshgah>
+		<address>میدان دفاع مقدس بلوار دلاوران بسیج خیابان شاهزاده بیگم پلاک 1489</address>
+		<tel>7273701</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>44.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>سفير</amozeshgah>
+		<address>بلوار پاسداران بلوار باغ حوض پلاک 408</address>
+		<tel>8219903</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>45.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>سینا</amozeshgah>
+		<address>شهرک گلستان فاز 1 بلوار علامه امینی </address>
+		<tel>6214666</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>46.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>شهید دوران</amozeshgah>
+		<address>جاده پايگاه خيابان شهيد دوران 20 متری شهید کشوری</address>
+		<tel>7202666</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>47.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>صبا</amozeshgah>
+		<address>آخر بلوار تخت جمشید شرقی سمت راست پلاک 64</address>
+		<tel>7400529</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>48.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>صدرا</amozeshgah>
+		<address>شهرک صدرا بلوار مولانا مولانای 7 جنب دبستان کوشا </address>
+		<tel>6404774</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>49.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>صدف</amozeshgah>
+		<address>بلوار نصر جنب پمپ گاز</address>
+		<tel>7228200</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>50.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>صدوده</amozeshgah>
+		<address>فلکه احسان بلوار معالی آباد</address>
+		<tel>6242308</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>51.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>علی</amozeshgah>
+		<address>بلوار مدرس خیابان فرصت شیرازی 20 متری شکری</address>
+		<tel>7208031</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>52.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>غدیر</amozeshgah>
+		<address>انتهای بلوار سفیر جنوبی نبش میدان مهارت</address>
+		<tel>8351001</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>53.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>قائم</amozeshgah>
+		<address>20 متری دینکان روبروی خیریه نمازی 24</address>
+		<tel>6250742</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>54.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>کلبه</amozeshgah>
+		<address>بلوار نصر روبروی جهانگردی کوچه قنادی توتک</address>
+		<tel>7301010</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>55.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>کوثر</amozeshgah>
+		<address>فرهنگ شهر انتهاي کوچه استخر کوثر</address>
+		<tel>6300500</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>56.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>گلستان</amozeshgah>
+		<address>فلکه مصدق روبروي پارک</address>
+		<tel>2228282</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>57.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>ماهان</amozeshgah>
+		<address>بلوار مدرس پودنک روبروی 20 متری ششم</address>
+		<tel>7201160</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>58.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>ناجی</amozeshgah>
+		<address>بلوار ایثار نبش کوچه 12</address>
+		<tel>7272262</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>59.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>نرگس</amozeshgah>
+		<address>چهارراه ادبیات بعد از گلستان اولین کوچه سمت راست پشت روغن</address>
+		<tel>2255588</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>60.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>نور</amozeshgah>
+		<address>فلکه گاز چهار راه چنچنه خیابان نارون شمالی کوچه 24 </address>
+		<tel>2297029</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>61.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>ولیعصر</amozeshgah>
+		<address>بلوار عدالت خیابان فر گاز 20 متری رمضان </address>
+		<tel>8241507</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>62.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>هخامنش</amozeshgah>
+		<address>میدان هفت تن پشت باغ دلگشا اول 20 متری سعدی </address>
+		<tel>7303872</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>63.</radif>
+		<ostan>فارس</ostan>
+		<shahr>شيراز</shahr>
+		<amozeshgah>هلال</amozeshgah>
+		<address>سه راه دارالرحمه</address>
+		<tel>7394169</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>64.</radif>
+		<ostan>فارس</ostan>
+		<shahr>فراشبند</shahr>
+		<amozeshgah>میثم</amozeshgah>
+		<address>بلوار رئیس علی دلوار ضلع شرقی</address>
+		<tel>6622229</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>65.</radif>
+		<ostan>فارس</ostan>
+		<shahr>فسا</shahr>
+		<amozeshgah>کوثر</amozeshgah>
+		<address>فلکه شاهزاده قاسم روبروي 3 راهي</address>
+		<tel>3330898</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>66.</radif>
+		<ostan>فارس</ostan>
+		<shahr>فسا</shahr>
+		<amozeshgah>ميلاد</amozeshgah>
+		<address>بلوار صاحب الزمان فاز 3 گلستان چهارراه ناصر خسرو</address>
+		<tel>3337946</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>67.</radif>
+		<ostan>فارس</ostan>
+		<shahr>فسا</shahr>
+		<amozeshgah>یاسین</amozeshgah>
+		<address>خ فخری جنب پارک شهر </address>
+		<tel>2225278</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>68.</radif>
+		<ostan>فارس</ostan>
+		<shahr>فيروزآباد</shahr>
+		<amozeshgah>توحيد</amozeshgah>
+		<address>بلوار امام حسين بالاتر از مدرسه فروغ دانش </address>
+		<tel>6230077</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>69.</radif>
+		<ostan>فارس</ostan>
+		<shahr>فيروزآباد</shahr>
+		<amozeshgah>حجاب</amozeshgah>
+		<address>خيابان امام کاظم(ع) روبروی شورای حل اختلاف</address>
+		<tel>6233388</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>70.</radif>
+		<ostan>فارس</ostan>
+		<shahr>قیرو کارزین</shahr>
+		<amozeshgah>نیما</amozeshgah>
+		<address>بلوار امام علی</address>
+		<tel>4223999</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>71.</radif>
+		<ostan>فارس</ostan>
+		<shahr>کازرون</shahr>
+		<amozeshgah>کوثر</amozeshgah>
+		<address>خ فلسطین روبروی نانوائی شاملی 100 متر پایین تر از فلکه سید محمد</address>
+		<tel>2224260</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>72.</radif>
+		<ostan>فارس</ostan>
+		<shahr>کازرون</shahr>
+		<amozeshgah>محمد</amozeshgah>
+		<address>خيابان مطهري</address>
+		<tel>2225253</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>73.</radif>
+		<ostan>فارس</ostan>
+		<shahr>کازرون</shahr>
+		<amozeshgah>نوبن</amozeshgah>
+		<address>خيابان امام خمینی نرسیده به هلال احمر </address>
+		<tel>2245152</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>74.</radif>
+		<ostan>فارس</ostan>
+		<shahr>کوار</shahr>
+		<amozeshgah>نخلستان</amozeshgah>
+		<address>خيابان نخلستان بعد از چهاراه اول سمت چپ درب دوم</address>
+		<tel>5624212</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>75.</radif>
+		<ostan>فارس</ostan>
+		<shahr>گراش</shahr>
+		<amozeshgah>مهر</amozeshgah>
+		<address>گراش خ درمانگاه خیابان شهید ابراهیمی</address>
+		<tel>2230134</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>76.</radif>
+		<ostan>فارس</ostan>
+		<shahr>لار</shahr>
+		<amozeshgah>اتحاد</amozeshgah>
+		<address>شهر جديد 12 متري دادگاه پ 46</address>
+		<tel>2244561</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>77.</radif>
+		<ostan>فارس</ostan>
+		<shahr>لار</shahr>
+		<amozeshgah>انقلاب</amozeshgah>
+		<address>شهر جدید چهل متری سوم دوازده متری اول پلاک 48</address>
+		<tel>2248107</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>78.</radif>
+		<ostan>فارس</ostan>
+		<shahr>لار</shahr>
+		<amozeshgah>کوثر</amozeshgah>
+		<address>شهر جديد 30 متری مسجد النبی پشت استاديوم ورزشي</address>
+		<tel>2246607</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>79.</radif>
+		<ostan>فارس</ostan>
+		<shahr>لامرد</shahr>
+		<amozeshgah>جواد</amozeshgah>
+		<address>بلوار جهاد روبروي جهاد کشاورزي</address>
+		<tel>5224700</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>80.</radif>
+		<ostan>فارس</ostan>
+		<shahr>لامرد</shahr>
+		<amozeshgah>حميد</amozeshgah>
+		<address>بلوار شهید مطهری محله بیت العباس نرسیده به سه راه دانشگاه </address>
+		<tel>5230735</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>81.</radif>
+		<ostan>فارس</ostan>
+		<shahr>لامرد</shahr>
+		<amozeshgah>فجر</amozeshgah>
+		<address>بلوار شاهد</address>
+		<tel>5224108</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>82.</radif>
+		<ostan>فارس</ostan>
+		<shahr>مرودشت</shahr>
+		<amozeshgah>تخت جمشید</amozeshgah>
+		<address>خ انقلاب روبروی فرمانداری سابق </address>
+		<tel>3343111</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>83.</radif>
+		<ostan>فارس</ostan>
+		<shahr>مرودشت</shahr>
+		<amozeshgah>حافظ</amozeshgah>
+		<address>خ انقلاب کوچه دخانیات </address>
+		<tel>2222397</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>84.</radif>
+		<ostan>فارس</ostan>
+		<shahr>مرودشت</shahr>
+		<amozeshgah>رالی</amozeshgah>
+		<address>متری امیر کبیر نبش حافظ شمالی 20  </address>
+		<tel>3338181</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>85.</radif>
+		<ostan>فارس</ostan>
+		<shahr>مرودشت</shahr>
+		<amozeshgah>قائم</amozeshgah>
+		<address>خيابان سعدي خيابان بهار</address>
+		<tel>2221116</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>86.</radif>
+		<ostan>فارس</ostan>
+		<shahr>مرودشت</shahr>
+		<amozeshgah>وحدت</amozeshgah>
+		<address>خيابان حضرت رسول غربی مقابل راهنمائي و رانندگي</address>
+		<tel>333312</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>87.</radif>
+		<ostan>فارس</ostan>
+		<shahr>مهر</shahr>
+		<amozeshgah>روح اله</amozeshgah>
+		<address>انتهای خیابان نماز جنب امور صنفی</address>
+		<tel>6522232</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>88.</radif>
+		<ostan>فارس</ostan>
+		<shahr>مهر</shahr>
+		<amozeshgah>فدک</amozeshgah>
+		<address>بلوار آیت اله خامنه ای بالاتر از بیمارستان جدید سینمای قدیم</address>
+		<tel>6524647</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>89.</radif>
+		<ostan>فارس</ostan>
+		<shahr>نورآباد</shahr>
+		<amozeshgah>اميرکبير</amozeshgah>
+		<address>بلوار هفت تير به طرف محله برمک سفلی </address>
+		<tel>4229617</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>90.</radif>
+		<ostan>فارس</ostan>
+		<shahr>نورآباد</shahr>
+		<amozeshgah>رستمی</amozeshgah>
+		<address>خ باهنر بااتر از آموزش و پرورش </address>
+		<tel>4226965</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>91.</radif>
+		<ostan>فارس</ostan>
+		<shahr>نورآباد</shahr>
+		<amozeshgah>مهر</amozeshgah>
+		<address>بلوار هجرت خیابان 20 متری گلستان جنب شبکه بهداری </address>
+		<tel>4221658</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>92.</radif>
+		<ostan>فارس</ostan>
+		<shahr>ني‌ريز</shahr>
+		<amozeshgah>امید</amozeshgah>
+		<address>خ مدرس نرسیده به فلکه گاز </address>
+		<tel>5220342</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>93.</radif>
+		<ostan>فارس</ostan>
+		<shahr>ني‌ريز</shahr>
+		<amozeshgah>پرواز</amozeshgah>
+		<address>خيابان بهداشت 16 متري بهداشت</address>
+		<tel>5228686</tel>
+		<F7/>
+	</row>
+</document>

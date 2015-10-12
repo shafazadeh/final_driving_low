@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"  android:background="@drawable/toastbg" android:layout_gravity="center_vertical" android:layout_margin="20dp" android:padding="20dp">
+
+   
+ 
+    <ImageView
+        android:contentDescription="@string/hello"
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo" android:layout_centerHorizontal="true"/>
+ 
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF" android:gravity="center_vertical|center_horizontal" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:layout_centerVertical="true"/>
+
+    <RelativeLayout
+        android:id="@+id/dialogsbtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text" android:layout_marginTop="90dp">
+
+        <Button
+            android:id="@+id/dialogButtonOK"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yes" android:layout_alignParentRight="true" android:layout_marginRight="15dp"/>
+
+        <Button
+            android:id="@+id/dialogButtonNo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/no" android:layout_alignParentLeft="true" android:layout_marginLeft="15dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" android:layout_height="fill_parent" 
+    android:background="@drawable/bgmain">		<RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:background="@drawable/topbar" 
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back" 
+                android:layout_marginTop="4dp" 
+                android:layout_marginLeft="4dp"/>
+        </RelativeLayout>
+		<RelativeLayout
+        	android:id="@+id/r1"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_gravity="center_horizontal" 
+        	android:layout_margin="20dp" 
+        	android:layout_above="@id/relativeLayout2">
+
+        <TextView
+            android:id="@+id/correctanstext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:layout_centerHorizontal="true" 
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/wronganstext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:padding="5dp" 
+            android:layout_below="@id/correctanstext" 
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/unanswtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:padding="5dp" android:layout_below="@id/wronganstext" 
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:layout_below="@id/unanswtext" 
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/examin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/status" android:layout_centerHorizontal="true" android:layout_marginTop="30dp" android:background="@drawable/examin" android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

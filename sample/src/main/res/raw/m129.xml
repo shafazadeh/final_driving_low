@@ -1,0 +1,218 @@
+﻿<document>
+	<row>
+		<radif>1.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>بستک</shahr>
+		<amozeshgah>خورشید</amozeshgah>
+		<address>خیابان قدس</address>
+		<tel>3222277</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>2.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>بستک</shahr>
+		<amozeshgah>مسعود</amozeshgah>
+		<address>خ انقلاب - جنب پیش دانشگاهی شهداء کارگر</address>
+		<tel>324565</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>3.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>بندر خمیر</shahr>
+		<amozeshgah>بامشاد</amozeshgah>
+		<address>بلوار امام - خ ملاسلیمان - کوچه فردوسی</address>
+		<tel>3223265</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>4.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>بندرعباس</shahr>
+		<amozeshgah>امين</amozeshgah>
+		<address>انتهاي کوي آزادگان - مجتمع فنی و حرفه ای</address>
+		<tel>3349488</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>5.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>بندرعباس</shahr>
+		<amozeshgah>بهار</amozeshgah>
+		<address>کوي فرهنگيان شمال پارک شهيد دباغيان</address>
+		<tel>3346700</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>6.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>بندرعباس</shahr>
+		<amozeshgah>جوانی</amozeshgah>
+		<address>خیابان طلوع - روبروی مهمانسرای نیروی انتظامی نبش خیابان طلوع</address>
+		<tel>6672696</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>7.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>بندرعباس</shahr>
+		<amozeshgah>حسيني</amozeshgah>
+		<address>بلوار ثارالله جنب نمايندگي ايران خودرو</address>
+		<tel>4512077</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>8.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>بندرعباس</shahr>
+		<amozeshgah>خليج فارس</amozeshgah>
+		<address>بلوار امام حسين روبروي بوستان شهروند</address>
+		<tel>3555572</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>9.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>بندرعباس</shahr>
+		<amozeshgah>مرادپور</amozeshgah>
+		<address>امير آباد خيابان زيتون</address>
+		<tel>5559653</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>10.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>بندرعباس</shahr>
+		<amozeshgah>معجزه</amozeshgah>
+		<address>خیابان دامائی - کوچه گوهران 13 - جنب بنیاد شهید</address>
+		<tel>6663267</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>11.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>بندرعباس</shahr>
+		<amozeshgah>هما</amozeshgah>
+		<address>بلوار جمهوری اسلامی بالاتر از سه راه برق</address>
+		<tel>2228214</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>12.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>بندر کنگ</shahr>
+		<amozeshgah>سليم</amozeshgah>
+		<address>ميدان شهرداری - خ شهید بهشتی</address>
+		<tel>3330261</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>13.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>بندر لنگه</shahr>
+		<amozeshgah>آريا</amozeshgah>
+		<address>بلوار شهيد چمران جنب دادسراي نظام قدیم</address>
+		<tel>2225300</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>14.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>پارسیان</shahr>
+		<amozeshgah>سعید</amozeshgah>
+		<address>خیابان گلستان</address>
+		<tel>4624415</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>15.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>پارسیان</shahr>
+		<amozeshgah>والفجر</amozeshgah>
+		<address>بلوار امام خمینی - پشت اداره برق</address>
+		<tel>4622712</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>16.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>جاسک</shahr>
+		<amozeshgah>ایلیا</amozeshgah>
+		<address>خیابان ائمه - پلاک 123</address>
+		<tel>5222132</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>17.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>جناح</shahr>
+		<amozeshgah>داوود</amozeshgah>
+		<address>خیابان اصلی کوچه روبروی اداره پست</address>
+		<tel>4622712</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>18.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>حاجی آباد</shahr>
+		<amozeshgah>میلاد</amozeshgah>
+		<address>میدان شاهی خیابان ولی عصر جنوبی روبروی آتش نشانی</address>
+		<tel>4224613</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>19.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>پارسیان</shahr>
+		<amozeshgah>والفجر</amozeshgah>
+		<address>بلوار امام خمینی - پشت اداره برق</address>
+		<tel>4622712</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>20.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>رودان</shahr>
+		<amozeshgah>نصيبي</amozeshgah>
+		<address>خيابان 12 متری - خیابان شهید سلیمانی - پشت اداره آب</address>
+		<tel>4223159</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>21.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>قشم</shahr>
+		<amozeshgah>اتحاد</amozeshgah>
+		<address>بلوار ولی عصر - خیابان دانش</address>
+		<tel>5226311</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>22.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>قشم</shahr>
+		<amozeshgah>برادران اسلامي</amozeshgah>
+		<address>بلوار آزادگان - روبروی نان طلائی</address>
+		<tel>5222132</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>23.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>ميناب</shahr>
+		<amozeshgah>حجت</amozeshgah>
+		<address>بلوار بسيج جنب اداره پست</address>
+		<tel>2225508</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>24.</radif>
+		<ostan>هرمزگان</ostan>
+		<shahr>ميناب</shahr>
+		<amozeshgah>ميلاد</amozeshgah>
+		<address>بلوار ال محمد - جنب محیط زیست</address>
+		<tel>2230564</tel>
+		<F7/>
+	</row>
+</document>

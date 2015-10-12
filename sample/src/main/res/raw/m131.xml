@@ -1,0 +1,353 @@
+﻿<document>
+   <row>
+		<radif>1.</radif>
+		<ostan>يزد</ostan>
+		<shahr>ابرکوه</shahr>
+		<amozeshgah>ايليا</amozeshgah>
+		<address>ميدان بسيج ابتداي بلوار جمهوري</address>
+		<tel>6826092</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>2.</radif>
+		<ostan>يزد</ostan>
+		<shahr>ابرکوه</shahr>
+		<amozeshgah>متحد</amozeshgah>
+		<address>بلوار امام خميني</address>
+		<tel>6820505</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>3.</radif>
+		<ostan>يزد</ostan>
+		<shahr>اردکان</shahr>
+		<amozeshgah>باهنر</amozeshgah>
+		<address>خیابان باهنر - بعد از مهدیه اردکان</address>
+		<tel>7229502</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>4.</radif>
+		<ostan>يزد</ostan>
+		<shahr>اردکان</shahr>
+		<amozeshgah>تلاش</amozeshgah>
+		<address>انتهاي خ سعدي</address>
+		<tel>7222559</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>5.</radif>
+		<ostan>يزد</ostan>
+		<shahr>اردکان</shahr>
+		<amozeshgah>مطهري</amozeshgah>
+		<address>خ شهيد مطهري</address>
+		<tel>7230003</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>6.</radif>
+		<ostan>يزد</ostan>
+		<shahr>بهاباد</shahr>
+		<amozeshgah>رحمت</amozeshgah>
+		<address>ابتدای خیابان مهدی - جنب بانک ملی</address>
+		<tel>4723112</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>7.</radif>
+		<ostan>يزد</ostan>
+		<shahr>تفت</shahr>
+		<amozeshgah>آزادي</amozeshgah>
+		<address>سرده خيابان شهيد رجائي</address>
+		<tel>6222710</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>8.</radif>
+		<ostan>يزد</ostan>
+		<shahr>تفت</shahr>
+		<amozeshgah>احرار</amozeshgah>
+		<address>شهرک قدس</address>
+		<tel>6235504</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>9.</radif>
+		<ostan>يزد</ostan>
+		<shahr>تفت</shahr>
+		<amozeshgah>سيف</amozeshgah>
+		<address>ميدان امام حسين</address>
+		<tel>6232162</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>10.</radif>
+		<ostan>يزد</ostan>
+		<shahr>خاتم</shahr>
+		<amozeshgah>نگین</amozeshgah>
+		<address>مروست خ مطهری ک 13</address>
+		<tel>5824188</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>11.</radif>
+		<ostan>يزد</ostan>
+		<shahr>خاتم</shahr>
+		<amozeshgah>ياس</amozeshgah>
+		<address>خ امام بلوار ابوئي</address>
+		<tel>5724414</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>12.</radif>
+		<ostan>يزد</ostan>
+		<shahr>صدوق</shahr>
+		<amozeshgah>خوشنویس</amozeshgah>
+		<address>زارج خ پاسداران خ امام حسن مجتبی</address>
+		<tel>3675797</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>13.</radif>
+		<ostan>يزد</ostan>
+		<shahr>طبس</shahr>
+		<amozeshgah>محمدیان</amozeshgah>
+		<address>عشق آباد - فلکه امام رضا - ابتدای بلوار امام خمینی</address>
+		<tel>5224044</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>14.</radif>
+		<ostan>يزد</ostan>
+		<shahr>طبس</shahr>
+		<amozeshgah>نظري</amozeshgah>
+		<address>اول بلوار اميرالمؤمنين</address>
+		<tel>4228384</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>15.</radif>
+		<ostan>يزد</ostan>
+		<shahr>طبس</shahr>
+		<amozeshgah>هدايت</amozeshgah>
+		<address>بلوار باهنر</address>
+		<tel>4228821</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>16.</radif>
+		<ostan>يزد</ostan>
+		<shahr>مهریز</shahr>
+		<amozeshgah>حسینی</amozeshgah>
+		<address>مزویر آباد خ شهید فهمیده</address>
+		<tel>5247080</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>17.</radif>
+		<ostan>يزد</ostan>
+		<shahr>مهریز</shahr>
+		<amozeshgah>غدیر</amozeshgah>
+		<address>بلوار 7 تیر روبروی پمپ بنزین</address>
+		<tel>5227555</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>18.</radif>
+		<ostan>يزد</ostan>
+		<shahr>میبد</shahr>
+		<amozeshgah>امیر</amozeshgah>
+		<address>خیابان سنتو - ک مهاجر 51</address>
+		<tel>7724002</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>19.</radif>
+		<ostan>يزد</ostan>
+		<shahr>میبد</shahr>
+		<amozeshgah>عدل</amozeshgah>
+		<address>بلوار زیتون - روبروی بهزیستی</address>
+		<tel>7722161</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>20.</radif>
+		<ostan>يزد</ostan>
+		<shahr>میبد</shahr>
+		<amozeshgah>مهدی</amozeshgah>
+		<address>خیابان 22 بهمن - جنب نانوایی</address>
+		<tel>7727448</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>21.</radif>
+		<ostan>يزد</ostan>
+		<shahr>نیر</shahr>
+		<amozeshgah>دهقان</amozeshgah>
+		<address>خیابان شهید صدوقی - روبروی شهرداری</address>
+		<tel>6583685</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>22.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>آريا</amozeshgah>
+		<address>مثلثي امامشهر روبروي باشگاه المپیک</address>
+		<tel>5250186</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>23.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>اعتدال</amozeshgah>
+		<address>شاهديه ابرند آباد</address>
+		<tel>5213133</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>24.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>افشین</amozeshgah>
+		<address>صفائیه - میدان اطلسی خ ملاصدرا نبش فرعی 19</address>
+		<tel>8241870</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>25.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>امین</amozeshgah>
+		<address>بلوار پاکنژاد سه راه آب نما</address>
+		<tel>7247353</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>26.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>حجاب</amozeshgah>
+		<address>خيابان بنافتي زاده پلاک 322</address>
+		<tel>6281545</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>27.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>دقت</amozeshgah>
+		<address>امامشهر - بلوار شیخ کلینی</address>
+		<tel>5239773</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>28.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>رضائي</amozeshgah>
+		<address>خيابان شهيد رجائي جنب اتکا</address>
+		<tel>6223210</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>29.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>شمس</amozeshgah>
+		<address>بلوار جمهوري روبروي بانک سپه</address>
+		<tel>5220700</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>30.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>صمدي</amozeshgah>
+		<address>زارچ بلوار شهيد صدوقي جنب مخابرات</address>
+		<tel>3672213</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>31.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>طاها</amozeshgah>
+		<address>بلوار دشتي بعد از بوستان ناجي</address>
+		<tel>8229551</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>32.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>کوثر</amozeshgah>
+		<address>اشکذر - خیابان امام - ابتدای بلوار مهدیه</address>
+		<tel>3627720</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>33.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>کارگر</amozeshgah>
+		<address>بلوار کارگر</address>
+		<tel>5220101</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>34.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>مرکزي</amozeshgah>
+		<address>بلوار پاکنژاد روبروي پمپ بنزين</address>
+		<tel>7246123</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>35.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>مسعود</amozeshgah>
+		<address>بلوار امام جعفر صادق</address>
+		<tel>8258892</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>36.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>مهران</amozeshgah>
+		<address>فلکه سوم آزادشهر خ موسي ابن جعفر</address>
+		<tel>7215013</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>37.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>مينا</amozeshgah>
+		<address>بلوار اميرکبير (پمپ بنزين سيلو) بريدگي دوم</address>
+		<tel>8216601</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>38.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>ناصري</amozeshgah>
+		<address>ميدان امام حسين</address>
+		<tel>7259196</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>39.</radif>
+		<ostan>يزد</ostan>
+		<shahr>يزد</shahr>
+		<amozeshgah>يکتا</amozeshgah>
+		<address>اول بلوار آزادگان کوچه دوم پلاک 181</address>
+		<tel>7231185</tel>
+		<F7/>
+	</row>
+</document>

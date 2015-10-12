@@ -1,0 +1,63 @@
+<com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <include layout="@layout/material_view_pager_placeholder"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/cardMarginVertical"
+            android:layout_marginLeft="@dimen/cardMarginHorizontal"
+            android:layout_marginRight="@dimen/cardMarginHorizontal"
+            android:layout_marginTop="@dimen/cardMarginVertical"
+            android:background="@android:color/white"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="left"
+                android:layout_height="400dp"
+                android:orientation="vertical"
+
+            >
+
+
+
+
+                <GridView
+                    android:id="@+id/gridView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="4dp"
+                    android:columnWidth="150dp"
+                    android:gravity="center"
+                    android:background="@drawable/forground"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="20dp"
+                    android:horizontalSpacing="10dip"
+                    android:numColumns="2"
+                    android:stretchMode="spacingWidthUniform"
+                    android:verticalSpacing="10dip"
+                    android:layout_marginRight="10dp"
+                    >
+
+                </GridView>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</com.github.ksoichiro.android.observablescrollview.ObservableScrollView>

@@ -1,0 +1,192 @@
+﻿<document>
+	<row>
+		<radif>1.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>آبادانان</shahr>
+		<amozeshgah>پدرام</amozeshgah>
+		<address>ابتدای شهرک باقرصدر</address>
+		<tel>6223818</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>2.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>ایلام</shahr>
+		<amozeshgah>اصغرزاده</amozeshgah>
+		<address>ضلع شمالی بلوارامام خمینی(ره)نرسیده به میدان شهدا</address>
+		<tel>3362320</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>3.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>ايلام</shahr>
+		<amozeshgah>انتظام</amozeshgah>
+		<address>پایین ترازمیدان کشوری</address>
+		<tel>2225041</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>4.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>ايلام</shahr>
+		<amozeshgah>توحید</amozeshgah>
+		<address>خیابان آیت الله حیدری</address>
+		<tel>3322954</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>5.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>ايلام</shahr>
+		<amozeshgah>فاضلي</amozeshgah>
+		<address>بلوارمدرس روبه پزشکی قانونی</address>
+		<tel>3383629</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>6.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>ايلام</shahr>
+		<amozeshgah>فتح الهي</amozeshgah>
+		<address> خیابان24 متری ولیعصر</address>
+		<tel>3346789</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>7.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>ایلام</shahr>
+		<amozeshgah>موسی زاده</amozeshgah>
+		<address>هانیوان-بالاترازاداره ثبت اسنادواملاک شهرستان ایلام</address>
+		<tel>3338653</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>8.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>ایوان</shahr>
+		<amozeshgah>توحید</amozeshgah>
+		<address>خیابان شهیدطباطبایی روبه روی اداره دانپزشکی</address>
+		<tel>3233124</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>9.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>ایوان</shahr>
+		<amozeshgah>شهدا</amozeshgah>
+		<address>خیابان شهیدچمران</address>
+		<tel>3230566</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>10.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>بدره</shahr>
+		<amozeshgah>حسین</amozeshgah>
+		<address>خیابان16متری شمالی روبه روی ثبت احوال </address>
+		<tel>5723446</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>11.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>دره شهر</shahr>
+		<amozeshgah>قائم</amozeshgah>
+		<address>خیابان شهیدنوروزی</address>
+		<tel>5227299</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>12.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>دره شهر</shahr>
+		<amozeshgah>مقدم</amozeshgah>
+		<address>خیابان نیروی هوایی جنب میدان بسیج</address>
+		<tel>52223228</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>13.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>دهلران</shahr>
+		<amozeshgah>سلیمان نژاد</amozeshgah>
+		<address>خیابان تختی</address>
+		<tel>7226240</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>14.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>دهلران</shahr>
+		<amozeshgah>میثم</amozeshgah>
+		<address>کوی جانبازان خیابان نینوا</address>
+		<tel>7229792</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>15.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>زرین آباد</shahr>
+		<amozeshgah>زاگرس</amozeshgah>
+		<address>میدان مقاومت پایین ترازسپاه</address>
+		<tel>7723663</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>16.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>سرابله</shahr>
+		<amozeshgah>حسینی</amozeshgah>
+		<address>خیابان ولیعصر</address>
+		<tel>4224604</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>17.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>سرابله</shahr>
+		<amozeshgah>سجاد</amozeshgah>
+		<address>بلوارمدرس جنب دانشگاه پیام نور</address>
+		<tel>4222056</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>18.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>ملکشاهی</shahr>
+		<amozeshgah>سینا</amozeshgah>
+		<address>خیابان سعدی</address>
+		<tel>8522709</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>19.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>مهران</shahr>
+		<amozeshgah>خسروی</amozeshgah>
+		<address>فاز3 جمب گاراژ ملکشاهی</address>
+		<tel>8225029</tel>
+		<F7/>
+	
+	</row>
+	<row>
+		<radif>20.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>مهران</shahr>
+		<amozeshgah>شوهانی</amozeshgah>
+		<address>پشت باشگاه ورزشی تختی</address>
+		<tel>8222389</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>21.</radif>
+		<ostan>ايلام</ostan>
+		<shahr>هلیان</shahr>
+		<amozeshgah>حسام</amozeshgah>
+		<address>شهرتوحید بلوارحضرت امام(ره)</address>
+		<tel>4344158</tel>
+		<F7/>
+	</row>
+</document>

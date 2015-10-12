@@ -1,0 +1,238 @@
+﻿<document>
+	<row>
+		<radif>1.</radif>
+		<markaz>آزادی</markaz>
+		<neshani>میدان آزادی، ابتدای جاده مخصوص کرج، بعد از فروشگاه رفاه، نبش خیابان بیمه دو</neshani>
+		<tel>44671115</tel>
+	</row>
+	<row>
+		<radif>2.</radif>
+		<markaz>خاوران</markaz>
+		<neshani>کیلومتر 10 جاده خاوران، مقابل سه راه خاور شهر، جنب قبرستان ارامنه</neshani>
+		<tel>2471330</tel>
+	</row>
+	<row>
+		
+		<radif>3.</radif>
+		<markaz>غرب</markaz>
+		<neshani>کیلومتر 17 جاده مخصوص کرج، خ داروپخش، خ روز دارو</neshani>
+		<tel>3836000</tel>
+	</row>
+	<row>
+		
+		<radif>4.</radif>
+		<markaz>دهکده المپیک</markaz>
+		<neshani>میدان المپیک، شهرک راه آهن، بالاتر از میدان اتریش، انتهای 35 متری گلها، جنب دانشگاه نیروی انتظامی</neshani>
+		<tel>44729005</tel>
+	</row>
+	<row>
+		
+		<radif>5.</radif>
+		<markaz>نواب صفوی</markaz>
+		<neshani>بزرگراه نواب، انتهای قلعه مرغی، خ زمزم، بلوار جوانه، خ مهران، ک 12</neshani>
+		<tel>55674546</tel>
+	</row>
+	<row>
+		
+		<radif>1.</radif>
+		<markaz>اراک</markaz>
+		<neshani>جاده خمین، بعد از دانشگاه آزاد، جنب آماد و پشتیبانی فرماندهی انتظامی استان مرکزی</neshani>
+		<tel>3161058</tel>
+	</row>
+	<row>
+		
+		<radif>2.</radif>
+		<markaz>اردبیل</markaz>
+		<neshani>بزرگراه بسیج، انتهای خ کشاورز، روستای ملاباشی</neshani>
+		<tel>7724851</tel>
+	</row>
+	<row>
+		
+		<radif>3.</radif>
+		<markaz>اصفهان</markaz>
+		<neshani>جاده شیراز، بعد از پل راه آهن، انتهای دیوار شهرک آزمایش (راهور ناجا)</neshani>
+		<tel/>
+	</row>
+	<row>
+		
+		<radif>4.</radif>
+		<markaz>ارومیه</markaz>
+		<neshani>جادة سرو، کیلومتر4، روستای جهت لو، شمال شهرک آزمایش (راهور ناجا)</neshani>
+		<tel/>
+	</row>
+	<row>
+		
+		<radif>5.</radif>
+		<markaz>اهواز</markaz>
+		<neshani>جنب پلیس راه اهواز- اندیمشک، مجاور دفتر طرحهای عمرانی ناجا</neshani>
+		<tel>2239991</tel>
+	</row>
+	<row>
+		
+		<radif>6.</radif>
+		<markaz>ایلام</markaz>
+		<neshani>پیچ آشور، جنب ساختمان ماشین آلات بنیاد مسکن</neshani>
+		<tel>2230100</tel>
+	</row>
+	<row>
+		
+		<radif>7.</radif>
+		<markaz>بندر عباس</markaz>
+		<neshani>جاده قدیم میناب- بندر عباس، 20 کیلومتری جاده میناب، روبروی دانشگاه هرمزگان</neshani>
+		<tel>6674560</tel>
+	</row>
+	<row>
+		
+		<radif>8.</radif>
+		<markaz>بوشهر</markaz>
+		<neshani>جاده نیروگاه، جنب سردخانه 2000 تنی امکان</neshani>
+		<tel>4546505</tel>
+	</row>
+	<row>
+		
+		<radif>9.</radif>
+		<markaz>بیرجند</markaz>
+		<neshani>خیابان مطهری، روبروی اداره بازرگانی، جنب بنگاه امیر اسد</neshani>
+		<tel>2233859</tel>
+	</row>
+	<row>
+		
+		<radif>10.</radif>
+		<markaz>تبریز</markaz>
+		<neshani>اتوبان شهید کسایی، کنار گذرجنوبی، انتهای خ منتظری، شهرک آزمایش (راهورناجا)</neshani>
+		<tel>5448086</tel>
+	</row>
+	<row>
+		
+		<radif>11.</radif>
+		<markaz>خرم آباد</markaz>
+		<neshani>جنب پارک صخره‌ای، جنب مهمانسرای ناحیه انتظامی، ساختمان استیجاری نیرو</neshani>
+		<tel>2213062</tel>
+	</row>
+	<row>
+		
+		<radif>12.</radif>
+		<markaz>رشت</markaz>
+		<neshani>جاده رشت بندر- انزلی، نرسیده به کارخانه پوشش</neshani>
+		<tel>7759553</tel>
+	</row>
+	<row>
+		
+		<radif>13.</radif>
+		<markaz>زاهدان</markaz>
+		<neshani>بلوار زابل، زاهدان، روبروی اداره راه و ترابری، نرسیده به پرسی گاز</neshani>
+		<tel>4506771</tel>
+	</row>
+	<row>
+		
+		<radif>14.</radif>
+		<markaz>زنجان</markaz>
+		<neshani>شمال شرقی شهر زنجان، جاده پایین کوه</neshani>
+		<tel>4266614</tel>
+	</row>
+	<row>
+		
+		<radif>15.</radif>
+		<markaz>ساری</markaz>
+		<neshani>میدان ساری، میدان راه آهن، جنب دادسرای نظامی</neshani>
+		<tel>2212363</tel>
+	</row>
+	<row>
+		
+		<radif>16.</radif>
+		<markaz>سمنان</markaz>
+		<neshani>میدان امام حسین، بلوار 15 خرداد، جنب آموزشگاه رانندگی روزبه</neshani>
+		<tel>3341446</tel>
+	</row>
+	<row>
+		
+		<radif>17.</radif>
+		<markaz>سنندج</markaz>
+		<neshani>جنب ترمینال مسافربری تهران</neshani>
+		<tel>329010</tel>
+	</row>
+	<row>
+		
+		<radif>18.</radif>
+		<markaz>شیراز</markaz>
+		<neshani>بعد از پلیس راه شیراز- کازرون، جنب باغ فدک</neshani>
+		<tel>832730</tel>
+	</row>
+	<row>
+		
+		<radif>19.</radif>
+		<markaz>شهرکرد</markaz>
+		<neshani>مقابل پارکینگ شرکت اتوبوسرانی، تپه آزمایشات پایه یکم</neshani>
+		<tel>3346492</tel>
+	</row>
+	<row>
+		
+		<radif>20.</radif>
+		<markaz>قزوین</markaz>
+		<neshani>عوارضی اتوبان قزوین- کرج، محوطه پلیس راه</neshani>
+		<tel>2238978</tel>
+	</row>
+	<row>
+		
+		<radif>21.</radif>
+		<markaz>قم</markaz>
+		<neshani>بلوار جانبازان، میدان شهید محلاتی، جاده سراجه، روبروی باغ زمان زاده</neshani>
+		<tel>7233010</tel>
+	</row>
+	<row>
+		
+		<radif>22.</radif>
+		<markaz>کرج</markaz>
+		<neshani>مهرشهر، کیان مهر، جاده قزل حصار، بعد از مرکز آموزش شهید چمران</neshani>
+		<tel>3290571</tel>
+	</row>
+	<row>
+		
+		<radif>23.</radif>
+		<markaz>کرمان</markaz>
+		<neshani>بلوار هوانیروز، جنب سنگبری دنا</neshani>
+		<tel>2817539</tel>
+	</row>
+	<row>
+		
+		<radif>24.</radif>
+		<markaz>کرمانشاه</markaz>
+		<neshani>کیلومتر 10 جاده بیستون – کرمانشاه، بعد از پاسگاه چلابه</neshani>
+		<tel>423004</tel>
+	</row>
+	<row>
+		
+		<radif>25.</radif>
+		<markaz>گرگان</markaz>
+		<neshani>جاده قدیم گرگان، ساری، پل انجیراب، 200 متر جلوتر از ستاد نیروی انتظامی ناجا</neshani>
+		<tel>4431441</tel>
+	</row>
+	<row>
+		
+		<radif>26.</radif>
+		<markaz>مشهد</markaz>
+		<neshani>بلوار جانباز، بلوار شهید ساجدی</neshani>
+		<tel>7670410</tel>
+	</row>
+	<row>
+		
+		<radif>27.</radif>
+		<markaz>همدان</markaz>
+		<neshani>میدان عاشورا، ابتدای بزرگراه امام</neshani>
+		<tel>2544966</tel>
+	</row>
+	<row>
+		
+		<radif>28.</radif>
+		<markaz>یاسوج</markaz>
+		<neshani>بلوار بویر احمد، طبقه فوقانی چاپخانه زاگرس (داخل شعبه)</neshani>
+		<tel>239346</tel>
+	</row>
+	<row>
+		
+		<radif>29.</radif>
+		<markaz>یزد</markaz>
+		<neshani>میدان ابوذر، بلوار شهید دشتی، بعد از بوستان ناجی، نمایندگی ابوکر</neshani>
+		<tel>8321586</tel>
+	</row>
+</document>

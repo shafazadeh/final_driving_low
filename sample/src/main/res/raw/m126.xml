@@ -1,0 +1,335 @@
+﻿<document>
+	<row>
+		<radif>1.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>ازنا</shahr>
+		<amozeshgah>فراپیک</amozeshgah>
+		<address>بلوار شهید رجایی-پلاک 4347</address>
+		<tel>4229349</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>2.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>ازنا</shahr>
+		<amozeshgah>ولیعصر</amozeshgah>
+		<address>بلوار ولیعصر-خ کشاورز-روبروی نمایندگی ایران خودرو</address>
+		<tel>423003</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>3.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>الشتر</shahr>
+		<amozeshgah>آریا</amozeshgah>
+		<address>خ آیت الله طالقانی شرقی- جنب سپاه پاسداران انقلاب اسلامی</address>
+		<tel>5227007</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>4.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>الشتر</shahr>
+		<amozeshgah>زاگرس</amozeshgah>
+		<address>خ شهید مدنی-جنب دامپزشکی دکتر صادقی</address>
+		<tel>5228554</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>5.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>الیگودرز</shahr>
+		<amozeshgah>تخت جمشید</amozeshgah>
+		<address>ابتدای بلوار شرقی -روبروی فرمانداری-جنب کمیته امداد</address>
+		<tel>2239210</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>6.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>الیگودرز</shahr>
+		<amozeshgah>شیخ بهایی</amozeshgah>
+		<address>میدان امام حسین -بلوار شرقی-نرسیده به بلوار شاهد دست چپ</address>
+		<tel>2242215</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>7.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>الیگودرز</shahr>
+		<amozeshgah>مطهری</amozeshgah>
+		<address>کوی تیرانی -بلوار شهید باهنر -چهار راه خبرنگار -خ ادیب-خ فردوسی غربی</address>
+		<tel>2224342</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>8.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>بروجرد</shahr>
+		<amozeshgah>بحرالعلوم</amozeshgah>
+		<address>خ تختی-بین چهار راه تختی و اوستا-کوچه مهر</address>
+		<tel>3533160</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>9.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>بروجرد</shahr>
+		<amozeshgah>زاگرس</amozeshgah>
+		<address>خ تختی-روبروی دارو خانه آزادی</address>
+		<tel>3534224</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>10.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>بروجرد</shahr>
+		<amozeshgah>قائم</amozeshgah>
+		<address>خ صفا-نرسیده به سه راه -جنب اداره برق</address>
+		<tel>2616004</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>11.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>بروجرد</shahr>
+		<amozeshgah>کارا</amozeshgah>
+		<address>میدان شهدا-خ فاطمی-پایین تر از پل-جنب باغ رسولی</address>
+		<tel>3532811</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>12.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>بروجرد</shahr>
+		<amozeshgah>کوثر</amozeshgah>
+		<address>خ مدرس-نرسیده به میدان دانشگاه-نبش خ مطهری</address>
+		<tel>3509578</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>13.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>بروجرد</shahr>
+		<amozeshgah>مهر</amozeshgah>
+		<address>  میدان راهنمایی-بلوار امام حسین -سمت راست-پایین تر از مسجد خاتم انبیاء-پلاک 183</address>
+		<tel>4460564</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>14.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>بروجرد</shahr>
+		<amozeshgah>نور</amozeshgah>
+		<address>انتهای خیابان بهار -بعد از میدان معلم</address>
+		<tel>3504097</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>15.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>پلدختر</shahr>
+		<amozeshgah>طنین</amozeshgah>
+		<address>خ 7تیر-میدان شهدا-24متری رسالت جنوبی</address>
+		<tel>4226055</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>16.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>پلدختر</shahr>
+		<amozeshgah>فدک</amozeshgah>
+		<address>خ امام خمینی(ره)-خ فردوسی1-جنب بانک مسکن</address>
+		<tel>4224300</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>17.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>خرم آباد</shahr>
+		<amozeshgah>پارسیان</amozeshgah>
+		<address>خ مطهری-خ سرچشمه-پایین تر از مسجد دولتیاری</address>
+		<tel>3227633</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>18.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>خرم آباد</shahr>
+		<amozeshgah>امیرکبیر</amozeshgah>
+		<address>میدان امام حسین بلوار بهارستان-جنب کارخانه آرد امید حافظی</address>
+		<tel>4200027</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>19.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>خرم آباد</shahr>
+		<amozeshgah>بهارفرهنگ</amozeshgah>
+		<address>خ علوی-ابتدای بلوار سمت راست-روبروی بانک اقتصاد نوین</address>
+		<tel>2203819</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>20.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>خرم آباد</shahr>
+		<amozeshgah>پارس</amozeshgah>
+		<address>دره گرم-بلوار ولایت-بالاتر از شهرداری منطقه یک-بین نگارستان 20و21</address>
+		<tel>3211281</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>21.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>خرم آباد</shahr>
+		<amozeshgah>پاسارگاد</amozeshgah>
+		<address>کیلومتر 2جاده خرم آباد به اندیمشک-جنب بانک ملی</address>
+		<tel>4201764</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>22.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>خرم آباد</shahr>
+		<amozeshgah>حافظ</amozeshgah>
+		<address>خ شهدای شرقی-بعد از سه راهی مطهری-نرسیده به بیمارستان باختر</address>
+		<tel>2205719</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>23.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>خرم آباد</shahr>
+		<amozeshgah>سعدی</amozeshgah>
+		<address>خ انقلاب-خ معرفت-پایین تر از میدان آیت الله کمالوند</address>
+		<tel>3220860</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>24.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>خرم آباد</shahr>
+		<amozeshgah>فردوسی</amozeshgah>
+		<address>خ شریعتی-جنب پمپ بنزین شمشیر آباد-نرسیده به میدان بسیج</address>
+		<tel>2224040</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>25.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>خرم آباد</shahr>
+		<amozeshgah>قدس</amozeshgah>
+		<address>خ انقلاب-سه راه اسد آبادی-بالاتر از گرمابه ایران</address>
+		<tel>2208483</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>26.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>خرم آباد</shahr>
+		<amozeshgah>مرکزی</amozeshgah>
+		<address>بلوار ولیعصر-بالاتر از سی متری پژوهنده-جنب بانک تجارت</address>
+		<tel>3224355</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>27.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>خرم آباد</shahr>
+		<amozeshgah>مهارت</amozeshgah>
+		<address>گلدشت شرقی-بلوار بهارستان-روبروی جاده صداو سیما-جنب ایران خودرو</address>
+		<tel>4233040</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>28.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>دورود</shahr>
+		<amozeshgah>پویا</amozeshgah>
+		<address>انگشته-بلوار60متری-روبروی پل هوایی</address>
+		<tel>4231192</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>29.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>دورود</shahr>
+		<amozeshgah>ظاهر</amozeshgah>
+		<address>بلوار 60متری-جنب بانک رفاه</address>
+		<tel>4224167</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>30.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>دورود</shahr>
+		<amozeshgah>نمونه</amozeshgah>
+		<address>بلوار 60متری-روبروی منازل سازمانی نیروی انتظامی-جنب اداره پست مرکزی</address>
+		<tel>4230691</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>31.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>سراب دوره</shahr>
+		<amozeshgah>تصدیق</amozeshgah>
+		<address>سراب دوره-خ آیت اله کمالوند</address>
+		<tel>2723551</tel>
+		<F7/>
+	</row>				
+	<row>
+		<radif>32.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>کوهدشت</shahr>
+		<amozeshgah>سهند</amozeshgah>
+		<address>میدان امام خمینی(ره)خ بوعلی-بالاتر از دادگسترسی سابق نبش خیابان وصال</address>
+		<tel>6229926</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>33.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>کوهدشت</shahr>
+		<amozeshgah>سیمرغ</amozeshgah>
+		<address>چهار راه صاحب الزمان-خ طالقانی</address>
+		<tel>6234483</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>34.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>کوهدشت</shahr>
+		<amozeshgah>کوثر</amozeshgah>
+		<address>خ کمربندی آزادی-بین میدان معلم وتقاطع شهید حسین رضایی</address>
+		<tel>6230758</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>35.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>کوهدشت</shahr>
+		<amozeshgah>ملت</amozeshgah>
+		<address>خ جهاد شمالی-نرسیده به کمیته امداد-کوچه 12متری پنجم</address>
+		<tel>6226625</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>36.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>نور آباد</shahr>
+		<amozeshgah>بعثت</amozeshgah>
+		<address>میدان فردوسی-جاده 20متری باد آور غربی</address>
+		<tel>7231310</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>37.</radif>
+		<ostan>لرستان</ostan>
+		<shahr>نورآباد</shahr>
+		<amozeshgah>دلفان</amozeshgah>
+		<address>بلوار آزادی-بالاتر از ترمینال نور آباد به خرم آباد-جنب شرکت سایپا</address>
+		<tel>7224157</tel>
+		<F7/>
+	</row>
+</document>

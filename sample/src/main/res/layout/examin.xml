@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@drawable/bgmain">
+    
+	<RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:background="@drawable/topbar" android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back" android:layout_marginTop="4dp" android:layout_marginLeft="4dp"/>
+
+        </RelativeLayout>
+<ScrollView
+    android:id="@+id/scrollView2"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:background="@drawable/forground" android:layout_marginTop="30dp" android:layout_marginRight="5dp" android:layout_marginLeft="5dp" android:layout_marginBottom="5dp" android:scrollbars="none" android:layout_above="@id/relativeLayout2">
+
+    
+	<RelativeLayout
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/examinpage"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="right"
+    	android:padding="15dp"  android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+    
+    	<LinearLayout
+        	android:id="@+id/examinpic"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="center" android:layout_marginTop="30dp">
+        	<ImageView 
+        	    android:contentDescription="@string/hello"
+            	android:id="@+id/examinimage"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"/>
+
+    	</LinearLayout>
+    
+    	<RelativeLayout
+        	android:id="@+id/examin"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@+id/examinpic" 
+        android:padding="10dp" android:layout_marginBottom="5dp" android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/examintext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:layout_gravity="right"
+            android:layout_alignParentRight="true"
+            android:gravity="right"/>
+		
+    </RelativeLayout>
+
+	<include
+        android:id="@+id/examinop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/option" android:layout_below="@+id/examin" android:layout_marginTop="5dp"/>
+	
+     <include
+        android:id="@+id/examinop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/option" android:layout_below="@+id/examinop1" android:layout_marginTop="5dp"/>
+    <include
+        android:id="@+id/examinop3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/option" android:layout_below="@+id/examinop2" android:layout_marginTop="5dp"/>
+	<include
+        android:id="@+id/examinop4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/option" android:layout_below="@+id/examinop3" android:layout_marginTop="5dp"/>
+	
+	<RelativeLayout
+        android:id="@+id/next"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/examinop4" 
+        android:padding="10dp" android:layout_marginTop="5dp">
+		<Button android:id="@+id/btnnext"
+		    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:padding="10dp"
+        	android:paddingRight="30dp"
+        	android:gravity="center"  android:layout_centerHorizontal="true" android:background="@drawable/next"/>
+    </RelativeLayout>
+</RelativeLayout>
+
+</ScrollView>
+</RelativeLayout>

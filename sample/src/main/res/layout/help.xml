@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:background="@drawable/helpbg" android:layout_gravity="center_vertical" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+
+    <ImageView 
+        android:contentDescription="@string/hello"
+        android:id="@+id/closehelpbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/close"
+        android:visibility="visible" android:layout_alignParentTop="true" android:layout_marginTop="5dp" android:layout_alignParentRight="true" android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/helptxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@id/closehelpbtn" 
+        android:layout_marginLeft="20dp" android:layout_marginRight="20dp" 
+        android:layout_marginTop="20dp" android:gravity="right"/>
+</RelativeLayout>

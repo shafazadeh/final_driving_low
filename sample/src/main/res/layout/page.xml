@@ -1,0 +1,87 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pagelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bgmain"
+        android:gravity="right">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:background="@drawable/topbar" android:layout_alignParentBottom="true">
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back" android:layout_marginTop="4dp" android:layout_marginLeft="4dp"/>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:background="@drawable/forground" android:layout_marginTop="30dp" android:layout_marginRight="5dp" android:layout_marginLeft="5dp" android:layout_above="@id/relativeLayout2">
+
+                <RelativeLayout
+            		android:id="@+id/relativeLayout3"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" >
+            
+            	<RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:contentDescription="@string/app_name"
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitCenter"/>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/imageView1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:lineSpacingExtra="4dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/arrowlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" android:layout_centerVertical="true">
+
+                <ImageView
+                    android:contentDescription="@string/app_name"
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/left" />
+
+                <ImageView
+                    android:contentDescription="@string/app_name"
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/right" />
+            </RelativeLayout>
+			
+             </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>

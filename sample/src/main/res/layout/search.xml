@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:background="@drawable/toastbg" android:layout_gravity="center_vertical" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+
+    <RelativeLayout
+        android:id="@+id/relse2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp" >
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="30dp" android:background="@drawable/textbox" android:inputType="text"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relse3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="170dp" android:paddingBottom="20dp">
+
+        <Button
+            android:id="@+id/searchdialogButton"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:background="@drawable/searchbtn"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:id="@+id/closesearchbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/searchclose"
+        android:visibility="visible" android:layout_centerHorizontal="true" android:layout_alignParentTop="true" android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

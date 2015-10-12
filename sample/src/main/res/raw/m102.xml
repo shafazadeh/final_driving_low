@@ -1,0 +1,681 @@
+﻿<document>
+
+   <row>
+		<radif>1.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>آذر شهر</shahr>
+		<amozeshgah>ميثم</amozeshgah>
+		<address>خ هلال احمر جنب بسيج خواهران</address>
+		<tel>4235262</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>2.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>آذر شهر</shahr>
+		<amozeshgah>نصر</amozeshgah>
+		<address>خ امام خمینی - میدان امام حسین - روبروی جایگاه اختصاصی شماره یک آذرشهر( پمپ بنزین قدیم ) </address>
+		<tel>4231991</tel>
+		<F7/>
+	</row> 
+	<row>
+		<radif>3.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>اسکو</shahr>
+		<amozeshgah>عارفي</amozeshgah>
+		<address>خسرق - نرسيده به پل میلان</address>
+		<tel>3220630</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>4.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>اسکو</shahr>
+		<amozeshgah>عظيمي</amozeshgah>
+		<address>خ امام، 50 متري بالاتر از شهرداري</address>
+		<tel>3220080</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>5.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>اهر</shahr>
+		<amozeshgah>پرويز</amozeshgah>
+		<address>خ آل احمد نبش کوچه صفاتي 13 بالاتر از بيمارستان قديم محل اداره قند و شکر</address>
+		<tel>2228188</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>6.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>اهر</shahr>
+		<amozeshgah>شمس ايران</amozeshgah>
+		<address>بلوار جمهوری اسلامی- روبروی اداره پست مرکزی - جنب پمپ بنزین - پلاک 236</address>
+		<tel>2224306</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>7.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>اهر</shahr>
+		<amozeshgah>امين</amozeshgah>
+		<address>جاده مشکين شهر انتهاي کوي فرهنگيان</address>
+		<tel>3339999</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>8.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>ایلخچی</shahr>
+		<amozeshgah>احسان</amozeshgah>
+		<address>خیابان امام - طبقه پایین دادگستری</address>
+		<tel>3327343</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>9.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>بستان آباد</shahr>
+		<amozeshgah>اوجان</amozeshgah>
+		<address>خ طالقانی - بالاتر از تعاون روستایی - پلاک 12999</address>
+		<tel>4121533</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>10.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>بستان آباد</shahr>
+		<amozeshgah>پارسیان</amozeshgah>
+		<address>جاده ترانزیت - جنب تعاونی مینی بوس داران</address>
+		<tel>4121135</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>11.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>بناب</shahr>
+		<amozeshgah>سهند</amozeshgah>
+		<address>بلوار مدرس - خ باهنر - نرسیده به بیمه مرکزی ایران - پلاک 122</address>
+		<tel>7231439</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>12.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>بناب</shahr>
+		<amozeshgah>عظيم زاده</amozeshgah>
+		<address>خ امام - میدان بسیج - روبروی پمپ بنزین - نرسیده به پلیس راه</address>
+		<tel>7234151</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>13.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>بناب</shahr>
+		<amozeshgah>قره باغي</amozeshgah>
+		<address>انتهای خ بهشتی - خ چمران - روبروی کوی ولیعصر</address>
+		<tel>7225141</tel>
+		<F7/>
+	</row>
+	
+	<row>
+		<radif>14.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>آذربايجان</amozeshgah>
+		<address>دروازه تهران - پشت هتل مرمر - 15 متری نظامی - پلاک 32</address>
+		<tel>3337980</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>15.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>آريا</amozeshgah>
+		<address>خ عباسي، جنب فروشگاه رفاه</address>
+		<tel>6582952</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>16.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>آزمان</amozeshgah>
+		<address>خ پاستور جدید - بین ارتش و حاج جبار نایب - پلاک 24</address>
+		<tel>5549875</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>17.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>آزمايش</amozeshgah>
+		<address>کمربندي مياني، مابين چهار راه حافظ و مارالان</address>
+		<tel>5457133</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>18.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>ائل گلي</amozeshgah>
+		<address>کوي فردوس خ 45 متري اول جنب خروجي عوارض ائل گلي</address>
+		<tel>3843005</tel>
+		<F7/>
+	</row>
+
+    <row>
+		<radif>19.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>استاد شهریار</amozeshgah>
+		<address>خ ثقه السلام - بالاتر از سید حمزه - روبروی بانک صادرات</address>
+		<tel>5254013</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>20.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>اميد</amozeshgah>
+		<address>چهار راه لاله، طبقه فوقاني فروشگاه زنجيره‌اي رفاه</address>
+		<tel>4411757</tel>
+		<F7/>
+	</row>
+	
+	<row>
+		<radif>21.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>اميد بخدا</amozeshgah>
+		<address>خ شريعتي جنوبي، مغازه‌هاي سنگي</address>
+		<tel>5533722</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>22.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>امير</amozeshgah>
+		<address>خ کمربندی - پایین تر از چهارراه ابوریحان - روبروی نهضت سواد آموزی - پلاک 50</address>
+		<tel>4767971</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>23.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>انقلاب</amozeshgah>
+		<address>چهاراه لاله - اشرافی لاله - روبروی داروخانه بخت آور</address>
+		<tel>4797761</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>24.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>ايران</amozeshgah>
+		<address>جاده لاله، روبروي ورودي کوي شهيد باکري</address>
+		<tel>4464522</tel>
+		<F7/>
+	</row>	
+	<row>
+		<radif>25.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>ايمن</amozeshgah>
+		<address>وليعصر - خ سعدی شمالی - پ 38</address>
+		<tel>3311028</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>26.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>برهان</amozeshgah>
+		<address>ميدان راه آهن، جاده سنتو، روبروي بانک ملي</address>
+		<tel>4423126</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>27.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>بهران</amozeshgah>
+		<address>خ آزادي، روبروي بيمارستان سينا</address>
+		<tel>5425696</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>28.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>پارامی</amozeshgah>
+		<address>خ بهار جدید ( شرقی ) - ورجی باشی - کوچه سنجاق</address>
+		<tel>2800416</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>29.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>پارس</amozeshgah>
+		<address>چایکنار - نرسیده به پل سنگی</address>
+		<tel>6565599</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>30.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>خسروي</amozeshgah>
+		<address>خ آذربايجان بالاتر از مهديه تبريز، جنب آگاهي</address>
+		<tel>4427310</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>31.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>خيام</amozeshgah>
+		<address>اول خيابان شمس تبريزي، روبروي بيمارستان علوي</address>
+		<tel>2670100</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>32.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>زبردست</amozeshgah>
+		<address>آخر خیابان گلگشت - خیابان 24 متری - روبروی کوی استادان</address>
+		<tel>5453383</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>33.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>سمند</amozeshgah>
+		<address>خ شريعتي جنوبي، اول خ پاستور</address>
+		<tel>4776390</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>34.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>سينا</amozeshgah>
+		<address>او خيابان پاسداران، نرسيده به تقاطع ميلاد پلاک 148</address>
+		<tel>2611530</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>35.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>صبا</amozeshgah>
+		<address>خ آخونی - مابین فلکه شادگان و دامپزشکی - پلاک 131</address>
+		<tel>2896393</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>36.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>طالقاني</amozeshgah>
+		<address>انتهاي خيابان طالقاني، خ معراج، جنب هنرستان فني طالقاني</address>
+		<tel>5418825</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>37.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>قانون</amozeshgah>
+		<address>سه راه توکلی - خیابان شهید مفتح - روبروی بانک صادرات</address>
+		<tel>2370057</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>38.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>کيميا</amozeshgah>
+		<address>دروازه تهران، 300 متر مانده به سه راهی ولیعصر</address>
+		<tel>3325812</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>39.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>گلستان</amozeshgah>
+		<address>شهرک شهید چمران - جنب مخابرات قدیم - پلاک 1548</address>
+		<tel>4247772</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>40.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>معين</amozeshgah>
+		<address>جاده ائل گلي، بالاتر از ميدان گلشهر، روبروي آپارتمانهاي فجر، کوچه کريمپور</address>
+		<tel>3813518</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>41.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>مهر</amozeshgah>
+		<address>خ راه آهن - بالاتر از چهار راه قطران</address>
+		<tel>4440195</tel>
+		<F7/>
+	</row>	
+	<row>
+		<radif>42.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>ميلاد</amozeshgah>
+		<address>شهرک باغميشه پشت پمپ بنزين الهيه</address>
+		<tel>6691840</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>43.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>تبريز</shahr>
+		<amozeshgah>نمونه</amozeshgah>
+		<address>خ بهار روبروي بانک کشاورزي</address>
+		<tel>2840384</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>44.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>جلفا</shahr>
+		<amozeshgah>انتظار</amozeshgah>
+		<address>میدان عاشورا - خ ولایت فقیه - پلاک 13/411</address>
+		<tel>3025550</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>45.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>چاراویماق</shahr>
+		<amozeshgah>کریمی</amozeshgah>
+		<address>خ آبگرم - جنب رودخانه</address>
+		<tel>6722800</tel>
+		<F7/>
+	</row>	
+	<row>
+		<radif>46.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>خسروشهر</shahr>
+		<amozeshgah>جلالی</amozeshgah>
+		<address>خ امام - جنب نمایندگی سایپا</address>
+		<tel>2664242</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>47.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>خمارلو</shahr>
+		<amozeshgah>آراز</amozeshgah>
+		<address>خ امام خمینی (ره) - جنب شرکت تعاونی مرزنشینان</address>
+		<tel>5232500</tel>
+		<F7/>
+	</row>	
+	<row>
+		<radif>48.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>سراب</shahr>
+		<amozeshgah>احتياط</amozeshgah>
+		<address>خ امام، بالاتر از نمايندگي ايران خودرو، روبروي ترمينال</address>
+		<tel>2232120</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>49.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>سراب</shahr>
+		<amozeshgah>شمس</amozeshgah>
+		<address>خ امام خميني روبروي خ علوي گاراژ سابق خطيبي</address>
+		<tel>2227112</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>50.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>سراب</shahr>
+		<amozeshgah>شهريار</amozeshgah>
+		<address>خ شهيد بهشتي روبروي مهمانسرای جهان گردی و ایران گردی - پ 672</address>
+		<tel>2228333</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>51.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>سراب</shahr>
+		<amozeshgah>هجرت</amozeshgah>
+		<address>خ امام خمینی - روبروی شهرداری - ساختمان هلال احمر</address>
+		<tel>2236518</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>52.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>شبستر</shahr>
+		<amozeshgah>الیاس</amozeshgah>
+		<address>بلوار 45 متری بسیج - روبروی سازمان تامین اجتماعی</address>
+		<tel>2222004</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>53.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>شبستر</shahr>
+		<amozeshgah>شهريار</amozeshgah>
+		<address>بلوار 45 متري بسيج روبروي هتل گلشن راز پلاک 220</address>
+		<tel>2227666</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>54.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>عجب شير</shahr>
+		<amozeshgah>سحر</amozeshgah>
+		<address>خ شهريار نرسيده به شرکت گاز (هفته بازار سابق)</address>
+		<tel>6231717</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>55.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>عجب شير</shahr>
+		<amozeshgah>فجر</amozeshgah>
+		<address>خ پادگان - حصیر آباد به سمت وادی رحمت</address>
+		<tel>6232348</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>56.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>کلیبر</shahr>
+		<amozeshgah>وحدت</amozeshgah>
+		<address>خ تربیت بدنی - ساختمان اسماعیل کلاله ای</address>
+		<tel>4225600</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>57.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>مراغه</shahr>
+		<amozeshgah>ابراهيمي</amozeshgah>
+		<address>اتوبان امير کبير، بالاتر از اداره تاکسيراني</address>
+		<tel>2270556</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>58.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>مراغه</shahr>
+		<amozeshgah>ساحل</amozeshgah>
+		<address>اتوبان امير کبير - روبروی مسجد اسلامی و پست بانکی</address>
+		<tel>2273755</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>59.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>مراغه</shahr>
+		<amozeshgah>سهند</amozeshgah>
+		<address>بلوار شهيد درخشي نرسيده به دانشگاه آزاد</address>
+		<tel>3254484</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>60.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>مراغه</shahr>
+		<amozeshgah>کوثر ولايت</amozeshgah>
+		<address>خ معلم شمالي جنب پل فلزي پلاک 80</address>
+		<tel>2234546</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>61.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>مراغه</shahr>
+		<amozeshgah>وليعصر</amozeshgah>
+		<address>خ خليل الله جنب بازار روز</address>
+		<tel>4409697</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>62.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>مرند</shahr>
+		<amozeshgah>سعادت</amozeshgah>
+		<address>خ مطهري (دانشسرا) جنب پارک شهر</address>
+		<tel>2236964</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>63.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>مرند</shahr>
+		<amozeshgah>صفا</amozeshgah>
+		<address>خ پاسداران - نرسیده به خ پرورش</address>
+		<tel>2275544</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>64.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>مرند</shahr>
+		<amozeshgah>عقاب</amozeshgah>
+		<address>خ طالقاني جنب جهاد کشاورزي</address>
+		<tel>2225580</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>65.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>مرند</shahr>
+		<amozeshgah>مرواريد</amozeshgah>
+		<address>بلوار شهید باکری</address>
+		<tel>2275511</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>66.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>مرند</shahr>
+		<amozeshgah>مولاعلي</amozeshgah>
+		<address>بلوار شهيد کسايي نرسيده به درمانگاه شهيد کسائي</address>
+		<tel>2224333</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>67.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>ملکان</shahr>
+		<amozeshgah>مهران</amozeshgah>
+		<address>خ امام انتهاي خ معلم</address>
+		<tel>8227758</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>68.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>مهربان</shahr>
+		<amozeshgah>پوریا</amozeshgah>
+		<address>خ آزادی - پشت دبستان آزادی</address>
+		<tel>7124379</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>69.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>ميانه</shahr>
+		<amozeshgah>نصرآوران</amozeshgah>
+		<address>خ شهيد مطهري روبروي زايشگاه</address>
+		<tel>2232811</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>70.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>ميانه</shahr>
+		<amozeshgah>هدف</amozeshgah>
+		<address>بلوار شهید بهشتی - بالاتر از بهزیستی - نرسیده به میدان نماز</address>
+		<tel>2228182</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>71.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>ورزقان</shahr>
+		<amozeshgah>شکوهی</amozeshgah>
+		<address>خ دانش - کوچه چایکنار</address>
+		<tel>3242686</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>72.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>هاديشهر</shahr>
+		<amozeshgah>ارس</amozeshgah>
+		<address>بلوار بعثت - روبروی ترمینال مسافربری</address>
+		<tel>3049440</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>73.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>هاديشهر</shahr>
+		<amozeshgah>اطمينان</amozeshgah>
+		<address>خ امام جعفر صادق - روبروی تربیت بدنی ولیعصر</address>
+		<tel>3046030</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>74.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>هريس</shahr>
+		<amozeshgah>قائم</amozeshgah>
+		<address>خ امام روبروي درمانگاه شماره يک</address>
+		<tel>6125332</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>75.</radif>
+		<ostan>آذربايجان شرقي</ostan>
+		<shahr>هشترود</shahr>
+		<amozeshgah>سپیده</amozeshgah>
+		<address>خ شهدا - روبروی مسجد امام حسن مجتبی</address>
+		<tel>6224731</tel>
+		<F7/>
+	</row>
+</document>

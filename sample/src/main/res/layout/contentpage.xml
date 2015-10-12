@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+   
+    <RelativeLayout
+        android:id="@+id/relativeLayout1" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/bgmain">
+    		<RelativeLayout
+            	android:id="@+id/relativeLayout2"
+           	 	android:layout_width="fill_parent"
+           		 android:layout_height="wrap_content" android:background="@drawable/topbar" android:layout_alignParentBottom="true">
+
+           		 <Button
+                	android:id="@+id/back"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:background="@drawable/back" android:layout_marginTop="4dp" android:layout_marginLeft="4dp"/>
+
+     		</RelativeLayout>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" android:background="@drawable/forground" android:layout_centerHorizontal="true" android:layout_marginTop="30dp" android:layout_marginBottom="5dp" android:scrollbars="none" android:layout_above="@id/relativeLayout2">
+	
+       
+     		<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/questpage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:padding="15dp"  android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="5dp" android:paddingBottom="5dp">
+    
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questpic" 
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/titletext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:layout_gravity="right"
+            android:layout_alignParentRight="true"
+            android:gravity="right"/>
+		
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_below="@+id/title">
+
+    </TableLayout>
+
+</RelativeLayout>
+     		
+    </ScrollView>
+    </RelativeLayout>

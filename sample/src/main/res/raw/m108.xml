@@ -1,0 +1,1065 @@
+﻿<document>
+	<row>
+		<radif>1.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>اسلامشهر</shahr>
+		<amozeshgah>آزمايش</amozeshgah>
+		<address>ايستگاه نوري جنب تالار پذيرائي تانيا</address>
+		<tel>2361097</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>2.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>اسلامشهر</shahr>
+		<amozeshgah>اسلامشهر</amozeshgah>
+		<address>اسلامشهر-بلوار اصلي تهران ساوه نرسيده به ايستگاه حاج محمود-روبروي داروخانه شبانه روزي امام خميني</address>
+		<tel>2233536</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>3.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>اسلامشهر</shahr>
+		<amozeshgah>اميركبير</amozeshgah>
+		<address>لبوار آيت الله سعيدي جنب پمپ بنزين سبلان ط2</address>
+		<tel>2240872</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>4.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>اسلامشهر</shahr>
+		<amozeshgah>بهمن</amozeshgah>
+		<address>خيابان 20 متري امام خميني کوچه 21</address>
+		<tel>2349630</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>5.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>اسلامشهر</shahr>
+		<amozeshgah>ترافيك</amozeshgah>
+		<address>واوان فاز2 بلوار شهيدرجايي روبروي بوستان لاله پ5</address>
+		<tel>3188801</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>6.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>اسلامشهر</shahr>
+		<amozeshgah>حيدريان</amozeshgah>
+		<address>خيابان آيت الله کاشاني خيابان فجر جنب سينما پلاک 51</address>
+		<tel>2225285</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>7.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>اسلامشهر</shahr>
+		<amozeshgah>قائم</amozeshgah>
+		<address>شهرك قائميه فلكه سوم-كوچه 32/2-پلاك 95</address>
+		<tel>2467062</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>8.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>اسلامشهر</shahr>
+		<amozeshgah>مهارت*فيروزه*</amozeshgah>
+		<address>ابتداي قائميه پلاك 624</address>
+		<tel>2462077</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>9.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>اسلامشهر</shahr>
+		<amozeshgah>مهدي</amozeshgah>
+		<address>بزرگراه آيت الله سعيدي جاده ساوه شهر چهاردانگه شهرك گلشهر خيابان شهيد بهشتي </address>
+		<tel>55246221</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>10.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>اسلامشهر</shahr>
+		<amozeshgah>نيلوفر واوان</amozeshgah>
+		<address>شهرک واوان ميدان تهران خيابان شيراز پلاک 66</address>
+		<tel>3174585</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>11.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>اسلامشهر</shahr>
+		<amozeshgah>وليعصر اسلامشهر</amozeshgah>
+		<address>سرنوري جنب عکاسي پرديس</address>
+		<tel>2364461</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>12.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>اشتهارد</shahr>
+		<amozeshgah>ماهدشت معلم</amozeshgah>
+		<address>اشتهارد بلوار آيت الله خامنه اي روبروي كلانتري</address>
+		<tel>7723535</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>13.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>پاكدشت</shahr>
+		<amozeshgah>امير</amozeshgah>
+		<address>بلوار امام رضا-200متر مانده به راهور</address>
+		<tel>3021793</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>14.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>پاکدشت</shahr>
+		<amozeshgah>پرديس</amozeshgah>
+		<address>بلوار شمالي شهيد ولي الله قمي روبروي اداره بهزيستي نبش نقشينه</address>
+		<tel>3029325</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>15.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>پاکدشت</shahr>
+		<amozeshgah>ستاره</amozeshgah>
+		<address>شهرك يبر خ بهشتي نرسيده به مسجد الجواد</address>
+		<tel>3329060</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>16.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>پاکدشت</shahr>
+		<amozeshgah>سروش</amozeshgah>
+		<address>بلوار شهيد قمي-بلوار شهداي رحيمي-پلاك 50</address>
+		<tel>3043333</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>17.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>پاکدشت</shahr>
+		<amozeshgah>محسن</amozeshgah>
+		<address>خيابان مطهري ميدان ساعت روبروي بانك صادرات پ138</address>
+		<tel>3042871</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>19.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>دماوند</shahr>
+		<amozeshgah>110 دماوند</amozeshgah>
+		<address>بلوار شهيدبهشتي-كوچه زنبق2-پلاك 158</address>
+		<tel>5245426</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>20.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>دماوند</shahr>
+		<amozeshgah>شيوا</amozeshgah>
+		<address>بلوار شهيدبهشتي-مقابل دانشگاه آزاد</address>
+		<tel>5227007</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>21.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>دماوند</shahr>
+		<amozeshgah>گيلاوند</amozeshgah>
+		<address>گيلاوند-بلوار شهيد بهشتي-پ130</address>
+		<tel>5339696</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>22.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>رباط کريم</shahr>
+		<amozeshgah>ايثار</amozeshgah>
+		<address>بعد از شهرداري روبروي صندوق قرض الحسنه خيبر</address>
+		<tel>4221701</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>23.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>رباط کريم</shahr>
+		<amozeshgah>جعفري</amozeshgah>
+		<address>روبروي اداره برق جنب پاساژ سعادتمندي</address>
+		<tel>4236060</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>24.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>رباط کريم</shahr>
+		<amozeshgah>رباط</amozeshgah>
+		<address>نسيم شهر - خ امام خميني - پ184</address>
+		<tel>4366017</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>25.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>رباط کريم</shahr>
+		<amozeshgah>فولادوند</amozeshgah>
+		<address>جاده شهريار رباط كريم - شهرك آلارد</address>
+		<tel>4473030</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>26.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>رباط کريم</shahr>
+		<amozeshgah>كامليا</amozeshgah>
+		<address>شهرگلستان - سلطان آباد بعد از 12متري سجاد</address>
+		<tel>4312020</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>27.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>رباط کريم</shahr>
+		<amozeshgah>گلستان</amozeshgah>
+		<address>شهر گلستان 30 متري شهر گلستان جنب بانک کشاورزي</address>
+		<tel>4318777</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>28.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>رباط کريم</shahr>
+		<amozeshgah>نگين</amozeshgah>
+		<address>نسيم شهر - اسماعيل آباد جنب مسجد اميرالمؤمنين(ع)</address>
+		<tel>4364116</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>29.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>رودهن</shahr>
+		<amozeshgah>آرمان</amozeshgah>
+		<address>بلوار شهيد مطهري خ رودكي</address>
+		<tel>5720070</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>30.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهرقدس</shahr>
+		<amozeshgah>صادق</amozeshgah>
+		<address>ميدان قدس - بلوار بهشت فاطمه - بعد از بريدگي اول - پلاك 110</address>
+		<tel>46811200</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>31.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهرقدس</shahr>
+		<amozeshgah>عبدالملكي</amozeshgah>
+		<address>شهر قدس - بلوار 45متري انقلاب-12متري دهقان-پلاك 16</address>
+		<tel>46839671</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>32.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهرقدس</shahr>
+		<amozeshgah>قدس(ارم)</amozeshgah>
+		<address>بلوار30متري شورا - نرسيده به ميدان امام حسين - پلاك 7</address>
+		<tel>46816003</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>33.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهرقدس</shahr>
+		<amozeshgah>همراهان</amozeshgah>
+		<address>خيابان وليعصر - ميدان بهاران به طرف 35متري مرزبانان - انتهاي شهرك نيروي انتظامي - پلاك 84</address>
+		<tel>46889201</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>34.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>احمد</amozeshgah>
+		<address>مارليک خ دكترحسابي نرسيده به تاكسيراني روبروي بانك ملت</address>
+		<tel>6453993</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>35.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>امير</amozeshgah>
+		<address>بلوار آزادگان روبروي سه راه فردوس - جنب رستوران گلچين</address>
+		<tel>3240323</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>36.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>انديشه</amozeshgah>
+		<address>فاز 1 انديشه ارغوان 8 بعد از ميدان معلم نبش کوچه روزبه</address>
+		<tel>3522395</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>37.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>ايرانيان</amozeshgah>
+		<address>جاده ملارد سه راه انديشه جنب صنايع سنگ پارک</address>
+		<tel>6479750</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>38.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>بابك</amozeshgah>
+		<address>انديشه فاز1 - نرسيده به خ شاهدشرقي - انتهاي كوچه شهدا</address>
+		<tel>3517082</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>39.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>پارس</amozeshgah>
+		<address>سرفاز روبروي پايانه اتوبوسراني - واحد16</address>
+		<tel>3556787</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>40.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>پارسا)نيما(</amozeshgah>
+		<address>بلوار رسول اكرم - مجتمع رسول اكرم - ساختمان پليس+10 - طبقه اول</address>
+		<tel>3271192</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>41.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>حكمت</amozeshgah>
+		<address>سرآسياب ملارد - بلوار رسول اكرم - جنب موسسه مالي و اعتباري مهر</address>
+		<tel>6497220</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>42.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>سروش شهريار</amozeshgah>
+		<address>عباس آباد - خيابان مطهري جنب كوچه نسيم و مصالح فروشي متفق</address>
+		<tel>3269200</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>43.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>سفير</amozeshgah>
+		<address>ملارد بلوار رسول اکرم روبروي آتش نشاني</address>
+		<tel>3662878</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>44.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>شباهنگ</amozeshgah>
+		<address>باغستان ساختمان شباهنگ</address>
+		<tel>3239700</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>45.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>صالحي</amozeshgah>
+		<address>شهرجديد پرند - ميدان امام خميني - روبرو پايانه</address>
+		<tel>4720501</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>46.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>صبا</amozeshgah>
+		<address>صبا شهر ابتداي بلوار شهيد مهدي تاجيك جنب پاسگاه انتظامي</address>
+		<tel>3623950</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>47.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>فرهنگ</amozeshgah>
+		<address>خيابان وليعصر خيابان مخابرات خيابان کشاورز پلاک 34</address>
+		<tel>3240043</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>48.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>كوثر شهريار</amozeshgah>
+		<address>مارليك خيابان دكترحسابي - پايين تر از ميدان گلها-خيابان پونه</address>
+		<tel>6472167</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>49.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>مهدوي</amozeshgah>
+		<address>امريه جنب مخابرات مرکزي</address>
+		<tel>3646881</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>50.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>ناصر</amozeshgah>
+		<address>شهر جديد انديشه فاز 3 محله 25</address>
+		<tel>3557787</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>51.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>نصر</amozeshgah>
+		<address>منطقه سرآسياب-جاده ملارد - خيابان 20متري سرآسياب - نرسيده به ميدان گلها - پ733</address>
+		<tel>6469006</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>52.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>باغستان</amozeshgah>
+		<address>بلوار رسول اكرم - بين لاله 12 و 13</address>
+		<tel>3236332</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>53.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>شهريار</shahr>
+		<amozeshgah>پويا</amozeshgah>
+		<address>صفادشت شهريار - بلوار شهيد چيتگر - خيابان 13آبان - پلاك2</address>
+		<tel>3437730</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>54.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>فيروزکوه</shahr>
+		<amozeshgah>مهرگان</amozeshgah>
+		<address>خيابان پاسداران بالاتر از پمپ بنزين جنب مصالح ساختماني حسيني</address>
+		<tel>6225410</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>55.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>كرج</shahr>
+		<amozeshgah>آريا</amozeshgah>
+		<address>خيابان دانشكده جنب پاساژ دانشكده - طبقه فوقاني</address>
+		<tel>2222176</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>56.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>آزادي</amozeshgah>
+		<address>رجائي شهر بلوار موذن - فاز2 - پلاك67</address>
+		<tel>4415945</tel>
+		<F7/>
+	</row>
+	
+	<row>
+		<radif>57.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>دماوند</shahr>
+		<amozeshgah>شيوا</amozeshgah>
+		<address>خيابان يبر نرسيده به شهرک يبر</address>
+		<tel>3322692</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>58.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>ارشاد</amozeshgah>
+		<address>بلوار طالقاني جنوبي روبروي خيابان زرندي پلاک 59</address>
+		<tel>2236213</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>59.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>البرز</amozeshgah>
+		<address>بلوار سرداران تقاطع بلوار شهيد حدادي ساختمان پونه</address>
+		<tel>3516230</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>60.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>الغدير</amozeshgah>
+		<address>45 متري گلشهر بلوار گلزار غربي اول بلوار الغدير سمت راست</address>
+		<tel>3525000</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>61.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>اميد</amozeshgah>
+		<address>ساساني مصباح امام حسين - نبش كوچه نعمتي</address>
+		<tel>2806166</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>62.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>ايران زمين</amozeshgah>
+		<address>خيابان مطهري خيابان شهيد ساوجي نرسيده به تقاطع شاهد 2</address>
+		<tel>2509028</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>63.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>باران</amozeshgah>
+		<address>محمدشهر - بلوار امام خميني به سمت مشكين دشت - ابتداي خ دشت بهشت - روبروي تعميرگاه ايران خودرو</address>
+		<tel>6206650</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>64.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>بهاران</amozeshgah>
+		<address>فرديس بعد از سه راه حافظيه - روبروي آبرساني</address>
+		<tel>663635</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>65.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>بهرام</amozeshgah>
+		<address>جاده ملارد - خ گلستان يكم - روبرو مخابرات - پ477</address>
+		<tel>6638312</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>66.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>پارسيان</amozeshgah>
+		<address>شاهين ويلا - خيابان هفتم غربي - پلاك6</address>
+		<tel>4513967</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>67.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>پاسارگاد</amozeshgah>
+		<address>کمالشهر جنب تالار پذيرائي پاسارگاد</address>
+		<tel>4706647</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>68.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>حصارك</amozeshgah>
+		<address>حصارك - خيابان شهيد بهشتي اول خيابان امامزاده محمد</address>
+		<tel>4567677</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>69.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>حميد</amozeshgah>
+		<address>مشكين دشت - خيابان هدايتكار - روبروي گلزار شهدا</address>
+		<tel>6215858</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>70.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>خاکي فيروز</amozeshgah>
+		<address>جاده ملارد نرسيده به پل سرحدآباد (طبقه فوقاني نمايشگاه كمالي)</address>
+		<tel>2806853</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>71.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>خجسته</amozeshgah>
+		<address>دهقان ويلاي دوم - نبش خيابان قاصدي(دوم)</address>
+		<tel>4487142</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>72.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>رامين</amozeshgah>
+		<address>رجايي شهر - خيابان هشتم شرقي - فاز1 - پلاك53</address>
+		<tel>4434642</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>73.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>رضا</amozeshgah>
+		<address>شاهين ويلا - ميدان امام حسين - كوي گوهر</address>
+		<tel>4313801</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>74.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>شاهين ويلا</amozeshgah>
+		<address>شاهين ويلا بلوار باغستان نبش خيابان تختي پلاک 8</address>
+		<tel>4322121</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>75.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>كرج</shahr>
+		<amozeshgah>شايان</amozeshgah>
+		<address>ميدان آزادگان خيابان بي بي سکينه اول بلوار ارديبهشت</address>
+		<tel>7307885</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>76.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>كرج</shahr>
+		<amozeshgah>شميم</amozeshgah>
+		<address>فرديس فلكه سوم - خيابان 30 شرقي جديد پ655</address>
+		<tel>6500526</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>77.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>كرج</shahr>
+		<amozeshgah>صدرا</amozeshgah>
+		<address>بلوار ملاصدرا بين جمهوري و ابوذر - پلاك 143</address>
+		<tel>4447522</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>78.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>طلوع شريف</amozeshgah>
+		<address>فرديس، بين فلکه اول و دوم پائين تر از بانک ملي</address>
+		<tel>6534911</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>79.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>ماهدشت</shahr>
+		<amozeshgah>غزل</amozeshgah>
+		<address>بلوار امام خميني - ساختمان بانك صادرات</address>
+		<tel>7309990</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>80.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>فرديس</amozeshgah>
+		<address>كانال خيابان 18 - پ31</address>
+		<tel>6503535</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>81.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>كاج</amozeshgah>
+		<address>عظيميه 45 متري كاج - چهارراه نيك نژادي</address>
+		<tel>2506746</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>82.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>كاوه(كوه نور)</amozeshgah>
+		<address>حصارك - ميدان دانشگاه - روبروي شهرك رازي - بلوار گلستان - نبش گلستان سوم</address>
+		<tel>4659214</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>83.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>كوهسار</amozeshgah>
+		<address>كردان - جاده وليان شهرك كوهسار بلوار شريعتي ساختمان هاشمي - پلاك 341</address>
+		<tel>4326252</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>84.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>كيانمهر </amozeshgah>
+		<address>كيان مهر - شهرك بهاران - جنب دكتر افروز</address>
+		<tel>3212717</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>85.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>كرج</shahr>
+		<amozeshgah>محمدشهر</amozeshgah>
+		<address>بلوار امام خميني اول همايون ويلا - خ لاله</address>
+		<tel>6301136</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>86.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>كرج</shahr>
+		<amozeshgah>مسيحا(حصاري)</amozeshgah>
+		<address>رجايي شهر خيابان داريوش بين قائم 2 و4 - پلاك 75</address>
+		<tel>4424901</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>87.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>مفيد</amozeshgah>
+		<address>خيابان درختي روبرو سه راه تهران</address>
+		<tel>3506105</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>88.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>منظريه</amozeshgah>
+		<address>جاده ملارد شهرک منظريه بلوار طالقاني</address>
+		<tel>6620353</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>89.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>مهديس</amozeshgah>
+		<address>فرديس فلكه 5 - خيابان 53</address>
+		<tel>6543817</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>90.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>مهران</amozeshgah>
+		<address>عظيميه - ميلان طالقاني نبش شمالي - 4راه پامچال</address>
+		<tel>2509041</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>91.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>مهرشهر</amozeshgah>
+		<address>مهرشهر - روبروي در باغ سيب - خ شهيد رسولي</address>
+		<tel>3305082</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>92.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>مهستان</amozeshgah>
+		<address>اول جاده ملارد - دست راست - نرسيده به سه راه مارليك - ساختمان نور</address>
+		<tel>6558317</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>93.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>ميثم</amozeshgah>
+		<address>سه راه رجايي شهر - جنب موسسه مالي و اعتباري مهر - كوچه ياس - ياس 1 - پلاك 21</address>
+		<tel>4481987</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>94.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>ندا</amozeshgah>
+		<address>فاز 5 خيابان سلمان فارسي پلاک 23</address>
+		<tel>3505686</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>95.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>نسترن</amozeshgah>
+		<address>فرديس - كانال غربي جنب شهرداري - منطقه 3</address>
+		<tel>6556000</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>96.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>نويد</amozeshgah>
+		<address>چهارراه مصباح - روبروي مصلي</address>
+		<tel>2222201</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>97.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>نوين(ساسان)</amozeshgah>
+		<address>جاده ملارد - بعد از سه راه منظريه - خيابان بامداد - روبروي باغ مجلس</address>
+		<tel>6638282</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>98.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>نيكو</amozeshgah>
+		<address>خيابان شهيد بهشتي روبرو پاساژ آزادي - نبش خ امامي</address>
+		<tel>2221497</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>99.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>نيلوفر</amozeshgah>
+		<address>فاز 4 مهرشهر بلوار گلها ساختمان نيلوفر پ 15</address>
+		<tel>3508362</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>100.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>امين(مجد)</amozeshgah>
+		<address>جاده ملارد بعد از سه راه انديشه - خيابان بهاره شرقي - نبش كوچه اول - پلاك106</address>
+		<tel>6464589</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>101.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>کرج</shahr>
+		<amozeshgah>ياس</amozeshgah>
+		<address>محمدشهر - بلوار امام خميني - روبرو شهرك چمران</address>
+		<tel>6333630</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>102.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>نظرآباد</shahr>
+		<amozeshgah>ايران</amozeshgah>
+		<address>خيابان شهيد بهشتي شمالي پلاک 127</address>
+		<tel>5340405</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>103.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>نظر آباد</shahr>
+		<amozeshgah>ماهان</amozeshgah>
+		<address>بلوار مدرس نرسيده به چهار راه 22 بهمن</address>
+		<tel>5361301</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>104.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>ورامين</shahr>
+		<amozeshgah>پرستو</amozeshgah>
+		<address>پشت مسجد جامع شهرک فرزانگان - 8 متري دوم</address>
+		<tel>2260007</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>105.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>ورامين</shahr>
+		<amozeshgah>پيمان</amozeshgah>
+		<address>ميدان رازي بطرف خط راه آهن روبروي پارک پرندگان</address>
+		<tel>4223008</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>106.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>ورامين</shahr>
+		<amozeshgah>خليج فارس</amozeshgah>
+		<address>قرچک ابتداي شهرک طلائيه - 16 متري خليج فارس</address>
+		<tel>2156925</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>107.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>ورامين</shahr>
+		<amozeshgah>شريفي</amozeshgah>
+		<address>باقر آباد روبروي بانک ملي</address>
+		<tel>2134008</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>108.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>ورامين</shahr>
+		<amozeshgah>شلمچه</amozeshgah>
+		<address>قرچک - خيابان اصلي - روبروي کلانتري</address>
+		<tel>2174585</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>109.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>ورامين</shahr>
+		<amozeshgah>عرفان</amozeshgah>
+		<address>ميدان رازي بلوار امام رضا - روبروي جهاد کشاورزي</address>
+		<tel>4222244</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>110.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>ورامين</shahr>
+		<amozeshgah>كوثر</amozeshgah>
+		<address>خيرآباد - جاده اصلي - نرسيده به بانك تجارت</address>
+		<tel>3238444</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>111.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>ورامين</shahr>
+		<amozeshgah>كيميا</amozeshgah>
+		<address>پيشوا ابتداي خيابان كارگر - نرسيده به مركز تربيت معلم زينبيه - كوچه بوستان1 - پلاك 1</address>
+		<tel>2220003</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>112.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>ورامين</shahr>
+		<amozeshgah>مركزي</amozeshgah>
+		<address>قرچك - زيباشهر - جنب باربري دانا - روبروي پارك جنگلي</address>
+		<tel>2157499</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>113.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>ورامين</shahr>
+		<amozeshgah>وارنا(جانبازان)</amozeshgah>
+		<address>قرچك - خيابان اصلي - نرسيده به خيابان محمدآباد - مجتمع نگين - طبقه اول اداري</address>
+		<tel>2147783</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>114.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>ورامين</shahr>
+		<amozeshgah>وليعصر</amozeshgah>
+		<address>بلوار شهيد باهنر - روبروي خيابان شهيد هداوند (بهزيستي سابق)</address>
+		<tel>2279802</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>115.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>هشتگرد</shahr>
+		<amozeshgah>سپهر</amozeshgah>
+		<address>ابتداي خيابان شهيد باهنر(راه آهن) روبروي كانون</address>
+		<tel>4222223</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>116.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>هشتگرد</shahr>
+		<amozeshgah>سينا</amozeshgah>
+		<address>فاز1 - روبرو ورزشگاه تختي - خيابان سامان</address>
+		<tel>4265152</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>117.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>هشتگرد</shahr>
+		<amozeshgah>شكوري</amozeshgah>
+		<address>خيابان امام خميني - نرسيده به ميدان بسيج - جنب ستاد پشتيباني فرماندهي انتظامي</address>
+		<tel>4226898</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>118.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>هشتگرد</shahr>
+		<amozeshgah>فلق</amozeshgah>
+		<address>ميدان شهدا بلوار شهيد زارعي</address>
+		<tel>4227335</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>119.</radif>
+		<ostan>استان تهران</ostan>
+		<shahr>هشتگرد</shahr>
+		<amozeshgah>متين(بهروز)</amozeshgah>
+		<address>45 متري گلشهر - اختر غربي - پلاك 458</address>
+		<tel>4605084</tel>
+		<F7/>
+	</row>
+</document>

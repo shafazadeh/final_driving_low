@@ -1,0 +1,182 @@
+﻿<document>
+	<row>
+		<radif>1.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>آشخانه</shahr>
+		<amozeshgah>اميري</amozeshgah>
+		<address>بلوار بسيج شرقي - نرسيده به سالن تختي</address>
+		<tel>4226262</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>2.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>آشخانه</shahr>
+		<amozeshgah>رسالت</amozeshgah>
+		<address>ميدان پاسداران - جنب كوچه شهيد آرامي</address>
+		<tel>4225853</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>3.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>آشخانه</shahr>
+		<amozeshgah>فيروزه</amozeshgah>
+		<address>خيابان مطهري غربي - كوچه شهيد صفريان</address>
+		<tel>4224432</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>4.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>اسفراين</shahr>
+		<amozeshgah>انجمن</amozeshgah>
+		<address>خيابان بهار - بهار جنوبي</address>
+		<tel>7222655</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>5.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>اسفراین</shahr>
+		<amozeshgah>فجر</amozeshgah>
+		<address>خیابان امام رضا - بلوار کشاورز - حاشیه خیابان</address>
+		<tel>7226499</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>6.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>اسفراین</shahr>
+		<amozeshgah>مطهری</amozeshgah>
+		<address>خیابان شهید مطهری - جنب آژانس میلاد</address>
+		<tel>7228210</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>7.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>اسفراین</shahr>
+		<amozeshgah>مهرداد</amozeshgah>
+		<address>خیابان ولیعصر - ولیعصر 22</address>
+		<tel>7229995</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>8.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>بجنورد</shahr>
+		<amozeshgah>امینی</amozeshgah>
+		<address>خیابان طالقانی شرقی - روبرو کوچه کلانتری11</address>
+		<tel>2250135</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>9.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>بجنورد</shahr>
+		<amozeshgah>انجمن</amozeshgah>
+		<address>خیابان امام خمینی - خیابان ملاصدرا جنب منبع آب</address>
+		<tel>2258027</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>10.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>بجنورد</shahr>
+		<amozeshgah>پونه</amozeshgah>
+		<address>خیابان فردوسی - نبش فردوسی8</address>
+		<tel>2224807</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>11.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>بجنورد</shahr>
+		<amozeshgah>حافظی</amozeshgah>
+		<address>خیابان طالقانی غربی - روبروی شورای شهر</address>
+		<tel>2235400</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>12.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>بجنورد</shahr>
+		<amozeshgah>زاهد</amozeshgah>
+		<address>انتهای خیابان قیام - روبروی سازمان تاکسیرانی</address>
+		<tel>2224807</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>13.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>بجنورد</shahr>
+		<amozeshgah>سینا</amozeshgah>
+		<address>خیابان امام خمینی - میدان کارگر - جنب هتل نقی زاده</address>
+		<tel>2222194</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>14.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>بجنورد</shahr>
+		<amozeshgah>مهدی</amozeshgah>
+		<address>خ امام خمینی - حدفاصل میدان کارگر و چهارراه باسکول</address>
+		<tel>2239624</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>15.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>جاجرم</shahr>
+		<amozeshgah>یگانه</amozeshgah>
+		<address>خیابان شهید باهنر - کوچه نانوایی فرمانداری</address>
+		<tel>3223600</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>16.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>شیروان</shahr>
+		<amozeshgah>حسینی</amozeshgah>
+		<address>میدان دفاع مقدس - ضلع جنوبی حشیه</address>
+		<tel>6220279</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>17.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>شیروان</shahr>
+		<amozeshgah>رحیمی</amozeshgah>
+		<address>بلوار امام خمینی - امام خمینی2 - انتهای کوچه</address>
+		<tel>6228494</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>18.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>شیروان</shahr>
+		<amozeshgah>غفوریان</amozeshgah>
+		<address>خیابان شفا - روبرو مدرسه کیوان</address>
+		<tel>6222170</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>19.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>فاروج</shahr>
+		<amozeshgah>حمید</amozeshgah>
+		<address>خیابان ملائکه - چهارراه اول</address>
+		<tel>8225916</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>20.</radif>
+		<ostan>خراسان شمالي</ostan>
+		<shahr>گرمه</shahr>
+		<amozeshgah>فیروزه</amozeshgah>
+		<address>بلوار امام رضا - پایین تر از شهرک سایپا</address>
+		<tel>3255045</tel>
+		<F7/>
+	</row>
+</document>

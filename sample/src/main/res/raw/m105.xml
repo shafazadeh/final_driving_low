@@ -1,0 +1,1219 @@
+﻿<document>
+	<row>
+		<radif>1.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>آران و بیدگل</shahr>
+		<amozeshgah>ستاری</amozeshgah>
+		<address>میدان آزادگان سایت پزشکان</address>
+		<tel>2729800</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>2.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>آران و بیدگل</shahr>
+		<amozeshgah>سروش</amozeshgah>
+		<address>میدان آزادگان خیابان امیرکبیر</address>
+		<tel>2732050</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>3.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>آران و بیدگل</shahr>
+		<amozeshgah>سینا</amozeshgah>
+		<address>میدان امام حسین  اواسط خیابان ولی عصر هج</address>
+		<tel>2729200</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>4.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اردستان</shahr>
+		<amozeshgah>کریمی</amozeshgah>
+		<address>خ شهید فائق</address>
+		<tel>5242569</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>5.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اردستان</shahr>
+		<amozeshgah>مهدی</amozeshgah>
+		<address>بلوار یادگار امام روبروی شهرک کاوه</address>
+		<tel>5243093</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>6.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>آریا</amozeshgah>
+		<address>خ جی فلکه خوراسگان جنب شهرداری</address>
+		<tel>5247464</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>7.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>آسمان</amozeshgah>
+		<address>خ علامه امینی مقابل باغ غدیر</address>
+		<tel>2612444</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>8.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>آسيا</amozeshgah>
+		<address>خ شيخ صدوق اول کاخ سعادت آباد شرقي  کوی بهار</address>
+		<tel>6622452</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>9.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>اسپادانا</amozeshgah>
+		<address>مشتاق سوم روشن دشت</address>
+		<tel>5317736</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>10.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>اصفهان</amozeshgah>
+		<address>سه راه نظر، ابتداي پل وحيد</address>
+		<tel>7779201</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>11.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>البرز</amozeshgah>
+		<address>بلوار کشاورز حدفاصل سه راه سیمین و بزرگراه شهید حبیب اللهی</address>
+		<tel>7751135</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>12.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>بهار آزادي</amozeshgah>
+		<address>احمد آباد، خ وليعصر خ صغير، روبروي حسينيه کربلائيها</address>
+		<tel>2263933</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>13.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>بهاران</amozeshgah>
+		<address>شهر بهارستان، خیابان 12 متری طوبی</address>
+		<tel>6811155</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>14.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>پاتريس</amozeshgah>
+		<address>خ زينبيه جنوبي، سه راه فاطميه</address>
+		<tel>4450319</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>15.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>پرشیا</amozeshgah>
+		<address>خیابان گلستان ابتدای خیابان صفا</address>
+		<tel>4510252</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>16.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>پرواز</amozeshgah>
+		<address>شهرک جانبازان خیابان شهید بخشی</address>
+		<tel>7850683</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>17.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>پويا</amozeshgah>
+		<address>خ کهندژ، تقاطع سوم، سمت چپ</address>
+		<tel>7386761</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>18.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>پیشرو</amozeshgah>
+		<address>خ باهنر جنب مسجد امام حسین</address>
+		<tel>5595222</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>19.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>تکسوار</amozeshgah>
+		<address>اتوبان چمران، خ بعثت ، نبش کوچه شکوفه پلاک 277</address>
+		<tel>5681898</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>20.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>توانا</amozeshgah>
+		<address>خ هفتون خ معراج جنب ایستگاه تالار</address>
+		<tel>5801946</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>21.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>حافظ</amozeshgah>
+		<address>خ حکيم نظامي، چهار راه شريعتي</address>
+		<tel>6241826</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>22.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>حدیث</amozeshgah>
+		<address>بهارستان محله 3 خ ولیعصر شمالی خ بوستان جنب دبستان ولیعصر</address>
+		<tel>6826000</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>23.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>خواجو</amozeshgah>
+		<address>خ دانشگاه جنب خانه معلم</address>
+		<tel>6269452</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>24.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>دانشجو</amozeshgah>
+		<address>انتهاي خ هزار جريب، حوالی پل دفاع مقدس</address>
+		<tel>6689296</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>25.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>راطا</amozeshgah>
+		<address>خ عسگريه، خ فرسان شمالي، روبروي پارک فرسان</address>
+		<tel>2278267</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>26.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>زنده رود</amozeshgah>
+		<address>خوراسگان بعد از سه راه شریعتی</address>
+		<tel>5246099</tel>
+		<F7/>
+	</row>
+	
+	<row>
+		<radif>27.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>سپاهان</amozeshgah>
+		<address>خ نشاط، حد فاصل چهار راه نقاشي و هشت بهشت</address>
+		<tel>2200690</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>28.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>سمند</amozeshgah>
+		<address>خ جي، بعد از خ شهيد رجائي، ساختمان سمند</address>
+		<tel>5238244</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>29.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>شکوفه</amozeshgah>
+		<address>خ جابر انصاری</address>
+		<tel>4425100</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>30.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>صبا</amozeshgah>
+		<address>خ زينبيه شمالي، ايستگاه باطون جنب موسسه مالی و اعتباری مهر</address>
+		<tel>5542142</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>31.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>صدر</amozeshgah>
+		<address>خ مدرس بعد از خیابان مولوی کوچه 28</address>
+		<tel>4463199</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>32.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>صدف</amozeshgah>
+		<address>خ کهندژ، روبروي رهنان</address>
+		<tel>7390350</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>33.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>طیار</amozeshgah>
+		<address>منطقه هوایی شهید بابائی منازل سازمانی جنب مسجد جعفر طیار</address>
+		<tel>5774389</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>34.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>فردوسي</amozeshgah>
+		<address>خ کاشاني شمالي، خیابان جامی پلاک 412</address>
+		<tel>3390490</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>35.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>قدس</amozeshgah>
+		<address>خ کاوه</address>
+		<tel>4458575</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>36.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>کورش</amozeshgah>
+		<address>فلکه ملک شهر، ورودي خانه اصفهان، خ گلخانه مقابل دارو</address>
+		<tel>4421811</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>37.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>کيان</amozeshgah>
+		<address>خ رباط اول، کوی شهید مسعود استکی</address>
+		<tel>4449306</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>38.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>کیهان</amozeshgah>
+		<address>خ امام خمینی اول جاده خانه اصفهان </address>
+		<tel>3315931</tel>ا
+		<F7/>
+	</row>
+	<row>
+		<radif>39.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>لاله</amozeshgah>
+		<address>خ جی خ پروین نبش حکیم سنائی</address>
+		<tel>2288652</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>40.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>مشتاق</amozeshgah>
+		<address>خ بزرگمهر، خ هشت بهشت شرقي، مقابل امامزاده زید</address>
+		<tel>2664639</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>41.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>ملک شهر</amozeshgah>
+		<address>خ کاوه، سه راه ملک شهر، خ بهارستان</address>
+		<tel>4403500</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>42.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>مهر</amozeshgah>
+		<address>سپاهان شهر، بلوار غدير، نبش خوارزمی 3</address>
+		<tel>6511918</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>43.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>میعاد</amozeshgah>
+		<address>خ آتشگاه جنب قوامین</address>
+		<tel>7710025</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>44.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>ميلاد</amozeshgah>
+		<address>خ بزرگمهر، انتهاي خ رکن الدوله</address>
+		<tel>2664742</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>45.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>نمونه</amozeshgah>
+		<address>خ جي روبروي ترمينال جي</address>
+		<tel>5219664</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>46.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>هاتف</amozeshgah>
+		<address>خ سجاد، ایستگاه نورافکن</address>
+		<tel>6604001</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>47.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>هما</amozeshgah>
+		<address>خ امام خمینی  روبروی پارک قلمستان</address>
+		<tel>3342179</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>48.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>همشهري</amozeshgah>
+		<address>خ پروين، جنب بانک سپه</address>
+		<tel>5678400</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>49.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>هنر</amozeshgah>
+		<address>بلوار آزادگان ابتدای خیابان آیت الله خوانساری</address>
+		<tel>6619783</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>50.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اصفهان</shahr>
+		<amozeshgah>ياس</amozeshgah>
+		<address>خ جی خ خواجه عمید ابتدای خ قدس پ 5</address>
+		<tel>2315377</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>51.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>بادرود</shahr>
+		<amozeshgah>باقری</amozeshgah>
+		<address>میدان امام حسین خ ایت الله سعیدی جلب منبع آب</address>
+		<tel>4348825</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>52.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>باغبهادران</shahr>
+		<amozeshgah>ایران مهر</amozeshgah>
+		<address>باغبهادران خ شهرداری</address>
+		<tel>6225077</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>53.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>تیران</shahr>
+		<amozeshgah>امام رضا</amozeshgah>
+		<address>بلوار امام خمینی جنب دفتر خانه 155</address>
+		<tel>3223034</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>54.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>تیران</shahr>
+		<amozeshgah>امام علی</amozeshgah>
+		<address>بلوار امام خ مهر</address>
+		<tel>7728225</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>55.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>جار</shahr>
+		<amozeshgah>المهدی</amozeshgah>
+		<address>برآن جنوبی کیلومتر 15 جاده آبشار روستای جار</address>
+		<tel>8762988</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>56.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>جرقویه</shahr>
+		<amozeshgah>نیکان</amozeshgah>
+		<address>خ امام حسین روبروی پارک نگین کوچه حافظ</address>
+		<tel>7532145</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>57.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>جرقویه</shahr>
+		<amozeshgah>پارس</amozeshgah>
+		<address>محمدآباد خ شهرداری روبروی قلعه تاریخی</address>
+		<tel>7242186</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>58.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>چادگان</shahr>
+		<amozeshgah>مهدی</amozeshgah>
+		<address>خ خرمشهر روبروی کانون شهید باهنر</address>
+		<tel>4723554</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>59.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>خميني شهر</shahr>
+		<amozeshgah>بیتا</amozeshgah>
+		<address>خ 17شهریور چهار راه آب و فاضلاب</address>
+		<tel>3224569</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>60.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>خميني شهر</shahr>
+		<amozeshgah>تک</amozeshgah>
+		<address>بلوار منتظري، روبروي مسجد روح الله</address>
+		<tel>3224569</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>61.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>خميني شهر</shahr>
+		<amozeshgah>جوانان</amozeshgah>
+		<address>بلوار اشرفی اصفهانی روبروی 16 متری</address>
+		<tel>3678600</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>62.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>خميني شهر</shahr>
+		<amozeshgah>خشايار</amozeshgah>
+		<address>خ امام شمالي، مقابل داروخانه پاستور</address>
+		<tel>3626193</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>63.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>خميني شهر</shahr>
+		<amozeshgah>دریا</amozeshgah>
+		<address>خ امیرکبیر روبروی نمایندگی سایپا</address>
+		<tel>3515201</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>64.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>خميني شهر</shahr>
+		<amozeshgah>سروش</amozeshgah>
+		<address>درچه خ نواب صفوی</address>
+		<tel>3515201</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>65.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>خوانسار</shahr>
+		<amozeshgah>صبا</amozeshgah>
+		<address>خ شهید رجایی جنب سرچشمه</address>
+		<tel>2224311</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>66.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>خوانسار</shahr>
+		<amozeshgah>ملت</amozeshgah>
+		<address>سه راه سرهنگ</address>
+		<tel>2233060</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>67.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>خورزوق</shahr>
+		<amozeshgah>قائم</amozeshgah>
+		<address>بلوار ولیعصر جنب کلانتری 17</address>
+		<tel>5463337</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>68.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>خوروبیابانک</shahr>
+		<amozeshgah>امین</amozeshgah>
+		<address>خیابان آیت الله طالقانی</address>
+		<tel>4222350</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>69.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>داران</shahr>
+		<amozeshgah>سمند</amozeshgah>
+		<address>خ مدرس جنب اتحادیه اصناف</address>
+		<tel>4227333</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>70.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>داران</shahr>
+		<amozeshgah>محمد</amozeshgah>
+		<address>فریدن بلوار طالقانی روبروی هلال احمد</address>
+		<tel>4224443</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>71.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>دولت آباد</shahr>
+		<amozeshgah>احسان</amozeshgah>
+		<address>میدان انقلاب اسلامی ابتدای بلوار دانشگاه  جنب ایستگاه گاز</address>
+		<tel>5828841</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>72.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>دهاقان</shahr>
+		<amozeshgah>چاوید</amozeshgah>
+		<address>میدان انقلاب اسلامی روبروی سینما آزادی</address>
+		<tel>2623221</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>73.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>دهق</shahr>
+		<amozeshgah>مهر</amozeshgah>
+		<address>پایینتر از بانک ملی دست چپ</address>
+		<tel>2623221</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>74.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>زرين شهر</shahr>
+		<amozeshgah>رازي</amozeshgah>
+		<address>فلکه نماز، خ شهيد رجايي، فرعي رازي</address>
+		<tel>2238183</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>75.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>زرين شهر</shahr>
+		<amozeshgah>نوين</amozeshgah>
+		<address>خ جانبازان جنب ترمينال مسافربري</address>
+		<tel>2232700</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>76.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>سده لنجان</shahr>
+		<amozeshgah>امین</amozeshgah>
+		<address>خیابان توحید</address>
+		<tel>2433882</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>77.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>سمیرم</shahr>
+		<amozeshgah>سعید</amozeshgah>
+		<address>خیابان قدس ابتدای بلوار دنا</address>
+		<tel>3222130</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>78.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>سمیرم</shahr>
+		<amozeshgah>وحید</amozeshgah>
+		<address>خیابان مولوی جنب کوچه شهید منصورزاده</address>
+		<tel>3225622</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>79.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>شاهین شهر</shahr>
+		<amozeshgah>بهنام</amozeshgah>
+		<address>خیابان عطار فرعی 4 شرقی پلاک 195</address>
+		<tel>5229111</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>80.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>شاهین شهر</shahr>
+		<amozeshgah>شاهین</amozeshgah>
+		<address>بلوار شهید منتظری بین فرعی 6 و 7</address>
+		<tel>5222600</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>81.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>شاهین شهر</shahr>
+		<amozeshgah>غدیر</amozeshgah>
+		<address>خیابان شهید بهشتی فرعی 13 غربی پ 82</address>
+		<tel>5223400</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>82</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>شاهین شهر</shahr>
+		<amozeshgah>مسرور</amozeshgah>
+		<address>بلوار شهید منتظری نبش فرعی 4 غربی </address>
+		<tel>5221555</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>83</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>شهر رضا</shahr>
+		<amozeshgah>توحید</amozeshgah>
+		<address>میدان طالقانی اول خیابان حافظ شرقی </address>
+		<tel>3230926</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>84</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>رضاشهر</shahr>
+		<amozeshgah>حافظ</amozeshgah>
+		<address>خیابان شهید بهشتی روبروی پمپ بنزین  </address>
+		<tel>2221177</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>85</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>رضاشهر</shahr>
+		<amozeshgah>هنر</amozeshgah>
+		<address>میدان شهدا جنب آتش نشانی </address>
+		<tel>2222275</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>86</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>علویجه</shahr>
+		<amozeshgah>فرهنگ</amozeshgah>
+		<address>خیابان امام نرسیده به خیابان شهید رجایی </address>
+		<tel>4243535</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>87</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>فریدون شهر</shahr>
+		<amozeshgah>پیام</amozeshgah>
+		<address>فریدون شهر بلوار بسیج جنب کوی فرهنگیان </address>
+		<tel>5291333</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>88</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>فلاورجان</shahr>
+		<amozeshgah>آفتاب شهر ابریشم</amozeshgah>
+		<address>بلوار الغدیر نبش کوچه اشرفی اصفهانی </address>
+		<tel>3427501</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>89</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>فلاورجان</shahr>
+		<amozeshgah>احسان کلیشاد</amozeshgah>
+		<address>کلیشاد خیابان شهید مطهری خیابان رجایی </address>
+		<tel>3185239</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>90</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>فلاورجان</shahr>
+		<amozeshgah>امید</amozeshgah>
+		<address>خیابان مدرس جنب ساختمان اداری تربیت بدنی </address>
+		<tel>3134500</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>91</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>فلاورجان</shahr>
+		<amozeshgah>ایثار پیر بکران</amozeshgah>
+		<address>خیابان شهید مطهری کوجه پرستو</address>
+		<tel>3826487</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>92</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>فلاورجان</shahr>
+		<amozeshgah>پارسا</amozeshgah>
+		<address>میدان معلم خیابان آزادگان جنب بهزیستی </address>
+		<tel>3123746</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>93</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>فلاورجان</shahr>
+		<amozeshgah>ساحل</amozeshgah>
+		<address>آخر خیابان امام  </address>
+		<tel>3133560</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>94</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>فلاورجان</shahr>
+		<amozeshgah>سلمان مینا دشت</amozeshgah>
+		<address>خ شهید بهشتی پ34 </address>
+		<tel>3470131</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>95</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>فلاورجان</shahr>
+		<amozeshgah>سلمان قهدریجان</amozeshgah>
+		<address>بلوار امام  </address>
+		<tel>3625434</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>96.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>فولادشهر</shahr>
+		<amozeshgah>آزمايش</amozeshgah>
+		<address>محله ب2، خ مدرس پ 682</address>
+		<tel>2633398</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>97.</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>کاشان</shahr>
+		<amozeshgah>زعيم</amozeshgah>
+		<address>خ  مدرس</address>
+		<tel>556457</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>98</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>فولاد شهر</shahr>
+		<amozeshgah>طلوع</amozeshgah>
+		<address>بلوار امام خمینی فلکه سی1 </address>
+		<tel>2642748</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>99</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>قمصر</shahr>
+		<amozeshgah>امیر کبیر</amozeshgah>
+		<address>محله پایین بلوار امام خمینی جنب داروخانه خردمند </address>
+		<tel>3624049</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>100</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>کوهپایه</shahr>
+		<amozeshgah>قانون</amozeshgah>
+		<address>کوهپایه خیابان امام </address>
+		<tel>6224000</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>101</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>کاشان</shahr>
+		<amozeshgah>بهمن</amozeshgah>
+		<address>خیابان غیاث الدین جمشید روبروی کاشی کاشان پلاک 41 </address>
+		<tel>4228686</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>102</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>کاشان</shahr>
+		<amozeshgah>گلشن</amozeshgah>
+		<address> روبروی فرمانداری بلوار خادمي</address>
+		<tel>5555503</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>103</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>گلپايگان</shahr>
+		<amozeshgah>انجمن</amozeshgah>
+		<address> خ ایت .... گلپایگانی حد فاصل مسجد فاطمیه و خ شهید احمدی</address>
+		<tel>3252752</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>103</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>گلپايگان</shahr>
+		<amozeshgah>موسوي</amozeshgah>
+		<address>خ مسجد جامع نرسیده به سراه مرکز بهداشت</address>
+		<tel>3252752</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>104</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>مبارکه</shahr>
+		<amozeshgah>کيوان</amozeshgah>
+		<address>محله صفائيه، خ عطار نيشابوري، خ ناصر خسرو</address>
+		<tel>5274402</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>105</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>نجف آباد</shahr>
+		<amozeshgah>ايران زمين</amozeshgah>
+		<address>يزدانشهر بلوار امام، بلوار شهيد مطهري، خ 23 غربي</address>
+		<tel>2449097</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>106</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>نجف آباد</shahr>
+		<amozeshgah>ارگ</amozeshgah>
+		<address>انتهاي خ شيخ بهائي، بلوار بهارستان، بالاتر از ارگ</address>
+		<tel>2651000</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>107</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>نجف آباد</shahr>
+		<amozeshgah>اميد</amozeshgah>
+		<address>فلکه آزادگان، بلوار طالقاني بعد از خ قدس شرقي</address>
+		<tel>2643095</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>108</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>آران و بيدگل</shahr>
+		<amozeshgah>ستاري</amozeshgah>
+		<address>ميدان آزدگان بلوار طالقانی بعد از خیابان قدس شرقی </address>
+		<tel>2743095</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>109</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>اردستان</shahr>
+		<amozeshgah>کريمي</amozeshgah>
+		<address>خ شهيد فائق</address>
+		<tel>5242569</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>110</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>کاشان</shahr>
+		<amozeshgah>رخمشاه</amozeshgah>
+		<address>بلوار خادمی جنب فرمانداری  </address>
+		<tel>5550950</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>111</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>مبارکه</shahr>
+		<amozeshgah>فرزاد</amozeshgah>
+		<address>فلکه جهاد،‌ابتدا خ شهدا</address>
+		<tel>5236300</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>112</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>نائين</shahr>
+		<amozeshgah>چاوشي</amozeshgah>
+		<address>بلوار شهید مطهری روبروی رستوران گلچین</address>
+		<tel>2254634</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>113</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>نائين</shahr>
+		<amozeshgah>رضائي</amozeshgah>
+		<address>خ آزدگان ک شهيد خليل سلطان</address>
+		<tel>2255513</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>114</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>نجف آباد</shahr>
+		<amozeshgah>ملک محمدي</amozeshgah>
+		<address>خ دکتر شريعتي مقابل اورژانس بيمارستان منتظري</address>
+		<tel>2647634</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>114</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>نجف آباد</shahr>
+		<amozeshgah>سجاد</amozeshgah>
+		<address>خ شريعتي روبروي سازمان آب</address>
+		<tel>2626737</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>115</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>نجف آباد</shahr>
+		<amozeshgah>بعثت</amozeshgah>
+		<address>يزدانشهر بلوار منتظري غربي جنب مسجد جامع ولي عصر عج</address>
+		<tel>2441226</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>116</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>نطنز</shahr>
+		<amozeshgah>علي</amozeshgah>
+		<address>روبروی شهرداری خ سلمان فارس</address>
+		<tel>4245504</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>117</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>کاشان</shahr>
+		<amozeshgah>سلامی</amozeshgah>
+		<address>خ امیر کبیر بلوار الغدیر</address>
+		<tel>5337000</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>118</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>کاشان</shahr>
+		<amozeshgah>سهند</amozeshgah>
+		<address>ابتدای خ شمس ابادی</address>
+		<tel>4227333</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>119</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>کاشان</shahr>
+		<amozeshgah>سیلک</amozeshgah>
+		<address>ابتدای خیابان امیر کبیر جنب بانک ملی </address>
+		<tel>5330077</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>120</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>کاشان</shahr>
+		<amozeshgah>سینا</amozeshgah>
+		<address>بلوار مطهری جنب طباخی زیتون</address>
+		<tel>5560072</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>121</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>کاشان</shahr>
+		<amozeshgah>شهروند</amozeshgah>
+		<address>خیابان 22 بهمن روبه روی کوچه بلندیان</address>
+		<tel>4464241</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>122</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>گزبرخوار</shahr>
+		<amozeshgah>پیام</amozeshgah>
+		<address>بلوار معلم جنب کوچه جاوید</address>
+		<tel>5727131</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>123</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>گلپایگان</shahr>
+		<amozeshgah>جهانگیری</amozeshgah>
+		<address>خیابان طالقانی جنب پایگاه بسیج خواهران</address>
+		<tel>3222325</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>124</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>گلپایگان</shahr>
+		<amozeshgah>رسالت</amozeshgah>
+		<address>بلوار ایت ...بهشتی خیابان ولی عصر عج پ 11</address>
+		<tel>3241096</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>125</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>گلدشت</shahr>
+		<amozeshgah>فرنگیان</amozeshgah>
+		<address>نجف اباد گلدشت گلشهر بعد از کلانتری</address>
+		<tel>2237790</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>126</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>مبارکه</shahr>
+		<amozeshgah>خورشید زیباشهر</amozeshgah>
+		<address>زیبا شهر محله اذرگان خیابان جانبازان بعد از گارگاه مقدس</address>
+		<tel>45544740</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>127</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>مبارکه</shahr>
+		<amozeshgah>طلوع زیبا شهر</amozeshgah>
+		<address>محله خولنجان خیابان شریعتی</address>
+		<tel>5542999</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>128</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>میمه</shahr>
+		<amozeshgah>عاطف میمه</amozeshgah>
+		<address> میمه خیابان هاتف</address>
+		<tel>4222203</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>129</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>نجف اباد </shahr>
+		<amozeshgah>ایمان</amozeshgah>
+		<address>خیابان دکتر شریعتی</address>
+		<tel>2647483</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>130</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>نجف اباد</shahr>
+		<amozeshgah>شریعتی </amozeshgah>
+		<address>خیابان فرد وسیقبل از سراه نوبهار</address>
+		<tel>2701088</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>131</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>ورزنه</shahr>
+		<amozeshgah>نگین کویر</amozeshgah>
+		<address>شهرک امام جعفر صادق خیابان طالاب </address>
+		<tel>6482007</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>132</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>ویلا شهر </shahr>
+		<amozeshgah>قدس</amozeshgah>
+		<address>نجف اباد ویلا شهر بلوار شهید باهنر</address>
+		<tel>2250589</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>133</radif>
+		<ostan>اصفهان</ostan>
+		<shahr>هرند</shahr>
+		<amozeshgah>ادینه</amozeshgah>
+		<address>هرند خیابان امام زاذه اسحاق</address>
+		<tel>6334153</tel>
+		<F7/>
+	</row>
+	
+</document>

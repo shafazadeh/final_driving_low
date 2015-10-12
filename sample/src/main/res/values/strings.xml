@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Material View Pager</string>
+    <string name="hello">Hello World, DrivingLowActivity!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="farin_idea">فرین ایده</string>
+    <string name="activity">فرین ایده</string>
+    <string name="tab1">تابلو ها</string>
+    <string name="tab2">قوانین</string>
+    <string name="tab3">سئوالات</string>
+
+
+</resources>

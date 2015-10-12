@@ -1,0 +1,182 @@
+﻿<document>
+	<row>
+		<radif>1.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>ابهر</shahr>
+		<amozeshgah>حافظ</amozeshgah>
+		<address>خیابان دکتر بهشتی اول خیابان شهدا دست بس پلاک 75</address>
+		<tel>5263311</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>2.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>ابهر</shahr>
+		<amozeshgah>سينا</amozeshgah>
+		<address>اول خیابان 17 شهریور پلاک 10 کد پستی 4561653949</address>
+		<tel>5222636</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>3.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>ابهر</shahr>
+		<amozeshgah>لقمان</amozeshgah>
+		<address>بلوار خرمشهر جنب شهرداری نبش کوچه خورشید</address>
+		<tel>5242700</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>4.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>ابهر</shahr>
+		<amozeshgah>هما</amozeshgah>
+		<address>شهرک فرهنگيان، بلوار بسيج، خ بيست و چهارم بوستان</address>
+		<tel>5226656</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>5.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>خدابنده</shahr>
+		<amozeshgah>ارس</amozeshgah>
+		<address>خ سهروردي کوچه حقيقت جنب شرکت نفت</address>
+		<tel>4225059</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>6.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>خدابنده</shahr>
+		<amozeshgah>صفا منش</amozeshgah>
+		<address>اول جاده حصار  روبروی کلانتری 11</address>
+		<tel>4210850</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>7.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>خرمدره</shahr>
+		<amozeshgah>امید </amozeshgah>
+		<address>شهرک قدس بوستان پنجم پلاک 18</address>
+		<tel>5521680</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>8.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>خرمدره</shahr>
+		<amozeshgah>نغمه</amozeshgah>
+		<address>خ شهید کاظمی ابتدای کوچه شهید ایوبی</address>
+		<tel>5523531</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>9.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>زرین آباد</shahr>
+		<amozeshgah>زرین</amozeshgah>
+		<address>45 متری خیابان امام جنب پاسگاه انتظامی</address>
+		<tel>3722830</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>10.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>زنجان</shahr>
+		<amozeshgah>بهروز</amozeshgah>
+		<address>خ صفا، بالاتر از دانشکده دندانپزشکی شفيعيه، پلاک 83</address>
+		<tel>4242556</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>11.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>زنجان</shahr>
+		<amozeshgah>سينا رانش</amozeshgah>
+		<address>بزرگراه 22 بهمن، ميدان مدرس، روبروي کلینیک شهید مطهری </address>
+		<tel>5239757</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>12.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>زنجان</shahr>
+		<amozeshgah>صابر</amozeshgah>
+		<address>بلوار آزادي، خ کشاورز، نرسيده به مزار شهدا پ 10</address>
+		<tel>3225728</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>13.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>زنجان</shahr>
+		<amozeshgah>فجر</amozeshgah>
+		<address>خ جمهوري روبروي خ دهم اعتماديه پلاک 136</address>
+		<tel>4246855</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>14.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>زنجان</shahr>
+		<amozeshgah>کوثر</amozeshgah>
+		<address>اول خ فرودگاه، روبروی بسیج خواهران</address>
+		<tel>5259781</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>15.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>زنجان</shahr>
+		<amozeshgah>گلشن مهارت</amozeshgah>
+		<address>فلکه کوچه مشکي، خ سرداران شهيد، جنب اداره صنايع و معادن</address>
+		<tel>4251808</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>16.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>زنجان</shahr>
+		<amozeshgah>نصر</amozeshgah>
+		<address>چهارراه معلم روبروي بانک سپه جنب بانک مسکن</address>
+		<tel>3260739</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>17.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>زنجان</shahr>
+		<amozeshgah>نيکو گستر</amozeshgah>
+		<address>اسلام آباد، 20 متري شهيد دستغيب پلاک 81/4</address>
+		<tel>5244041</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>18.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>زنجان</shahr>
+		<amozeshgah>وليعصر</amozeshgah>
+		<address>بلوار 22 بهمن، اراضي نيک سازان جنب پمپ گاز</address>
+		<tel>7283151</tel>
+		<F7/>
+	</row>	
+	<row>
+		<radif>19.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>آببر-طارم</shahr>
+		<amozeshgah>ارشد</amozeshgah>
+		<address>خ رسالت روبروی اداره ثبت احوال</address>
+		<tel>2823198</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>20.</radif>
+		<ostan>زنجان</ostan>
+		<shahr>هیدج</shahr>
+		<amozeshgah>حمید</amozeshgah>
+		<address>خیابان شهید مطهری نبش چهارراه سعدی پلاک 25</address>
+		<tel>5750444</tel>
+		<F7/>
+	</row>
+</document>

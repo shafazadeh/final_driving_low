@@ -1,0 +1,58 @@
+<com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/material_view_pager_placeholder"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/cardMarginVertical"
+            android:layout_marginLeft="@dimen/cardMarginHorizontal"
+            android:layout_marginRight="@dimen/cardMarginHorizontal"
+            android:layout_marginTop="@dimen/cardMarginVertical"
+            android:background="@android:color/white"
+            app:cardElevation="4dp">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="left"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+
+
+
+                <GridView
+                    android:id="@+id/gridView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="350dp"
+                    android:layout_margin="4dp"
+                    android:columnWidth="90dp"
+                    android:gravity="center"
+                    android:numColumns="2"
+                    android:background="@drawable/forground"
+                    android:horizontalSpacing="5dip"
+                    android:stretchMode="spacingWidthUniform"
+                    android:verticalSpacing="5dip"
+                    android:isScrollContainer="true"
+                    >
+                </GridView>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</com.github.ksoichiro.android.observablescrollview.ObservableScrollView>

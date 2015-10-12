@@ -1,0 +1,227 @@
+﻿<document>
+	<row>
+		<radif>1.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>کريمي</amozeshgah>
+		<address>بلوار امين جنب پل هوائي</address>
+		<tel>2912126</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>2.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>صادقي</amozeshgah>
+		<address>45 متري 15 خرداد جنب اداره صنايع</address>
+		<tel>7770666</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>3.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>بهمن</amozeshgah>
+		<address>خيابان امام خميني روبروي 20 متري شهيد بهشتي</address>
+		<tel>6601634</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>4.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>شاهد</amozeshgah>
+		<address>بلوار صدوق نبش صدوق 29</address>
+		<tel>2910491</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>5.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>منوچهري</amozeshgah>
+		<address>بلوار دل‌آذر بعد از سه راه زاويه پ 2000</address>
+		<tel>7237417</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>6.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>امين</amozeshgah>
+		<address>نيروگاه 20 متري جواد الائمه 45 متري احدائي</address>
+		<tel>8816254</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>7.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>ايثار</amozeshgah>
+		<address>ابتداي سالاريه بلوار شهيد گلزاري بين کوي 15 متري گلزاري نواب</address>
+		<tel>2922160</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>8.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>مهدي</amozeshgah>
+		<address>خيابان سميه نرسيده به دور شهر روبروي بانک تجارت</address>
+		<tel>7733385</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>9.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>حقيقت</amozeshgah>
+		<address>ميدان نبوت بلوار کشاورز کشاورز 2 سمت چپ</address>
+		<tel>8858585</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>10.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>ابراهيم گل</amozeshgah>
+		<address>ميدان آزادگان 24 متري شهيد چمران بين کوچه 25 و 27</address>
+		<tel>6702828</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>11.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>يگانه</amozeshgah>
+		<address>بلوار پانزده خرداد عمار ياسر نبش کوچه 39</address>
+		<tel>7755321</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>12.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>ايراني</amozeshgah>
+		<address>خيابان آذر مقابل بيمارستان ايزدي</address>
+		<tel>7755911</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>13.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>سميه</amozeshgah>
+		<address>بلوار امين 30 متري مفتح نبش حافظ روبروي پيش دانشگاهي پ 49</address>
+		<tel>2935300</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>14.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>بختياري</amozeshgah>
+		<address>ميدان مطهري ابتداي خيابان خاک فرج</address>
+		<tel>6604434</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>15.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>ياس</amozeshgah>
+		<address>45 متري صدوق 20 متري امام حسين</address>
+		<tel>2881311</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>16.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>نيلوفر</amozeshgah>
+		<address>خيابان خيام جنوبي جنب درمانگاه</address>
+		<tel>6706333</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>17.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>مهران</amozeshgah>
+		<address>خيابان هفتم تير جنب مسجد زينب کبري روبروي کوچه 82 پ 387</address>
+		<tel>6706620</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>18.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>مصباح</amozeshgah>
+		<address>ميدان آزادگان بلوار شهيدعابدي نرسيده به ميدان شهيد دقائقي</address>
+		<tel>6704912</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>19.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>فرخ</amozeshgah>
+		<address>خيابان امامزاده ابراهيم بين کوچه 66 و 68</address>
+		<tel>8851080</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>20.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>فراهاني</amozeshgah>
+		<address>خيابان دانيال بعد از تقاطع 20 متري امام حسين نبش کوچه 27</address>
+		<tel>2883444</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>21.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>عسگري</amozeshgah>
+		<address>45 متري صدوق انتهاي 20 متري ابوالفضل</address>
+		<tel>2920192</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>22.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>شفيعي</amozeshgah>
+		<address>45 متري خرداد روبروي ساختمان حج و زيارت</address>
+		<tel>7760236</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>23.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>زارعي</amozeshgah>
+		<address>خيابان امام نبش 20 متري سهيلي</address>
+		<tel>6666694</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>24.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>نسيما</amozeshgah>
+		<address>نيروگاه بعد از پل قبل از ميدان توحيد دست چپ پ 246</address>
+		<tel>8816070</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>25.</radif>
+		<ostan>قم</ostan>
+		<shahr>قم</shahr>
+		<amozeshgah>هدي</amozeshgah>
+		<address>صفاشهر بالاتر از مسجد الزهرا پ 127</address>
+		<tel>2853218</tel>
+		<F7/>
+	</row>
+</document>

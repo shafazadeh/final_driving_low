@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bgmain">
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="@drawable/topbar" android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back" android:layout_marginTop="4dp" android:layout_marginLeft="4dp"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:fadingEdge="none"
+        android:paddingBottom="5.0dip" android:layout_marginTop="50dp" android:background="@drawable/trans" android:scrollbars="none">
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:shrinkColumns="*"
+            android:stretchColumns="*" >
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" android:layout_marginTop="10dp">
+
+                <HorizontalScrollView
+                    android:id="@+id/hsvSubjectShelf1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:isScrollContainer="false"
+                    android:scrollbars="none" >
+
+                    <LinearLayout
+                        android:id="@+id/llhsv1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="top"
+                        android:isScrollContainer="false"
+                        android:orientation="horizontal"
+                        android:scrollbars="none" android:layout_marginTop="20dp">
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </RelativeLayout>
+        </TableLayout>
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:padding="15dp" android:layout_above="@id/relativeLayout2" android:layout_marginBottom="50dp">
+
+        <ImageButton
+            android:contentDescription="@string/app_name"
+            android:id="@+id/low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:background="@drawable/low" android:layout_marginLeft="28dp" android:layout_marginTop="20dp"/>
+
+        <ImageButton
+            android:contentDescription="@string/app_name"
+            android:id="@+id/questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" android:background="@drawable/question" android:layout_marginRight="25dp" android:layout_marginTop="20dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

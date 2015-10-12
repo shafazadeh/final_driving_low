@@ -1,0 +1,1298 @@
+﻿<document>
+	<row>
+		<radif>1.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>آرش</amozeshgah>
+		<mantagheh>1</mantagheh>
+		<address>اوين ميدان دانشگاه شهيد بهشتي ابتدای خ درکه پ 4</address>
+		<tel>22400646</tel>
+	</row>
+	<row>	
+		<radif>2.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>اقدسيه</amozeshgah>
+		<mantagheh>1</mantagheh>
+		<address>اقدسیه خ فیروز بخش پاساژ صدف ط دوم پ 4 واحد 4</address>
+		<tel>22815650</tel>
+	</row>
+	<row>
+		<radif>3.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>امين</amozeshgah>
+		<mantagheh>1</mantagheh>
+		<address>ولیعصر پارک وی ایستگاه محمودیه پ 1460</address>
+		<tel>22666355</tel>
+	</row>
+	<row>
+		<radif>4.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>سوم شعبان</amozeshgah>
+		<mantagheh>1</mantagheh>
+		<address>بزرگ راه شهید بابایی بعد از پل لشکرک شهرک مسکونی دانشگاه امام حسین(ع)</address>
+		<tel>77103989</tel>
+	</row>
+	<row>
+		<radif>5.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>صدف لواسان</amozeshgah>
+		<mantagheh>1</mantagheh>
+		<address>لواسان بلوار امام خميني (ره) نرسيده به ميدان گلندوک روبروی بانک صادرات پلاک 819</address>
+		<tel>02214521166</tel>
+	</row>
+	<row>
+		<radif>6.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>قیطریه</amozeshgah>
+		<mantagheh>1</mantagheh>
+		<address>چیذر میدان ندا خیابان شهید سلیمی پلاک 26</address>
+		<tel>22694047</tel>
+	</row>
+	<row>
+		<radif>7.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>شمیران مهر</amozeshgah>
+		<mantagheh>1</mantagheh>
+		<address>میدان تجریش خیابان شهرداری جنب سینما آستارا</address>
+		<tel>22724636</tel>
+	</row>
+	<row>
+		<radif>8.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>آزمایش</amozeshgah>
+		<mantagheh>2</mantagheh>
+		<address>شهرک ژاندارمری بلوار مرزداران نبش خیابان اطاعتی جنوبی ساختمان شایان، ط چهارم</address>
+		<tel>88269933</tel>
+	</row>
+	<row>
+		<radif>9.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>اتحاد داوری</amozeshgah>
+		<mantagheh>2</mantagheh>
+		<address>فلکه اول صادقیه ضلع جنوب غربی فلکه پلاک 1426</address>
+		<tel>44215959</tel>
+	</row>
+	<row>
+		<radif>10.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>احتياط</amozeshgah>
+		<mantagheh>2</mantagheh>
+		<address>بزرگراه جلال آل احمد زير پل نصر (گيشا) پلاک 47</address>
+		<tel>88266264</tel>
+	</row>
+	<row>
+		<radif>11.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ایثار</amozeshgah>
+		<mantagheh>2</mantagheh>
+		<address>بلوار مرزداران خیابان ایثار مجتمع اداری مسجد امیرالمومنین پلاک 48</address>
+		<tel>44212838</tel>
+	</row>
+	<row>
+		<radif>12.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ایران زمین</amozeshgah>
+		<mantagheh>2</mantagheh>
+		<address>شهرک غرب فاز 1 خ ایران زمین مجتمع ایران زمین ط2</address>
+		<tel>88071552</tel>
+	</row>
+	<row>
+		<radif>13.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پردیس</amozeshgah>
+		<mantagheh>2</mantagheh>
+		<address>سعادت آباد بلوار دریا ربروی مسجد قدس پ 178</address>
+		<tel>88688260</tel>
+	</row>
+	<row>
+		<radif>14.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>تیموری</amozeshgah>
+		<mantagheh>2</mantagheh>
+		<address>خ آزادی خ محمد علی جناح خ صالحی خ عباس اکبری پلاک 99</address>
+		<tel>66046768</tel>
+	</row>
+	<row>
+		<radif>15.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>دریا</amozeshgah>
+		<mantagheh>2</mantagheh>
+		<address> شهرک غرب بلوار شهید فرح زادی بلوار دریا پلاک 23</address>
+		<tel>88076832</tel>
+	</row>
+	<row>
+		<radif>16.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>سپهر</amozeshgah>
+		<mantagheh>2</mantagheh>
+		<address>ستار خان سه راه تهران ویلا پلاک 865</address>
+		<tel>66509061</tel>
+	</row>
+	<row>
+		<radif>17.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>غرب</amozeshgah>
+		<mantagheh>2</mantagheh>
+		<address>سعادت آباد نرسیده به میدان کاج نبش خ 16 ساختمان کاج پ1 ط2</address>
+		<tel>22060902</tel>
+	</row>
+	<row>
+		<radif>18.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>کاج</amozeshgah>
+		<mantagheh>2</mantagheh>
+		<address> ستارخان روبروی باقرخان پلاک 330</address>
+		<tel>66505309</tel>
+	</row>
+	<row>
+		<radif>19.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>کمال</amozeshgah>
+		<mantagheh>2</mantagheh>
+		<address>شهرآرا روبروی درب غربی پارک شهرآرا پ90</address>
+		<tel>88258386</tel>
+	</row>
+	<row>
+		<radif>20.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ارزمانی</amozeshgah>
+		<mantagheh>3</mantagheh>
+		<address>خیابان پاسداران بهارستان چهارم پلاک2</address>
+		<tel>22546742</tel>
+	</row>
+	<row>
+		<radif>21.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>دولت</amozeshgah>
+		<mantagheh>3</mantagheh>
+		<address>خ شریعتی بین زرگنده و پل آیت الله صدر روبروی پمپ بنزین الهیه پلاک1587</address>
+		<tel>22613737</tel>
+	</row>
+	<row>
+		<radif>22.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>دیباجی</amozeshgah>
+		<mantagheh>3</mantagheh>
+		<address> خ دولت انتهای خ دیباجی نبش بن بست رعنا پلاک 153</address>
+		<tel>22583687</tel>
+	</row>
+	<row>
+		<radif>23.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>سعدی</amozeshgah>
+		<mantagheh>3</mantagheh>
+		<address>خیابان دکتر شریعتی قلهک جنب خ شهید کلاهدوز پ1499</address>
+		<tel>22008586</tel>
+	</row>
+	<row>
+		<radif>24.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>شمس</amozeshgah>
+		<mantagheh>3</mantagheh>
+		<address>خ پاسداران خ دولت نبش مفاخری پ 493 ط1</address>
+		<tel>22541076</tel>
+	</row>
+	<row>
+		<radif>25.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ظفر</amozeshgah>
+		<mantagheh>3</mantagheh>
+		<address>خ شریعتی خ ظفر نبش ک امیر سهیل تبریزیان پ98 ط3</address>
+		<tel>22914732</tel>
+	</row>
+	<row>
+		<radif>26.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>اتحاد</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>فلکه چهارم تهران پارس خ وفادار شرقی بعد از بانک تجارت پ 81</address>
+		<tel>77372041</tel>
+	</row>
+	<row>
+		<radif>27.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ارس</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>مجیدیه شمالی بلوار بیژن روبروی گلستان اول پلاک 2 ط 1</address>
+		<tel>22517828</tel>
+	</row>
+	<row>
+		<radif>28.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>افشار </amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>فلکه دوم تهران پارس فرجام شرقی بعد از خ سراج پلاک 307 ط1 واحد 1و 3</address>
+		<tel>77457499</tel>
+	</row>
+	<row>
+		<radif>29.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>البرز</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>خیابان شریعتی بالاتر از سید خندان ابتدای خ خواجه عبداله انصاری پلاک2/1</address>
+		<tel>22841443</tel>
+	</row>
+	<row>
+		<radif>30.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>امید</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>رسالت خ هنگام جمع سازمان آب پ 514</address>
+		<tel>77275603</tel>
+	</row>
+	<row>
+		<radif>31.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ایران</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>بزرگراه شهید باقری نرسیده به شهرک امید نبش ششم شرقی پ92</address>
+		<tel>77064441</tel>
+	</row>
+	<row>
+		<radif>32.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پارسیان</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address> فلکه دوم تهران پارس خ جشنواره نرسیده به چهارراه سیدالشهدا پلاک 43</address>
+		<tel>77299114</tel>
+	</row>
+	<row>
+		<radif>33.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پاسداران</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>پاسداران میدان شهید هروی مرکز خرید گلستان پلام 219 ط2 </address>
+		<tel>22947878</tel>
+	</row>
+	<row>
+		<radif>34.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>حکیمیه</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>تهران پارس حکیمیه بلوار بهار روبروی مسجد الزهرا (س) نبش بهشت 2 پ45</address>
+		<tel>77316101</tel>
+	</row>
+	<row>
+		<radif>35.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>شکوه</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>ميدان رسالت خ فرجام بلوار ارديبهشت ربروی 202 غربی پ 82</address>
+		<tel>77384988</tel>
+	</row>
+	<row>
+		<radif>36.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>عزیززاده شرق</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>تهران پارس، میدان شهدا، بعد از تقاطع 133 پ 245</address>
+		<tel>77780938</tel>
+	</row>
+	<row>
+		<radif>37.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>فانوس</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>ميدان رسالت انتهاي خ نيروي دريايي جنب خ الزهرا پلاک 83</address>
+		<tel>77226013</tel>
+	</row>
+	<row>
+		<radif>38.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>فيروزه</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>خيابان پاسداران نبش بوستان هفتم</address>
+		<tel>22588532</tel>
+	</row>
+	<row>
+		<radif>39.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>کوثر</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>ميني سيتي شهرک شهيد محلاتي مجتمع تجاري زيتون</address>
+		<tel>22455168</tel>
+	</row>
+	<row>
+		<radif>40.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>مريخ</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>خ فرجام بین عادل و زرین پ 54 واحد 1</address>
+		<tel>77864119</tel>
+	</row>
+	<row>
+		<radif>41.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>هنگام</amozeshgah>
+		<mantagheh>4</mantagheh>
+		<address>رسالت خ هنگام نبش بهار پلاک 1 </address>
+		<tel>77209445</tel>
+	</row>
+	<row>
+		<radif>42.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>آرام</amozeshgah>
+		<mantagheh>5</mantagheh>
+		<address>میدان پونک گلزار 3 پلاک 4</address>
+		<tel>44445103</tel>
+	</row>
+	<row>
+		<radif>43.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ابراهيمي</amozeshgah>
+		<mantagheh>5</mantagheh>
+		<address>فلکه دوم صادقیه ابتدای آیت الله کاشانی روبروی پارک استقلال پلاک 12</address>
+		<tel>44071763</tel>
+	</row>
+	<row>
+		<radif>44.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>اشعری</amozeshgah>
+		<mantagheh>5</mantagheh>
+		<address>بلوار آیت الله کاشانی بعد از سه راه جنت آباد نبش خ 200 دستگاه ساختمان امید واحد 22</address>
+		<tel>44134496</tel>
+	</row>
+	<row>
+		<radif>45.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>اکباتان</amozeshgah>
+		<mantagheh>5</mantagheh>
+		<address>اکباتان بلوار شهید نفيسی جنب فرهنگ آیه ساختمان سایه واحد 7</address>
+		<tel>44673030</tel>
+	</row>
+	<row>
+		<radif>46.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ايران پارس</amozeshgah>
+		<mantagheh>5</mantagheh>
+		<address>شهران نرسیده به فلکه دوم جنب زیر گذر شهران نبش ک قدس پ 2</address>
+		<tel>44315252</tel>
+	</row>
+	<row>
+		<radif>47.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>صادقيه</amozeshgah>
+		<mantagheh>5</mantagheh>
+		<address>ميدان صادقيه ابتداي آيت الله کاشاني روبروی پارک استقلال جنب بیمارستان سینا پلاک 44</address>
+		<tel>44079992</tel>
+	</row>
+	<row>
+		<radif>48.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>علی</amozeshgah>
+		<mantagheh>5</mantagheh>
+		<address>جنت آباد شمالي بالاتر از ايرانپارس 30 متري انصار المهدي بعد از فرهنگ سرای نور</address>
+		<tel>44833453</tel>
+	</row>
+	<row>
+		<radif>49.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>فردوس</amozeshgah>
+		<mantagheh>5</mantagheh>
+		<address>فلکه دوم صادقيه بلوار فردوس بين مالکي و سلیمی جهرمی ربروی مخابرات پ 149 ط1 </address>
+		<tel>44002928</tel>
+	</row>
+	<row>
+		<radif>50.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>محمد</amozeshgah>
+		<mantagheh>5</mantagheh>
+		<address>ميدان نور، شمالي ستاري شمالي نبش 20 خ باهنر شرقي پ 1</address>
+		<tel>44081600</tel>
+	</row>
+	<row>
+		<radif>51.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>مصطفي</amozeshgah>
+		<mantagheh>5</mantagheh>
+		<address>جنت آباد شاهین شمالی ابتدای هفتم شرقی پ 3</address>
+		<tel>44444999</tel>
+	</row>
+	<row>
+		<radif>52.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>نوين</amozeshgah>
+		<mantagheh>5</mantagheh>
+		<address>بلوار آيت الله کاشاني حد فاصل بلوار جنت آباد و خ لاله پلاک 2آ1</address>
+		<tel>44131787</tel>
+	</row>
+	<row>
+		<radif>53.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>هادی</amozeshgah>
+		<mantagheh>5</mantagheh>
+		<address>پونک سردار جنگل نبش بهار غربي پلاک 1</address>
+		<tel>44443722</tel>
+	</row>
+	<row>
+		<radif>54.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>امیر کبیر</amozeshgah>
+		<mantagheh>6</mantagheh>
+		<address>خ کارگر شمالی چهارراه نصرت پ 37</address>
+		<tel>88960042</tel>
+	</row>
+	<row>
+		<radif>55.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>بهار</amozeshgah>
+		<mantagheh>6</mantagheh>
+		<address>ميدان انقلاب ضلع شمالي غربي پلاک 1115</address>
+		<tel>66920296</tel>
+	</row>
+	<row>
+		<radif>56.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>روزبه</amozeshgah>
+		<mantagheh>6</mantagheh>
+		<address>دکتر فاطمي روبروي وزارت کشور پلاک 76</address>
+		<tel>88952532</tel>
+	</row>
+	<row>
+		<radif>57.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>صدف</amozeshgah>
+		<mantagheh>6</mantagheh>
+		<address>انتهاي خيابان کارگر شمالي خيابان 18 خيابان آزادگان پلاک 142 واحد 2</address>
+		<tel>88631010</tel>
+	</row>
+	<row>
+		<radif>58.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>گاندی</amozeshgah>
+		<mantagheh>6</mantagheh>
+		<address>خيابان وليعصر بالاتر از پارک ساعي نبش کوچه 32 پلاک 7 ط سوم</address>
+		<tel>88663938</tel>
+	</row>
+	<row>
+		<radif>59.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>مهران</amozeshgah>
+		<mantagheh>6</mantagheh>
+		<address>خ شهيد مطهري  نبش لارستان پ 136 طبقه اول</address>
+		<tel>88903808</tel>
+	</row>
+	<row>
+		<radif>60.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ولي عصر</amozeshgah>
+		<mantagheh>6</mantagheh>
+		<address>خ ولی نرسیده به میدان ولی عصر نبش ک نصر ساختمان 637 ط چهارم</address>
+		<tel>88940780</tel>
+	</row>
+	<row>
+		<radif>61.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پرنده ساحل</amozeshgah>
+		<mantagheh>7</mantagheh>
+		<address>نظام آباد خیابان شهید مدنی چهارراه گلچین روبروی مخابرات شهید مظاهری پ653 ط2</address>
+		<tel>77546575</tel>
+	</row>
+	<row>
+		<radif>62.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>تابان</amozeshgah>
+		<mantagheh>7</mantagheh>
+		<address>خ شریعتی انتهای خ معلم ابتدای خواجه نظام پ 1171/4</address>
+		<tel>88426688</tel>
+	</row>
+	<row>
+		<radif>63.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>حيدری</amozeshgah>
+		<mantagheh>7</mantagheh>
+		<address>خ دکتر شريعتي نرسيده به سينما مولن روژ (سروش) جنب ميثاق 3 طبقه فوقاني بانک صادرات</address>
+		<tel>77651177</tel>
+	</row>
+		<row>
+		<radif>64.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>دياموند</amozeshgah>
+		<mantagheh>7</mantagheh>
+		<address>ميدان 7 تير بالاتر از مسجد الجواد پلاک 311 ط اول</address>
+		<tel>88309323</tel>
+	</row>
+	<row>
+		<radif>65.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>رفيع</amozeshgah>
+		<mantagheh>7</mantagheh>
+		<address>خ انقلاب بين خ گرگان و پل چوبي پلاک 187</address>
+		<tel>77534842</tel>
+	</row>
+	<row>
+		<radif>66.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>زهره</amozeshgah>
+		<mantagheh>7</mantagheh>
+		<address>چهارراه نظام آباد ابتدای طیرانی پ 386</address>
+		<tel>88442244</tel>
+	</row>
+	<row>
+		<radif>67.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>صبا</amozeshgah>
+		<mantagheh>7</mantagheh>
+		<address>خ شریعتی سه راه زندان جنب مسجد نوريان پلاک 593</address>
+		<tel>88411973</tel>
+	</row>
+	<row>
+		<radif>68.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>قصر</amozeshgah>
+		<mantagheh>7</mantagheh>
+		<address>خيابان دکتر شريعتي چهار راه قصر پلاک 798</address>
+		<tel>88417017</tel>
+	</row>
+	<row>
+		<radif>69.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>هما</amozeshgah>
+		<mantagheh>7</mantagheh>
+		<address>ميدان امام حسين خ نامجو ايستگاه روشنايي روبروي بانک صادرات پاساژ اخوان طبقه دوم</address>
+		<tel>77553997</tel>
+	</row>
+	<row>
+		<radif>70.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>امیر</amozeshgah>
+		<mantagheh>8</mantagheh>
+		<address>نارمک خ گلبرگ غربی، چهارراه کرمان، ساختمان سبز پ 334</address>
+		<tel>77842368</tel>
+	</row>
+	<row>
+		<radif>71.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>چمن</amozeshgah>
+		<mantagheh>8</mantagheh>
+		<address>نارمک  46 متري غربي سه راه سمنگان پلاک 217</address>
+		<tel>77815677</tel>
+	</row>
+	<row>
+		<radif>72.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>حاتم</amozeshgah>
+		<mantagheh>8</mantagheh>
+		<address>نارمک چهار راه سر سبز پلاک 890</address>
+		<tel>77895929</tel>
+	</row>
+	<row>
+		<radif>73.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>راد</amozeshgah>
+		<mantagheh>8</mantagheh>
+		<address>فلکه اول تهران پارس خ گلبرگ نبش چهارراه رشید پ73 ط4</address>
+		<tel>77705593</tel>
+	</row>
+	<row>
+		<radif>74.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>شمس بومهن</amozeshgah>
+		<mantagheh>8</mantagheh>
+		<address>بومهن بلوار امام خمینی بالاتر از تالار محمد جنب بازار روز حبیبی ط1</address>
+		<tel>022112229901</tel>
+	</row>
+	<row>
+		<radif>75.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah> علوی بومهن</amozeshgah>
+		<mantagheh>8</mantagheh>
+		<address>بومهن انتهای بلوار اصلی پ 166</address>
+		<tel>02212233833</tel>
+	</row>
+	<row>
+		<radif>76.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>فدک</amozeshgah>
+		<mantagheh>8</mantagheh>
+		<address>تهران نارمک 30 متري گلستان روبروي پارک فدک نبش کوچه شيرازه ط 2 پلاک 17</address>
+		<tel>77842564</tel>
+	</row>
+	<row>
+		<radif>77.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>لشکر</amozeshgah>
+		<mantagheh>8</mantagheh>
+		<address>نارمک خ جانبازان غربی خ شهید حیدری پ255</address>
+		<tel>88414378</tel>
+	</row>
+	<row>
+		<radif>78.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>محمدی</amozeshgah>
+		<mantagheh>8</mantagheh>
+		<address>ميدان رسالت ابتدای شهيد مدني پلاک 32</address>
+		<tel>77458888</tel>
+	</row>
+	<row>
+		<radif>79.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>نارمک</amozeshgah>
+		<mantagheh>8</mantagheh>
+		<address> نارمک خ شهید آیت چهارراه تلفنخانه طبقه فوقانی دفتر پست شهید آیت پ248</address>
+		<tel>77900694</tel>
+	</row>
+	<row>
+		<radif>80.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پورزاد</amozeshgah>
+		<mantagheh>9</mantagheh>
+		<address>خ آزادی نرسيده به ميدان آزادی خ نجار زادگان طبقه بالاي بانک ملي پلاک 65</address>
+		<tel>66003828</tel>
+	</row>
+	<row>
+		<radif>81.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>مهر آباد</amozeshgah>
+		<mantagheh>9</mantagheh>
+		<address>مهر آباد خ امام محمد باقر (ع) نبش ک دربندی پ2</address>
+		<tel>66690260</tel>
+	</row>
+	<row>
+		<radif>82.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ناصر</amozeshgah>
+		<mantagheh>9</mantagheh>
+		<address>خ آزادی خ 21 متری ج نرسیده به چهارراه طوس پ272</address>
+		<tel>66030645</tel>
+	</row>
+	<row>
+		<radif>83.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>آذر</amozeshgah>
+		<mantagheh>10</mantagheh>
+		<address>خ رودکي قصرالدشت حد فاصل امام و مالک اشتر نبش بن بست صارمي پلاک 186</address>
+		<tel>66837785</tel>
+	</row>
+	<row>
+		<radif>84.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>آزادی</amozeshgah>
+		<mantagheh>10</mantagheh>
+		<address>خ آزادی روبروی خ حبیب الهی نبش کوچه نورپاش پ 6</address>
+		<tel>66003949</tel>
+	</row>
+	<row>
+		<radif>85.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>آهاري</amozeshgah>
+		<mantagheh>10</mantagheh>
+		<address>تقاطع شهید نواب صفوی خ آذربایجان روبروی ایستگاه مترو پ 571</address>
+		<tel>66902261</tel>
+	</row>
+	<row>
+		<radif>86.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>حسيني</amozeshgah>
+		<mantagheh>10</mantagheh>
+		<address>خ آزادي بین جیحون و آذربايجان نبش پستخانه کوچه شهيد زماني پلاک 1</address>
+		<tel>66062510</tel>
+	</row>
+	<row>
+		<radif>87.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>دلیجان</amozeshgah>
+		<mantagheh>10</mantagheh>
+		<address>خ رودکی چهارراه دامپزشکی پ 752</address>
+		<tel>66885203</tel>
+	</row>
+	<row>
+		<radif>88.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ربيعي</amozeshgah>
+		<mantagheh>10</mantagheh>
+		<address>خ آذربايجان تقاطع رودکي  پلاک 734</address>
+		<tel>66831132</tel>
+	</row>
+	<row>
+		<radif>89.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>نصرت</amozeshgah>
+		<mantagheh>10</mantagheh>
+		<address>خيابان 16 متري اميري (شهيد سبحاني)،نرسيده به سي متري جي پ 100، بالاي کفش بلا</address>
+		<tel>55774949</tel>
+	</row>
+	<row>
+		<radif>90.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ياس</amozeshgah>
+		<mantagheh>10</mantagheh>
+		<address>خ هاشمي بين جيحون و کارون پلاک 624 طبقه اول</address>
+		<tel>66363871</tel>
+	</row>
+	<row>
+		<radif>91.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>بوتيا</amozeshgah>
+		<mantagheh>11</mantagheh>
+		<address>خ جمهوري خيابان گلشن جنوبي خيابان حاج ملا علي پلاک 28</address>
+		<tel>66424206</tel>
+	</row>
+	<row>
+		<radif>92.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پرستو</amozeshgah>
+		<mantagheh>11</mantagheh>
+		<address>خ مولوی ضلع شمال غربی چهارراه وحدت اسلامی پ 296 و 294</address>
+		<tel>55370120</tel>
+	</row>
+	<row>
+		<radif>93.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پيروز</amozeshgah>
+		<mantagheh>11</mantagheh>
+		<address>خيابان هلال احمر روبروي بيمه ايران پلاک 290</address>
+		<tel>55646468</tel>
+	</row>
+	<row>
+		<radif>94.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>تهران</amozeshgah>
+		<mantagheh>11</mantagheh>
+		<address>خيابان وليعصر ميدان منيريه پلاک 3</address>
+		<tel>66413380</tel>
+	</row>
+	<row>
+		<radif>95.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>سهرابي</amozeshgah>
+		<mantagheh>11</mantagheh>
+		<address>خيابان وليعصر چهار راه معزالسلطان طبقه دوم قناندي لادن پ 614</address>
+		<tel>55371089</tel>
+	</row>
+	<row>
+		<radif>96.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>جهان</amozeshgah>
+		<mantagheh>11</mantagheh>
+		<address>خيابان جمهوری خ باستان جنوبی پ 231</address>
+		<tel>66927181</tel>
+	</row>
+	<row>
+		<radif>97.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>اديب</amozeshgah>
+		<mantagheh>12</mantagheh>
+		<address>خ 15 خرداد شرقی نرسیده به تقاطع پل ری و شهید محلاتی پلاک 48 روبرو بانک ملت طبقه اول</address>
+		<tel>33126616</tel>
+	</row>
+	<row>
+		<radif>98.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پيک تعليم</amozeshgah>
+		<mantagheh>12</mantagheh>
+		<address>خ 17 شهريور بعد از ميدان خراسان خ شهيد حداد عادل(صفاري) چهار راه ابراهيمي پ 296 ط اول</address>
+		<tel>33544188</tel>
+	</row>
+	<row>
+		<radif>99.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>شاهین</amozeshgah>
+		<mantagheh>12</mantagheh>
+		<address>خ 17 شهريور بعد از ميدان خراسان خ شهيد حداد عادل(صفاري) چهار راه ابراهيمي پ 296 ط اول</address>
+		<tel>33544188</tel>
+	</row>
+	<row>
+		<radif>100.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>فردوسی</amozeshgah>
+		<mantagheh>12</mantagheh>
+		<address>خ انقلاب روبروی بهار جنوبی ساختمان 64 ط سوم واحد 12</address>
+		<tel>77626312</tel>
+	</row>
+	<row>
+		<radif>101.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>بهمن</amozeshgah>
+		<mantagheh>13</mantagheh>
+		<address>خيابان پيروزي چهار راه کوکاکولا جنب بانک تجارت پلاک 413</address>
+		<tel>33341156</tel>
+	</row>
+	<row>
+		<radif>102.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پارس</amozeshgah>
+		<mantagheh>13</mantagheh>
+		<address>خ پیروزی بلوار امام علی (ع) بعد از خ صفا پ 219</address>
+		<tel>33794225</tel>
+	</row>
+	<row>
+		<radif>103.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>رحيمي</amozeshgah>
+		<mantagheh>13</mantagheh>
+		<address>خيابان پيروزي انتهاي خيابان اول نيروي هوايي پلاک 213 ط دوم</address>
+		<tel>77400044</tel>
+	</row>
+	<row>
+		<radif>104.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>شورا</amozeshgah>
+		<mantagheh>13</mantagheh>
+		<address>تهران نو خ شورا پلاک 264</address>
+		<tel>77470249</tel>
+	</row>
+	<row>
+		<radif>105.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ماندانا</amozeshgah>
+		<mantagheh>13</mantagheh>
+		<address>تهران نو،  چهار راه نارمک  جنب سينما ماندانا پ 905</address>
+		<tel>77416154</tel>
+	</row>
+	<row>
+		<radif>106.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>منصور</amozeshgah>
+		<mantagheh>13</mantagheh>
+		<address>تهران نو چهار راه خاقاني خ بلال حبشی پ 81</address>
+		<tel>77474100</tel>
+	</row>
+	<row>
+		<radif>107.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>مهتاب</amozeshgah>
+		<mantagheh>13</mantagheh>
+		<address>تهران نو خ دماوند جنب پمپ بنزین قاسم آباد پلاک 531</address>
+		<tel>77593426</tel>
+	</row>
+	<row>
+		<radif>108.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>هدف</amozeshgah>
+		<mantagheh>13</mantagheh>
+		<address>خيابان پيروزي خيابان پنجم نیروی هوایی بین فلکه اول و دوم نبش فرعی 28/5 پ249</address>
+		<tel>77472691</tel>
+	</row>
+	<row>
+		<radif>109.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>اترک</amozeshgah>
+		<mantagheh>14</mantagheh>
+		<address>خ خاوران خ بهشت ساختمان اترک پ 17</address>
+		<tel>33028800</tel>
+	</row>
+	<row>
+		<radif>110.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پارس نو</amozeshgah>
+		<mantagheh>14</mantagheh>
+		<address>خ 17 شهریور میدان شهدا جنب پمپ بنزین پ690 ط 2</address>
+		<tel>33798895</tel>
+	</row>
+	<row>
+		<radif>111.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پرستار</amozeshgah>
+		<mantagheh>14</mantagheh>
+		<address>خ پيروزي خ پرستار جنوبي خ شهيد شهرابي شرقی پ2</address>
+		<tel>33069185</tel>
+	</row>
+	<row>
+		<radif>112.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>حميد</amozeshgah>
+		<mantagheh>14</mantagheh>
+		<address>خيابان پيروزي اول بلوار ابوذر پلاک 12</address>
+		<tel>33196753</tel>
+	</row>
+	<row>
+		<radif>113.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>داریوش</amozeshgah>
+		<mantagheh>14</mantagheh>
+		<address>خيابان 17 شهریور، چهارراه شمس پلاک 1050</address>
+		<tel>33355679</tel>
+	</row>
+	<row>	
+		<radif>114.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>دانيال</amozeshgah>
+		<mantagheh>14</mantagheh>
+		<address>خيابان پيروزي چهارراه کوکاکولا خ نورد پايين‌تر از خ فرزانه پلاک 415</address>
+		<tel>33176572</tel>
+	</row>
+	<row>
+		<radif>115.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>رحماني</amozeshgah>
+		<mantagheh>14</mantagheh>
+		<address>خ 17 شهريور  انتهاي سعيدي پ194</address>
+		<tel>33022280</tel>
+	</row>
+	<row>	
+		<radif>116.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>مسعود</amozeshgah>
+		<mantagheh>14</mantagheh>
+		<address>خ پيروزي ميدان بروجردي خ اندرزگو پ 12</address>
+		<tel>33321862</tel>
+	</row>
+	<row>
+		<radif>117.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>آهنگ</amozeshgah>
+		<mantagheh>15</mantagheh>
+		<address>خيابان خاوران بعد از فرهنگ سرای خاوران نرسیده به ترمینال خاوران نبش ک هاشمی پ 148</address>
+		<tel>33692952</tel>
+	</row>
+	<row>
+		<radif>118.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پویا</amozeshgah>
+		<mantagheh>15</mantagheh>
+		<address>بیست متری افسریه بین 15 متری دوم و سوم پ 233</address>
+		<tel>33144010</tel>
+	</row>
+	<row>
+		<radif>119.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ثامن</amozeshgah>
+		<mantagheh>15</mantagheh>
+		<address>سه راه افسریه 35 متری قصر فیروزه بین 15 متری سوم و چهارم بلوک آ، پ 314</address>
+		<tel>33820016</tel>
+	</row>
+	<row>
+		<radif>120.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>جانباز</amozeshgah>
+		<mantagheh>15</mantagheh>
+		<address>خ خاوران روبروي پارک فداييان اسلام پ 685</address>
+		<tel>33700560</tel>
+	</row>
+	<row>
+		<radif>121.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>خمسه</amozeshgah>
+		<mantagheh>15</mantagheh>
+		<address>خ خاوران بالاتر از میدان آقانور ابتدای خ اعظم پ 921</address>
+		<tel>33460088</tel>
+	</row>
+	<row>
+		<radif>122.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>رئوف</amozeshgah>
+		<mantagheh>15</mantagheh>
+		<address>خ 17 شهریور جنوبی بین منصور و تیر دو قلو پ 265</address>
+		<tel>55335720</tel>
+	</row>
+	<row>
+		<radif>123.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>صدوده</amozeshgah>
+		<mantagheh>15</mantagheh>
+		<address>سه راه افسريه ابتدای اتوبان بسيج نبش خ ششم پ110</address>
+		<tel>33815561</tel>
+	</row>
+	<row>
+		<radif>124.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>کالج</amozeshgah>
+		<mantagheh>15</mantagheh>
+		<address>کیان شهر، بلوار امام رضا (ع)، خ شهید مینائی نبش بن بست دوازدهم پ 195</address>
+		<tel>33604925</tel>
+	</row>
+	<row>
+		<radif>125.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>مهاجر</amozeshgah>
+		<mantagheh>15</mantagheh>
+		<address>مشیریه، خ سازمان آب نبش ک دوم غربی پ 99</address>
+		<tel>33865080</tel>
+	</row>
+	<row>
+		<radif>126.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>مهر میهن</amozeshgah>
+		<mantagheh>15</mantagheh>
+		<address>مشیریه، سی متری صالحی نبش آذر شرقی پ 1</address>
+		<tel>33467772</tel>
+	</row>
+	<row>
+		<radif>127.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پروانه</amozeshgah>
+		<mantagheh>16</mantagheh>
+		<address>نازی آباد خ شهید رجایی ایستگاه بالای بانک درمانگاه دکتر اطمینان پ 259</address>
+		<tel>55060919</tel>
+	</row>
+	<row>
+		<radif>128.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پيمان</amozeshgah>
+		<mantagheh>16</mantagheh>
+		<address>خزانه بخارايي فلکه دوم روبروی بیمارستان کاشانی پ 242</address>
+		<tel>55048705</tel>
+	</row>
+	<row>
+		<radif>129.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>تدين</amozeshgah>
+		<mantagheh>16</mantagheh>
+		<address>20 متري جواديه مقابل بانک ملي پ 379</address>
+		<tel>55667800</tel>
+	</row>
+	<row>
+		<radif>130.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>جعفری</amozeshgah>
+		<mantagheh>16</mantagheh>
+		<address>نازي آباد خ مداين چهار راه دخانيات بالاي کفش ملي پ 227+1</address>
+		<tel>55304297</tel>
+	</row>
+	<row>
+		<radif>131.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>مسيبي</amozeshgah>
+		<mantagheh>16</mantagheh>
+		<address>چهار صد دستگاه نازي آباد خ شريعتي روبروي دبيرستان رشد جنب مسجد صاحب الزمان پلاک 3</address>
+		<tel>55025045</tel>
+	</row>
+	<row>
+		<radif>132.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ابوذر</amozeshgah>
+		<mantagheh>17</mantagheh>
+		<address>خ قزوين 20 متري ابوذر 16 متري شهيد عيوض خاني نبش ک احسانی پ 130</address>
+		<tel>55778994</tel>
+	</row>
+	<row>
+		<radif>133.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>بهران</amozeshgah>
+		<mantagheh>17</mantagheh>
+		<address>خ قزوين دوراهي قپان طبقه فوقاني بانک ملي شعبه عارف</address>
+		<tel>55752545</tel>
+	</row>
+	<row>
+		<radif>134.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>محک</amozeshgah>
+		<mantagheh>17</mantagheh>
+		<address>فلاح خ ابوذر غربی روبروی میدان میوه و تره بار پ 1/568</address>
+		<tel>55140099</tel>
+	</row>
+	<row>
+		<radif>135.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>آرمان</amozeshgah>
+		<mantagheh>18</mantagheh>
+		<address>مهرآباد جنوبی کوی فردوس خ شهیدان اسماعیلی پ 45</address>
+		<tel>66658770</tel>
+	</row>
+	<row>
+		<radif>136.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ارادتی</amozeshgah>
+		<mantagheh>18</mantagheh>
+		<address>شهرک ولي عصر خيابان بهرامی تقاطع جلالی مجتمع کوثر(بهپویان) ط دوم</address>
+		<tel>66207407</tel>
+	</row>
+	<row>
+		<radif>137.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ارغوان</amozeshgah>
+		<mantagheh>18</mantagheh>
+		<address>جاده قدیم کرج خ خلیج (بیمارستان شماره 2) نبش کوچه حسینی پ 1</address>
+		<tel>66252727</tel>
+	</row>
+	<row>
+		<radif>138.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>خليج فارس</amozeshgah>
+		<mantagheh>18</mantagheh>
+		<address>بلوار يافت آباد خ معلم بن بست کهن پلاکهاي 2 و 4 طبقه همکف و اول</address>
+		<tel>66601998</tel>
+	</row>
+	<row>
+		<radif>139.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>دهخدا</amozeshgah>
+		<mantagheh>18</mantagheh>
+		<address>شهرک ولیعصر خ حیدری جنوبی خ سید الشهدا پ 17</address>
+		<tel>66211874</tel>
+	</row>
+	<row>
+		<radif>140.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>طاها</amozeshgah>
+		<mantagheh>18</mantagheh>
+		<address>شادآباد خ 17 شهریور بین 15 متری دوم و سوم سمت راست پ 317 ط دوم</address>
+		<tel>66782022</tel>
+	</row>
+	<row>
+		<radif>141.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>فرهنگ</amozeshgah>
+		<mantagheh>18</mantagheh>
+		<address>یافت آباد بلوار الغدیر شمالی بالاتر از چهارراه قهوه خانه نبش ک شهید فرجی (چهارم) پ 57</address>
+		<tel>66311450</tel>
+	</row>
+	<row>
+		<radif>142.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ارم</amozeshgah>
+		<mantagheh>19</mantagheh>
+		<address>خاني آباد نو 12 متري شهيد لطیفی پ 190</address>
+		<tel>55018838</tel>
+	</row>
+	<row>
+		<radif>143.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>پایتخت</amozeshgah>
+		<mantagheh>19</mantagheh>
+		<address>عبدل آباد تقاطع خ بخشنده و لقمان جنوبی ضلع جنوب شرقی پ 92 - منطقه 19</address>
+		<tel>55874211</tel>
+	</row>
+	<row>
+		<radif>144.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>دانشجو</amozeshgah>
+		<mantagheh>19</mantagheh>
+		<address>عبدل آباد تقاطع بلوار شکوفه و شهيد مطهری مجتمع تجاری اداری شقايق ورودی 2 ط اول</address>
+		<tel>55864041</tel>
+	</row>
+	<row>
+		<radif>145.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>نور</amozeshgah>
+		<mantagheh>20</mantagheh>
+		<address>جاده ساوه نعمت آباد خ لوله گاز (خ نور) پ 218</address>
+		<tel>55833467</tel>
+	</row>
+	<row>
+		<radif>146.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ثابت</amozeshgah>
+		<mantagheh>20</mantagheh>
+		<address>شهر ری فلکه اول دولت آباد خیابان شهرزاد پ 9</address>
+		<tel>33748102</tel>
+	</row>
+	<row>
+		<radif>147.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>رضوان</amozeshgah>
+		<mantagheh>20</mantagheh>
+		<address>شهر ری سه راه تقی آباد شهرک علائین خ شهید مصطفی خمینی خ شهید دیناروند پ 20</address>
+		<tel>33419722</tel>
+	</row>
+	<row>
+		<radif>148.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ری</amozeshgah>
+		<mantagheh>20</mantagheh>
+		<address>شهر ری میدان نماز 35 متری امام حسین(ع) چهارراه دیلمان جنب خ خانلری پ 108</address>
+		<tel>55900051</tel>
+	</row>
+	<row>
+		<radif>149.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>شبنم</amozeshgah>
+		<mantagheh>20</mantagheh>
+		<address>باقر شهر خ کاشانی پ 56</address>
+		<tel>55211212</tel>
+	</row>
+	<row>
+		<radif>150.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>شمس حسن آباد</amozeshgah>
+		<mantagheh>20</mantagheh>
+		<address>حسن آباد فشافویه، بلوار امام خمینی، جنب اداره برق، پ 13</address>
+		<tel>56227912</tel>
+	</row>
+	<row>
+		<radif>151.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>عرفان</amozeshgah>
+		<mantagheh>20</mantagheh>
+		<address>خ فداييان اسلام پل سيمان خ شهيد سرگرد محمدي نرسيده به ميدان صفائیه پ 336</address>
+		<tel>33766659</tel>
+	</row>
+	<row>
+		<radif>152.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>محسن</amozeshgah>
+		<mantagheh>20</mantagheh>
+		<address>ميدان شهر ري ابتداي جاده قم بعد از مخابرات جنب کلانتري 131 پ 203</address>
+		<tel>55904240</tel>
+	</row>
+	<row>
+		<radif>153.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>منعم</amozeshgah>
+		<mantagheh>20</mantagheh>
+		<address>شهر ري ميدان بسيج خ ورامين خ کمالي پ 1</address>
+		<tel>33754661</tel>
+	</row>
+	<row>
+		<radif>154.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>مهرداد</amozeshgah>
+		<mantagheh>20</mantagheh>
+		<address>شهر ري خيابان ذکریای رازی جنب سازمان آب پ145</address>
+		<tel>55900096</tel>
+	</row>
+	<row>
+		<radif>155.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ناصری</amozeshgah>
+		<mantagheh>20</mantagheh>
+		<address>بلوار دستواره ميدان مادر خ شهيد عيني تقاطع ملت و بهاران پ21</address>
+		<tel>33389915</tel>
+	</row>
+	<row>
+		<radif>156.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>سمند</amozeshgah>
+		<mantagheh>21</mantagheh>
+		<address>کيلومتر 19 جاده مخصوص کرج وردآورد طبقه فوقاني بانک تجارت</address>
+		<tel>44987050</tel>
+	</row>
+	<row>
+		<radif>157.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>صادقي</amozeshgah>
+		<mantagheh>21</mantagheh>
+		<address>تهرانسر بلوار اصلي نبش خابان 22 ساختمان امیر، ط سوم واحد 16</address>
+		<tel>44521717</tel>
+	</row>
+	<row>
+		<radif>158.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>مهدی</amozeshgah>
+		<mantagheh>21</mantagheh>
+		<address>تهرانسر  بلوار گلها نرسيده به بلوار لاله کوچه نهم پلاک 39/1 طبقه اول</address>
+		<tel>44534126</tel>
+	</row>
+	<row>
+		<radif>159.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>ميلاد</amozeshgah>
+		<mantagheh>21</mantagheh>
+		<address>تهرانسر بلوار لاله بازارچه حصار</address>
+		<tel>44519898</tel>
+	</row>
+	<row>
+		<radif>160.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>آتيه</amozeshgah>
+		<mantagheh>22</mantagheh>
+		<address>شهرک راه آهن خ امیر کبیر بعد از کاج خ گل افشان پ 29</address>
+		<tel>44720857</tel>
+	</row>
+	<row>
+		<radif>161.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>جام جم</amozeshgah>
+		<mantagheh>22</mantagheh>
+		<address>بلوار دهکده المپیک نبش خ سوم پ 1</address>
+		<tel>44722545</tel>
+	</row>
+	<row>
+		<radif>162.</radif>
+		<ostan>تهران بزرگ</ostan>
+		<amozeshgah>هدي</amozeshgah>
+		<mantagheh>22</mantagheh>
+		<address>شهرک راه آهن خ اميرکبير 18 متري دوم نبش بنفشه 2 پ 60</address>
+		<tel>44724441</tel>
+	</row>
+</document>

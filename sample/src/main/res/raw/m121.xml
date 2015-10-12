@@ -1,0 +1,624 @@
+﻿<document>
+    <row>
+		<radif>1.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>انار</shahr>
+		<amozeshgah>ساعي</amozeshgah>
+		<address>خ شهداء پژوهش سراي مهدوي</address>
+		<tel>3222646</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>2.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>بافت</shahr>
+		<amozeshgah>مهر</amozeshgah>
+		<address>شهيد شهابي</address>
+		<tel>4220870</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>3.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>بافت</shahr>
+		<amozeshgah>ميلاد</amozeshgah>
+		<address>خ 30 متري برق</address>
+		<tel>4223045</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>4.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>بردسير</shahr>
+		<amozeshgah>عدالت</amozeshgah>
+		<address>خ طالقاني</address>
+		<tel>5227242</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>5.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>بم</shahr>
+		<amozeshgah>ابوالفضل</amozeshgah>
+		<address>خ عرب خانه</address>
+		<tel>2214000</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>6.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>بم</shahr>
+		<amozeshgah>ریحانه</amozeshgah>
+		<address> </address>
+		<tel>2217709</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>7.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>بم</shahr>
+		<amozeshgah>ستار</amozeshgah>
+		<address>خ عيش آباد کوچه شهيد خورشيدي</address>
+		<tel>2319007</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>8.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>بم</shahr>
+		<amozeshgah>فرهنگ</amozeshgah>
+		<address>خ عباسعلی کوچه مخابرات</address>
+		<tel>2214544</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>9.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>جيرفت</shahr>
+		<amozeshgah>عفاف</amozeshgah>
+		<address>بلوار پاسداران خ ایثارگران روبروی مدرسه عمار</address>
+		<tel>2312544</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>10.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>جيرفت</shahr>
+		<amozeshgah>علیخانی</amozeshgah>
+		<address>بلوار امام خمینی</address>
+		<tel>2311885</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>11.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>جيرفت</shahr>
+		<amozeshgah>فاطميه</amozeshgah>
+		<address>خ 17 شهريور</address>
+		<tel>2217641</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>12.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>جيرفت</shahr>
+		<amozeshgah>قائم</amozeshgah>
+		<address>خ امام موسی صدر شمالی ولایت دوم روبروی امور اراضی</address>
+		<tel>2264763</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>13.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>جيرفت</shahr>
+		<amozeshgah>مهارت</amozeshgah>
+		<address>خ امام موسی صدر شمالی پلاک 2</address>
+		<tel>2317183</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>14.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>جيرفت</shahr>
+		<amozeshgah>وحدت</amozeshgah>
+		<address>بلوار جانبازان</address>
+		<tel>2415991</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>15.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>چترود</shahr>
+		<amozeshgah>بعثت</amozeshgah>
+		<address>خ ولیعصر نبش کوچه</address>
+		<tel>3270545</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>16.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>رابر</shahr>
+		<amozeshgah>قائم</amozeshgah>
+		<address>خ امام</address>
+		<tel>4524810</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>17.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>راور</shahr>
+		<amozeshgah>پرواز</amozeshgah>
+		<address>خ گلنار (معلم) جنب اداره اوقاف</address>
+		<tel>3728580</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>18.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>راور</shahr>
+		<amozeshgah>متين</amozeshgah>
+		<address>خ امام بعد از تکیه ابوالفضل</address>
+		<tel>3728870</tel>
+		<F7/>
+	</row>	
+	<row>
+		<radif>19.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>راین</shahr>
+		<amozeshgah>میلاد</amozeshgah>
+		<address>خ مطهری روبروی نانوائی کوچه 1 </address>
+		<tel>6624218</tel>
+		<F7/>
+	</row>	
+	<row>
+		<radif>20.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>رفسنجان</shahr>
+		<amozeshgah>ارشاد</amozeshgah>
+		<address>خ شهید سید مصطفی خمینی خ شهید چمنی</address>
+		<tel>4229500</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>21.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>رفسنجان</shahr>
+		<amozeshgah>بانوان نادری</amozeshgah>
+		<address>بلوار سید مصطفی خمینی 26 متری شهید کاظمی</address>
+		<tel>4226444</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>22.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>رفسنجان</shahr>
+		<amozeshgah>پارس</amozeshgah>
+		<address>بلوار شهید محمدی نوق</address>
+		<tel>5238808</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>23.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>رفسنجان</shahr>
+		<amozeshgah>ربیعی</amozeshgah>
+		<address>خ کارگر نبش شیشه بری</address>
+		<tel>5223943</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>24.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>رفسنجان</shahr>
+		<amozeshgah>رفسنجان بانو</amozeshgah>
+		<address>خ امیر کبیر غربی</address>
+		<tel>3239377</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>25.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>رفسنجان</shahr>
+		<amozeshgah>شعباني</amozeshgah>
+		<address>خ 17 شهريور غربي بعد از چهار راه ابوذر کوچه 31</address>
+		<tel>5236522</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>26.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>رفسنجان</shahr>
+		<amozeshgah>صدف</amozeshgah>
+		<address>خ جمهوری اسلامی</address>
+		<tel>5238038</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>27.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>رفسنجان</shahr>
+		<amozeshgah>فخاری</amozeshgah>
+		<address>بلوار شهید محمدی خیابان شهید سید مصطفی خمینی روبروی فک پلاک</address>
+		<tel>5226992</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>28.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>رفسنجان</shahr>
+		<amozeshgah>مرکزي</amozeshgah>
+		<address>میدان بسیج خ شریعتی روبروی دبیرستان پسرانه </address>
+		<tel>5236450</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>29.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>رفسنجان</shahr>
+		<amozeshgah>مهتاب</amozeshgah>
+		<address>خ امیر کبیر غربی 44</address>
+		<tel>4243453</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>30.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>زرند</shahr>
+		<amozeshgah>بهار</amozeshgah>
+		<address>خ فلسطین روبروی نساجی مازندران</address>
+		<tel>4228360</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>31.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>زرند</shahr>
+		<amozeshgah>توکل</amozeshgah>
+		<address>خ 17 شهريور</address>
+		<tel>4224732</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>32.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>زرند</shahr>
+		<amozeshgah>حقيقت</amozeshgah>
+		<address>بلوار جمهوري اسلامي جنب اداره امور اجتماعي</address>
+		<tel>4229998</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>33.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>زرند</shahr>
+		<amozeshgah>عدالت</amozeshgah>
+		<address>بلوار جمهوري نبش کوچه حافظ</address>
+		<tel>4233129</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>34.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>سيرجان</shahr>
+		<amozeshgah>الزهرا</amozeshgah>
+		<address>بلوار دکتر صادقي بعد از دانشگاه آزاد</address>
+		<tel>4222618</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>35.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>سيرجان</shahr>
+		<amozeshgah>ايمان</amozeshgah>
+		<address>خيابان شهيد کلانتري</address>
+		<tel>3223244</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>36.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>سيرجان</shahr>
+		<amozeshgah>سامان</amozeshgah>
+		<address>خيابان شهيد احمد کافي</address>
+		<tel>4222889</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>37.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>سيرجان</shahr>
+		<amozeshgah>سمند</amozeshgah>
+		<address>انتهاي بلوار قاآني اول خيابان معين</address>
+		<tel>5222670</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>38.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>سيرجان</shahr>
+		<amozeshgah>فرهنگ</amozeshgah>
+		<address>خيابان خالد اسلامبلی</address>
+		<tel>3233638</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>39.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>سيرجان</shahr>
+		<amozeshgah>کيميا</amozeshgah>
+		<address>خ خیام 20 متری سینما روبروی آژانس امین</address>
+		<tel>3225373</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>40.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>سيرجان</shahr>
+		<amozeshgah>مبينا</amozeshgah>
+		<address>انتهای خ وحید بعد از چهارراه هجرت روبروی موتوری شهرداری</address>
+		<tel>5235169</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>41.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>سيرجان</shahr>
+		<amozeshgah>مهدي</amozeshgah>
+		<address>بلوار سيد جمال الدين</address>
+		<tel>4221755</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>42.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>سيرجان</shahr>
+		<amozeshgah>ولیعصر</amozeshgah>
+		<address>خيابان غفاري</address>
+		<tel>4222322</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>43.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>شهر بابک</shahr>
+		<amozeshgah>احسان</amozeshgah>
+		<address>خ 17 شهريور</address>
+		<tel>4231145</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>44.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>شهر بابک</shahr>
+		<amozeshgah>رضا</amozeshgah>
+		<address>خ شريعتي خ رودخانه</address>
+		<tel>4222426</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>45.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>شهر بابک</shahr>
+		<amozeshgah>غزال</amozeshgah>
+		<address>خ 17 شهریور جنب بلوار کشاورز</address>
+		<tel>4221516</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>46.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>آزمايش</amozeshgah>
+		<address>خ کارگر روبروی اداره کار نبش کوچه 4</address>
+		<tel>2253430</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>47.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>انديشه</amozeshgah>
+		<address>خ بهمنيار کوچه 19 پلاک 9</address>
+		<tel>2447676</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>48.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>پارس</amozeshgah>
+		<address>بزرگراه امام نرسيده به پمپ بنزين</address>
+		<tel>3335125</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>49.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>پارک</amozeshgah>
+		<address>بلوار جمهوري تقاطع فرهنگيان</address>
+		<tel>2116480</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>50.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>پل</amozeshgah>
+		<address>چهارراه بازرگانی به سمت شهرک پدر سمت چپ روبروی تعویض روغن</address>
+		<tel>3218655</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>51.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>ثامن</amozeshgah>
+		<address>خ باقدرت نرسیده به چهارراه طبقه فوقانی کانون شهدا</address>
+		<tel>3212090</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>52.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>حقيقت</amozeshgah>
+		<address>خيابان پروين اعتصامي جنب پارک</address>
+		<tel>2467574</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>53.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>دانا</amozeshgah>
+		<address>بلوار هوانیروز نبش کوچه 44 طبقه فوقانی سوپر آپادانا</address>
+		<tel>2813851</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>54.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>رضوان</amozeshgah>
+		<address>اول خ سید مصطفی خمینی جنب پارک معلم نبش ساندویچی دلفین</address>
+		<tel>2239940</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>55.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>راهنما</amozeshgah>
+		<address>خ ابوحامد کوچه 5 درب روبرو</address>
+		<tel>2262222</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>56.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>سبحان</amozeshgah>
+		<address>خ شهدا نرسیده به چهارراه اول سمت راست </address>
+		<tel>3314977</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>57.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>شايان</amozeshgah>
+		<address>بزرگراه جنوبی امام روبروی درب ورودی دانشگاه آزاد</address>
+		<tel>3233943</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>58.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>کوثر</amozeshgah>
+		<address>خ بهزاد بالاتر از مجمع امور صنعتی</address>
+		<tel>2225140</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>59.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>مهارت</amozeshgah>
+		<address>ميدان کوثر بلوار نصر روبروي ساختمان 2000</address>
+		<tel>2461979</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>60.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>مهدي</amozeshgah>
+		<address>خ 17 شهريور نرسیده به چهارراه حجتیه</address>
+		<tel>3335000</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>61.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>مهر</amozeshgah>
+		<address>بلوار جهاد کوچه 15 درب روبرو</address>
+		<tel>2722696</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>62.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>ميعاد</amozeshgah>
+		<address>خ سید مصطفي خميني بعد از پمپ بنزین</address>
+		<tel>3232969</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>63.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>ميلاد</amozeshgah>
+		<address>ابوذر شمالي جنب کوچه 62</address>
+		<tel>2530088</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>64.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>والفجر</amozeshgah>
+		<address>پارک مطهري ضلع غربی کوچه 18 پلاک 25</address>
+		<tel>2517112</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>65.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>هما</amozeshgah>
+		<address>انتهاي بلوار جهاد بین کوچه 75 و 77</address>
+		<tel>2521240</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>66.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کرمان</shahr>
+		<amozeshgah>ياسين</amozeshgah>
+		<address>بلوار جمهوری کوچه بانک اقتصاد نوین درب اول سمت راست</address>
+		<tel>2441109</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>67.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کوهبنان</shahr>
+		<amozeshgah>قائم</amozeshgah>
+		<address>خيابان امام بلوار آزادي جنب میوه فروشی محمدی</address>
+		<tel>4723296</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>68.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کهنوج</shahr>
+		<amozeshgah>سادات</amozeshgah>
+		<address>بلوار سيد احمد خميني</address>
+		<tel>5227546</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>69.</radif>
+		<ostan>کرمان</ostan>
+		<shahr>کهنوج</shahr>
+		<amozeshgah>معارف</amozeshgah>
+		<address>بلوار سيد احمد خميني خيابان خ سمیه</address>
+		<tel>5231400</tel>
+		<F7/>
+	</row>
+	
+</document>

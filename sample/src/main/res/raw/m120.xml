@@ -1,0 +1,233 @@
+﻿<document>
+	<row>
+		<radif>1.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>بانه</shahr>
+		<amozeshgah>آرش</amozeshgah>
+		<address>بلوار آزادی - جنب گرمابه مولودی</address>
+		<tel>4211556</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>2.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>بيجار</shahr>
+		<amozeshgah>تعاوني</amozeshgah>
+		<address>خ امير نظام روبروي مجتمع مسکوني ولي عصر</address>
+		<tel>4228854</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>3.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>بيجار</shahr>
+		<amozeshgah>صحرا</amozeshgah>
+		<address>خ طالقانی - جنب استادیوم ورزشی - ک ورزش</address>
+		<tel>4226911</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>4.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>دهگلان</shahr>
+		<amozeshgah>معراج</amozeshgah>
+		<address>انتهای بلوار کشاورز</address>
+		<tel>5621968</tel>
+		<F7/>
+	</row>	
+	<row>
+		<radif>5.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>ديواندره</shahr>
+		<amozeshgah>ديار</amozeshgah>
+		<address>بالاتر از مزار شهدا</address>
+		<tel>3722666</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>6.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>سقز</shahr>
+		<amozeshgah>باقدسيان</amozeshgah>
+		<address>کمربندی دانشگاه آزاد جنب پمپ بنزین CNG</address>
+		<tel>3249555</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>7.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>سقز</shahr>
+		<amozeshgah>حمايت</amozeshgah>
+		<address>خ ملت روبروي درب پارک مولوي کرد</address>
+		<tel>3218999</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>8.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>سقز</shahr>
+		<amozeshgah>کاوان</amozeshgah>
+		<address>خ دانشگاه روبروی پارک کوثر</address>
+		<tel>3310085</tel>
+		<F7/>
+	</row>	
+		<row>
+		<radif>9.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>سنندج</shahr>
+		<amozeshgah>بهاران</amozeshgah>
+		<address>سه راه پاوان</address>
+		<tel>7281777</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>10.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>سنندج</shahr>
+		<amozeshgah>دليجان</amozeshgah>
+		<address>خ استانداری</address>
+		<tel>2226159</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>11.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>سنندج</shahr>
+		<amozeshgah>رحيمي</amozeshgah>
+		<address>خ توحید</address>
+		<tel>3241777</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>12.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>سنندج</shahr>
+		<amozeshgah>سرحدی</amozeshgah>
+		<address>خ امام نرسیده به میدان پادگان</address>
+		<tel>2250224</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>13.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>سنندج</shahr>
+		<amozeshgah>صحرا</amozeshgah>
+		<address>خ سعدي جنب شرکت تعاونی تاکسيراني</address>
+		<tel>6623341</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>14.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>سنندج</shahr>
+		<amozeshgah>فجر</amozeshgah>
+		<address>خ پاسداران روبروی پارک استقلال</address>
+		<tel>3232023</tel>
+		<F7/>
+	</row>
+
+
+	<row>
+		<radif>15.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>سنندج</shahr>
+		<amozeshgah>محبوبي</amozeshgah>
+		<address>سه راه شیخان</address>
+		<tel>2250121</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>16.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>سنندج</shahr>
+		<amozeshgah>معلم</amozeshgah>
+		<address>خ گلشن جنب بانک تجارت</address>
+		<tel>3282946</tel>
+		<F7/>
+	</row>
+
+	<row>
+		<radif>17.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>قروه</shahr>
+		<amozeshgah>آرش</amozeshgah>
+		<address>خ شریعتی روبروی تعاون روستایی</address>
+		<tel>5245080</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>18.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>قروه</shahr>
+		<amozeshgah>پرویزی</amozeshgah>
+		<address>خ تختی ک شهید فعله گری</address>
+		<tel>5227522</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>19.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>قروه</shahr>
+		<amozeshgah>شهسواری</amozeshgah>
+		<address>خ سید جمال الدین</address>
+		<tel>5231288</tel>
+		<F7/>
+	</row>
+		
+		<row>
+		<radif>20.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>قروه</shahr>
+		<amozeshgah>مائده</amozeshgah>
+		<address>خ شریعتی ک شهید عسکری</address>
+		<tel>5231400</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>21.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>کامیاران</shahr>
+		<amozeshgah>سخاوت</amozeshgah>
+		<address>خ اسد آبادی</address>
+		<tel>3522034</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>22.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>کامیاران</shahr>
+		<amozeshgah>فواد</amozeshgah>
+		<address>شهرک بعثت</address>
+		<tel>3522083</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>23.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>مریوان</shahr>
+		<amozeshgah>ماد کهن</amozeshgah>
+		<address>بلوار زریبار</address>
+		<tel>3242317</tel>
+		<F7/>
+	</row>
+		<row>
+		<radif>24.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>مریوان</shahr>
+		<amozeshgah>معلم</amozeshgah>
+		<address>بلوار ترمینال</address>
+		<tel>3250630</tel>
+		<F7/>
+	</row>
+	<row>
+		<radif>25.</radif>
+		<ostan>کردستان</ostan>
+		<shahr>مریوان</shahr>
+		<amozeshgah>مهارت</amozeshgah>
+		<address>خ عبادت نرسیده به سه راه بهزیستی</address>
+		<tel>3303608</tel>
+		<F7/>
+	</row>
+
+	
+</document>
