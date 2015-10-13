@@ -474,66 +474,65 @@ private static final long RIPPLE_DURATION = 250;
     }
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         //Handle the back button
-        if( keyCode == KeyEvent.KEYCODE_BACK ) {
-            //Ask the user if they want to quit
-            if (mMenu.isShowing()) {
-                doMenu();
-                return true; //always eat it!
-            }
-            final Dialog dialog = new Dialog(MainActivity.this,android.R.style.Theme_Translucent_NoTitleBar);
-            dialog.setContentView(R.layout.custom);
-            Typeface face = Typeface.createFromAsset(getApplicationContext().getAssets(),"font/"+com.github.florent37.materialviewpager.sample.attrib.attribute.font_title);
-            TextView text = (TextView) dialog.findViewById(R.id.text);
-            text.setText("قصد خروج از برنامه را دارید؟");
-            text.setTextSize(com.github.florent37.materialviewpager.sample.attrib.attribute.title_font_size);
-            text.setTextColor(com.github.florent37.materialviewpager.sample.attrib.attribute.title_font_color);
-            text.setTypeface(face);
-            ImageView image = (ImageView) dialog.findViewById(R.id.image);
-            image.setImageResource(R.drawable.exit);
+        if(extra2.equals("7")) {
+            if (keyCode == KeyEvent.KEYCODE_BACK) {
+                //Ask the user if they want to quit
+                if (mMenu.isShowing()) {
+                    doMenu();
+                    return true; //always eat it!
+                }
+                final Dialog dialog = new Dialog(MainActivity.this, android.R.style.Theme_Translucent_NoTitleBar);
+                dialog.setContentView(R.layout.custom);
+                Typeface face = Typeface.createFromAsset(getApplicationContext().getAssets(), "font/" + com.github.florent37.materialviewpager.sample.attrib.attribute.font_title);
+                TextView text = (TextView) dialog.findViewById(R.id.text);
+                text.setText("قصد خروج از برنامه را دارید؟");
+                text.setTextSize(com.github.florent37.materialviewpager.sample.attrib.attribute.title_font_size);
+                text.setTextColor(com.github.florent37.materialviewpager.sample.attrib.attribute.title_font_color);
+                text.setTypeface(face);
+                ImageView image = (ImageView) dialog.findViewById(R.id.image);
+                image.setImageResource(R.drawable.exit);
 
-            Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
-            //dialogButton.setText(PersianReshape.reshape("بله	"));
-            //dialogButton.setTypeface(face);
-            // if button is clicked, close the custom dialog
-            dialogButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    //handler1.removeCallbacks(updaterun);
+                Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
+                //dialogButton.setText(PersianReshape.reshape("بله	"));
+                //dialogButton.setTypeface(face);
+                // if button is clicked, close the custom dialog
+                dialogButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        //handler1.removeCallbacks(updaterun);
 //                    Calendar c = Calendar.getInstance();
 //                    int month = c.get(Calendar.MONTH);
 //                    int day=c.get(Calendar.DAY_OF_MONTH);
 //                    if(month==Calendar.MARCH||(month==Calendar.APRIL&&day<10))
 //                        startActivity(new Intent(MainActivity.this,splash2.class));
-                    finish();
+                      //  finish();
+                        finishAffinity();
+                    }
+                });
+                Button dialogButton1 = (Button) dialog.findViewById(R.id.dialogButtonNo);
+                //dialogButton1.setText(PersianReshape.reshape("خیر"));
+                //dialogButton1.setTypeface(face);
+                // if button is clicked, close the custom dialog
+                dialogButton1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+                try {
+                    dialog.getWindow().getAttributes().windowAnimations = R.style.SearchDialogAnimation;
+                    dialog.show();
+                } catch (Exception e) {
+                    e.printStackTrace();
                 }
-            });
-            Button dialogButton1 = (Button) dialog.findViewById(R.id.dialogButtonNo);
-            //dialogButton1.setText(PersianReshape.reshape("خیر"));
-            //dialogButton1.setTypeface(face);
-            // if button is clicked, close the custom dialog
-            dialogButton1.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    dialog.dismiss();
-                }
-            });
-            try{
-                dialog.getWindow().getAttributes().windowAnimations = R.style.SearchDialogAnimation;
-                dialog.show();
+                return true;
+            } else if (keyCode == KeyEvent.KEYCODE_MENU) {
+                doMenu();
+                return true; //always eat it!
+            } else {
+                return super.onKeyDown(keyCode, event);
             }
-            catch(Exception e)
-            {
-                e.printStackTrace();
-            }
-            return true;
-        }
-        else if (keyCode == KeyEvent.KEYCODE_MENU) {
-            doMenu();
-            return true; //always eat it!
-        }
-        else {
-            return super.onKeyDown(keyCode, event);
-        }
+        }else{return false;}
     }
 
 }
