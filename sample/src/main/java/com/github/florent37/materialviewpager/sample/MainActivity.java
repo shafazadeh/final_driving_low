@@ -40,6 +40,7 @@ import com.github.florent37.materialviewpager.sample.fragment.RuleItem;
 import com.github.florent37.materialviewpager.sample.fragment.Slider;
 import com.github.florent37.materialviewpager.sample.fragment.slider2;
 import com.github.florent37.materialviewpager.sample.menu.CustomMenu;
+import com.github.florent37.materialviewpager.sample.menu.CustomMenuItem;
 import com.yalantis.guillotine.animation.GuillotineAnimation;
 
 import butterknife.ButterKnife;
@@ -54,6 +55,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -157,7 +159,11 @@ private static final long RIPPLE_DURATION = 250;
             Fabric.with(this, new Crashlytics());
 //
         setTitle("");
-//
+//      /////////
+        mMenu = new CustomMenu(MainActivity.this,null, getLayoutInflater());
+        mMenu.setHideOnSelect(true);
+        mMenu.setItemsPerLineInPortraitOrientation(3);
+        mMenu.setItemsPerLineInLandscapeOrientation(8);
 
         ///////////
         search=(ImageView)findViewById(R.id.searchbtn);
@@ -322,6 +328,7 @@ private static final long RIPPLE_DURATION = 250;
     };
 
 
+
     public  void  createToast(int duration,String str)
     {
         LayoutInflater inflater = getLayoutInflater();
@@ -475,7 +482,7 @@ private static final long RIPPLE_DURATION = 250;
             }
             final Dialog dialog = new Dialog(MainActivity.this,android.R.style.Theme_Translucent_NoTitleBar);
             dialog.setContentView(R.layout.custom);
-            Typeface face = Typeface.createFromAsset(getApplicationContext().getAssets(), "font/" + com.github.florent37.materialviewpager.sample.attrib.attribute.font_title);
+            Typeface face = Typeface.createFromAsset(getApplicationContext().getAssets(),"font/"+com.github.florent37.materialviewpager.sample.attrib.attribute.font_title);
             TextView text = (TextView) dialog.findViewById(R.id.text);
             text.setText("قصد خروج از برنامه را دارید؟");
             text.setTextSize(com.github.florent37.materialviewpager.sample.attrib.attribute.title_font_size);
@@ -484,22 +491,22 @@ private static final long RIPPLE_DURATION = 250;
             ImageView image = (ImageView) dialog.findViewById(R.id.image);
             image.setImageResource(R.drawable.exit);
 
-//        Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
-//        //dialogButton.setText(PersianReshape.reshape("بله	"));
-//        //dialogButton.setTypeface(face);
-//        // if button is clicked, close the custom dialog
-//        dialogButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                //handler1.removeCallbacks(updaterun);
-//                Calendar c = Calendar.getInstance();
-//                int month = c.get(Calendar.MONTH);
-//                int day=c.get(Calendar.DAY_OF_MONTH);
-//                if(month==Calendar.MARCH||(month==Calendar.APRIL&&day<10))
-//                    startActivity(new Intent(Slider.this,splash2.class));
-//                finish();
-//            }
-//        });
+            Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
+            //dialogButton.setText(PersianReshape.reshape("بله	"));
+            //dialogButton.setTypeface(face);
+            // if button is clicked, close the custom dialog
+            dialogButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    //handler1.removeCallbacks(updaterun);
+//                    Calendar c = Calendar.getInstance();
+//                    int month = c.get(Calendar.MONTH);
+//                    int day=c.get(Calendar.DAY_OF_MONTH);
+//                    if(month==Calendar.MARCH||(month==Calendar.APRIL&&day<10))
+//                        startActivity(new Intent(MainActivity.this,splash2.class));
+                    finish();
+                }
+            });
             Button dialogButton1 = (Button) dialog.findViewById(R.id.dialogButtonNo);
             //dialogButton1.setText(PersianReshape.reshape("خیر"));
             //dialogButton1.setTypeface(face);
