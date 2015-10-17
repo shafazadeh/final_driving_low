@@ -49,13 +49,6 @@ import io.fabric.sdk.android.Fabric;
 
 import android.view.ViewGroup;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -474,7 +467,7 @@ private static final long RIPPLE_DURATION = 250;
     }
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         //Handle the back button
-        if(extra2.equals("7")) {
+       // if(extra2.equals("7")) {
             if (keyCode == KeyEvent.KEYCODE_BACK) {
                 //Ask the user if they want to quit
                 if (mMenu.isShowing()) {
@@ -532,7 +525,7 @@ private static final long RIPPLE_DURATION = 250;
             } else {
                 return super.onKeyDown(keyCode, event);
             }
-        }else{return false;}
+        //}else{return false;}
     }
 
 }
