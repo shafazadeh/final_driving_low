@@ -25,17 +25,27 @@
             android:layout_marginTop="@dimen/cardMarginVertical"
             android:background="@android:color/white"
             app:cardElevation="4dp">
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/back_button"
+                android:layout_gravity="top"
+                android:id="@+id/back_"
 
+                />
 
     <RelativeLayout
         android:id="@+id/relativeLayout1"
         android:layout_width="wrap_content"
-        android:layout_height="350dp"
-        android:background="@drawable/forground"
+        android:layout_height="320dp"
+
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginBottom="40dp">
+
+
+
 
         <LinearLayout
             android:id="@+id/linearLayout1"

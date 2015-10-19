@@ -43,6 +43,12 @@ public class MaterialViewPagerSettings implements Parcelable {
     protected boolean animatedHeaderImage;
     protected boolean disableToolbar;
 
+
+    /////////////////////
+    protected boolean back_button;
+    ///////////////
+
+
     /**
      * Retrieve attributes from the MaterialViewPager
      * @param context

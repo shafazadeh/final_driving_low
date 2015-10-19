@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Random;
 
 import com.github.florent37.materialviewpager.MaterialViewPagerHelper;
+import com.github.florent37.materialviewpager.sample.MainActivity;
 import com.github.florent37.materialviewpager.sample.R;
 import com.github.florent37.materialviewpager.sample.db.DbAdapter;
 import com.github.florent37.materialviewpager.sample.db.Utilities;
@@ -31,6 +32,7 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RelativeLayout;
@@ -60,11 +62,15 @@ public class QuestionPage extends Fragment
 	DbAdapter database;
     private ObservableScrollView mScrollView;
 
-    public static QuestionPage newInstance(String s){
+    public static String back_frament;
+    public static int level;
+    public static MainActivity m;
+
+    public static QuestionPage newInstance(String s, MainActivity n){
     QuestionPage fragmentDemo = new QuestionPage();
     Bundle args = new Bundle();
     args.putString("query", s);
-
+    m=n;
     fragmentDemo.setArguments(args);
     return fragmentDemo;
     }
@@ -84,6 +90,24 @@ public class QuestionPage extends Fragment
         mScrollView = (ObservableScrollView) view.findViewById(R.id.scrollView);
 		//super.onCreate(savedInstanceState);
 		//this.getActivity().setContentView(R.layout.quest);
+
+
+//        ImageButton backbt= (ImageButton)this.getActivity().findViewById(R.id.back_);
+//        if(level==1){
+//            backbt.setVisibility(View.VISIBLE);
+//
+//            backbt.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v){
+//
+//                    m.initialViewPager(back_frament);
+//                }});
+//
+//        }else{
+//            backbt.setVisibility(View.INVISIBLE);
+//        }
+
+
 		contex=this.getActivity();
 		try {
 			database=new DbAdapter(this.getActivity());

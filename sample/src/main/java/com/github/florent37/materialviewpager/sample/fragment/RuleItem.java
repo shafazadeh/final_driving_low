@@ -3,6 +3,7 @@ package com.github.florent37.materialviewpager.sample.fragment;
 import java.util.List;
 
 import com.github.florent37.materialviewpager.MaterialViewPagerHelper;
+import com.github.florent37.materialviewpager.sample.MainActivity;
 import com.github.florent37.materialviewpager.sample.R;
 import com.github.florent37.materialviewpager.sample.RuleDetail;
 import com.github.florent37.materialviewpager.sample.db.DbAdapter;
@@ -25,6 +26,7 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.GridView;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -33,12 +35,15 @@ import android.widget.AdapterView.OnItemClickListener;
 
 public class RuleItem extends Fragment
 {
+    public static String back_frament;
+    public static int level;
+
     private ObservableScrollView mScrollView;
-    public static RuleItem newInstance( String someTitle) {
+    public static RuleItem newInstance( String someTitle, MainActivity n) {
         RuleItem fragmentDemo = new RuleItem();
         Bundle args = new Bundle();
         args.putString("query", someTitle);
-
+         m=n;
         fragmentDemo.setArguments(args);
         return fragmentDemo;
     }
@@ -59,6 +64,7 @@ public class RuleItem extends Fragment
 	public  static String CatId=null;
 	//int [] offset={257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 	//
+    public static MainActivity m;
 	DbAdapter database;
 //	public boolean onKeyDown(int keyCode, KeyEvent event)
 //	 {
@@ -110,7 +116,7 @@ public class RuleItem extends Fragment
 			rule[] Values=getdata();
 			gridView.setAdapter(new RuleItemAdapter(this.getActivity(), Values));
         ViewGroup.LayoutParams layoutParams = gridView.getLayoutParams();
-        layoutParams.height = 1150; //this is in pixels
+        layoutParams.height = 1030; //this is in pixels
         gridView.setLayoutParams(layoutParams);
 			gridView.setOnItemClickListener(new OnItemClickListener()
 			{
@@ -154,7 +160,20 @@ public class RuleItem extends Fragment
         super.onViewCreated(view, savedInstanceState);
         mScrollView = (ObservableScrollView) view.findViewById(R.id.scrollView);
 
+        ImageButton backbt= (ImageButton)this.getActivity().findViewById(R.id.back_);
+        if(level==1){
+            backbt.setVisibility(View.VISIBLE);
 
+            backbt.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v){
+
+                    m.initialViewPager(back_frament);
+                }});
+
+        }else{
+            backbt.setVisibility(View.INVISIBLE);
+        }
 		//super.onCreate(savedInstanceState);
 		//RuleItem.CatId=getIntent().getStringExtra("query");
         RuleItem.CatId=getArguments().getString("query");

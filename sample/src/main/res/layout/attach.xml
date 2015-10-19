@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+        <include layout="@layout/material_view_pager_placeholder"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/cardMarginVertical"
+            android:layout_marginLeft="@dimen/cardMarginHorizontal"
+            android:layout_marginRight="@dimen/cardMarginHorizontal"
+            android:layout_marginTop="@dimen/cardMarginVertical"
+            android:background="@android:color/white"
+            app:cardElevation="4dp">
+
+        <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp" >
+
+
+        <RelativeLayout
+                android:id="@+id/relativeLayout02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" android:layout_marginTop="20dp">
+
+                <ImageButton
+                    android:contentDescription="@string/hello"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/imageButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:background="@drawable/amoozeshgah" android:layout_centerHorizontal="true" android:visibility="gone"/>
+
+        </RelativeLayout>
+		<RelativeLayout
+                android:id="@+id/relativeLayout03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_below="@id/relativeLayout02">
+
+                <ImageButton
+                    android:contentDescription="@string/hello"
+                    android:id="@+id/imageButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tavizepelak" android:layout_marginTop="10dp" android:visibility="gone" android:layout_marginLeft="3dp"/>
+
+                <ImageButton
+                    android:contentDescription="@string/hello"
+                    android:id="@+id/imageButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" android:layout_alignParentRight="true" android:background="@drawable/govahiname" android:visibility="gone" android:layout_marginRight="3dp"/>
+
+            </RelativeLayout>
+			<RelativeLayout
+                android:id="@+id/relativeLayout04"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_below="@id/relativeLayout03" android:gravity="center_vertical">
+
+                <ImageButton
+                    android:contentDescription="@string/hello"
+                    android:id="@+id/imageButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:background="@drawable/police" android:layout_marginTop="10dp" android:layout_centerHorizontal="true" android:visibility="gone"/>
+
+            </RelativeLayout>
+</RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>

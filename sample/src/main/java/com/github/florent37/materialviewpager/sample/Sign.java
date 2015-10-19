@@ -19,6 +19,7 @@ import android.view.animation.ScaleAnimation;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -27,6 +28,9 @@ import android.widget.Toast;
 
 public class Sign  extends Fragment
 {
+    public static String back_frament;
+    public static int level;
+
 	ListView listView;
 	//public final static String ID_EXTRA="_ID";
     public static MainActivity m;
@@ -48,6 +52,23 @@ public class Sign  extends Fragment
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+
+        ImageButton backbt= (ImageButton)this.getActivity().findViewById(R.id.back_);
+        if(level==1){
+            backbt.setVisibility(View.VISIBLE);
+
+            backbt.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v){
+
+                    m.initialViewPager(back_frament);
+                }});
+
+        }else{
+            backbt.setVisibility(View.INVISIBLE);
+        }
+
 		//super.onCreate(savedInstanceState);
 		//setContentView(R.layout.list);
 		// set image based on selected text

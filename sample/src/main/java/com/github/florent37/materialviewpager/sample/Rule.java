@@ -86,12 +86,15 @@ public class Rule extends android.support.v4.app.Fragment
 			    scale.setRepeatCount(0);
 				//
 				v.startAnimation(scale);
+//                Toast.makeText(getActivity().getApplicationContext(), String.valueOf(position),
+//                                Toast.LENGTH_LONG).show();
 //				Intent i=new Intent(Rule.this.getActivity(), MainActivity.class);
 ////                Toast.makeText(getActivity(), String.valueOf(position),
 ////                        Toast.LENGTH_LONG).show();
 //				i.putExtra("query", String.valueOf(position));
 //                i.putExtra("tabname", Title_String[position]);
 //				startActivity(i);
+                MainActivity.tab_name=Title_String[position];
                 m.initialViewPager(String.valueOf(position));
 				//overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
 			}

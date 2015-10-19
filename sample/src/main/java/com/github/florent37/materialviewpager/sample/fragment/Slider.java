@@ -66,6 +66,8 @@ public class Slider extends Fragment {
     CustomGridViewAdapter customGridAdapter;
     int id_ft;
     ////////////////////////////////////////
+    public static String back_frament;
+    public static int level=0;
     FragmentTransaction ft;
     Context contex;
     LinearLayout line;
@@ -211,8 +213,24 @@ public class Slider extends Fragment {
 //
 
 
-//        ImageButton backbt= (ImageButton)this.getActivity().findViewById(R.id.backbt);
-//        backbt.setVisibility(View.INVISIBLE);
+        ImageButton backbt= (ImageButton)this.getActivity().findViewById(R.id.back_);
+        if(level==1){
+//            Toast.makeText(getActivity().getApplicationContext(), String.valueOf(level),
+//                    Toast.LENGTH_LONG).show();
+            backbt.setVisibility(View.VISIBLE);
+
+            backbt.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v){
+//                    Toast.makeText(getActivity().getApplicationContext(), "fgdfgdfgdsgd",
+//                    Toast.LENGTH_LONG).show();
+                    m.initialViewPager(back_frament);
+                }});
+
+        }else{
+            backbt.setVisibility(View.INVISIBLE);
+        }
+
 
         final float id;
         if(Catid.equals("05")||Catid.equals("08")||Catid.equals("36")||Catid.equals("37")

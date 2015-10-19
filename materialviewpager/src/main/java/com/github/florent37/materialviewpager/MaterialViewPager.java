@@ -14,6 +14,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
@@ -32,6 +33,7 @@ import com.nineoldandroids.view.ViewHelper;
  */
 public class MaterialViewPager extends FrameLayout implements ViewPager.OnPageChangeListener {
 
+    public View vv;
     /**
      * the layout containing the header
      * default : add @layout/material_view_pager_default_header
@@ -83,6 +85,11 @@ public class MaterialViewPager extends FrameLayout implements ViewPager.OnPageCh
 
     //region construct
 
+    /////////////
+
+    ////////
+
+
     public MaterialViewPager(Context context) {
         super(context);
     }
@@ -124,6 +131,8 @@ public class MaterialViewPager extends FrameLayout implements ViewPager.OnPageCh
         pagerTitleStripContainer = (ViewGroup) findViewById(R.id.pagerTitleStripContainer);
         viewpagerContainer = (ViewGroup) findViewById(R.id.viewpager_layout);
         logoContainer = (ViewGroup) findViewById(R.id.logoContainer);
+
+
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         if (settings.disableToolbar)

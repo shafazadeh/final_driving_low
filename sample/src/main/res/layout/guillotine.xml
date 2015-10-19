@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools"
     android:id="@+id/rel1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,7 +17,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
             style="@style/ImageView.Hamburger"
             android:src="@drawable/ic_menu" />
         <ImageView
-            android:layout_gravity="right"
+            android:layout_gravity="left"
             android:contentDescription="@string/hello"
             android:id="@+id/searchbtn"
             android:layout_width="wrap_content"
@@ -52,6 +53,8 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
         app:viewpager_pagerTitleStrip="@layout/my_tabs"
 
         />
+
+
 
 
 
