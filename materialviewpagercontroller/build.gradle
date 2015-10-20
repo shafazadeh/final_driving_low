@@ -30,9 +30,7 @@ dependencies {
         transitive = true
     }
 
-    compile ('com.github.florent37:materialviewpager:+@aar') {
-        transitive = true
-    }
+    compile project(':materialviewpager')
 }
 
 

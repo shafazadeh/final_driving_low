@@ -119,7 +119,9 @@
                 android:text="تابلو ها"
                 android:textSize="17dp"
                 android:id="@+id/tabloha_txt"
-
+                android:clickable="true"
+                android:textColor="@color/bright_text_dark_focused"
+                android:textStyle="bold"
                 />
             <ImageView
                 android:layout_width="30dp"
@@ -143,6 +145,9 @@
                 android:text="آموزش"
                 android:textSize="17dp"
                 android:id="@+id/amozesh"
+                android:clickable="true"
+                android:textColor="@color/bright_text_dark_focused"
+                android:textStyle="bold"
                 />
             <ImageView
                 android:layout_width="30dp"
@@ -166,6 +171,9 @@
                 android:text="آزمون"
                 android:textSize="17dp"
                 android:id="@+id/azmon"
+                android:clickable="true"
+                android:textColor="@color/bright_text_dark_focused"
+                android:textStyle="bold"
                 />
             <ImageView
                 android:layout_width="30dp"
@@ -188,6 +196,9 @@
                 android:text="ضمائم"
                 android:textSize="17dp"
                 android:id="@+id/zamaem"
+                android:clickable="true"
+                android:textColor="@color/bright_text_dark_focused"
+                android:textStyle="bold"
                 />
             <ImageView
                 android:layout_width="30dp"
@@ -211,6 +222,9 @@
                 android:text="درباره ما"
                 android:textSize="17dp"
                 android:id="@+id/aboutus"
+                android:clickable="true"
+                android:textColor="@color/bright_text_dark_focused"
+                android:textStyle="bold"
                 />
             <ImageView
                 android:layout_width="30dp"

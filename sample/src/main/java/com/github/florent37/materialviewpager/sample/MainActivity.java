@@ -25,6 +25,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
@@ -45,6 +46,7 @@ import com.github.florent37.materialviewpager.sample.fragment.Slider;
 import com.github.florent37.materialviewpager.sample.fragment.slider2;
 import com.github.florent37.materialviewpager.sample.menu.CustomMenu;
 import com.github.florent37.materialviewpager.sample.menu.CustomMenuItem;
+
 import com.yalantis.guillotine.animation.GuillotineAnimation;
 
 import butterknife.ButterKnife;
@@ -64,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
     private ActionBarDrawerToggle mDrawerToggle;
 //    private Toolbar toolbar;
 private static final long RIPPLE_DURATION = 250;
-private static  int level=0;
+
 
     static String extra2;
 
@@ -86,7 +88,14 @@ private static  int level=0;
     private int count=0;
 
     static String tab_name;
+    ImageButton back;
+    String back_fragment;
+    int level=0;
+
     ////////
+    CheckBox cb1,cb2,cb3;
+    int key=0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,9 +111,7 @@ private static  int level=0;
 
         }
 
-
-
-
+//
 
         TextView txt=(TextView)findViewById(R.id.tabloha_txt);
         txt.setOnClickListener(new View.OnClickListener() {
@@ -175,6 +182,27 @@ private static  int level=0;
             Fabric.with(this, new Crashlytics());
 //
         setTitle("");
+        /////////////////////
+        final Transparent popup = (Transparent) findViewById(R.id.popup_window);
+        popup.setVisibility(View.GONE);
+
+        final Button btn=(Button)findViewById(R.id.handle);
+        btn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                if(key==0){
+                    key=1;
+                    popup.setVisibility(View.VISIBLE);
+                    //	btn.setBackgroundResource(R.drawable.ic_launcher);
+                }
+                else if(key==1){
+                    key=0;
+                    popup.setVisibility(View.GONE);
+                    //	btn.setBackgroundResource(R.drawable.ic_action_search);
+                }
+            }
+        });
 
 //      /////////
         mMenu = new CustomMenu(MainActivity.this,null, getLayoutInflater());
@@ -183,34 +211,67 @@ private static  int level=0;
         mMenu.setItemsPerLineInLandscapeOrientation(8);
 
         ///////////
-        search=(ImageView)findViewById(R.id.searchbtn);
-        if(com.github.florent37.materialviewpager.sample.attrib.attribute.pre!=null)
-            com.github.florent37.materialviewpager.sample.attrib.attribute.pre.finish();
-
-        Runnable runable=new Runnable() {
-
+        //search=(ImageView)findViewById(R.id.se);
+        edit=(EditText)findViewById(R.id.et);
+        Button dialogButton = (Button) findViewById(R.id.se);
+        //dialogButton.setText(PersianReshape.reshape("جستجو"));
+        //dialogButton.setTypeface(face);
+        // if button is clicked, close the custom dialog
+        dialogButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void run() {
-                Animation anim=(Animation) AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anim2);
-                search.setVisibility(View.VISIBLE);
-                search.startAnimation(anim);
-//                SharedPreferences settings = getSharedPreferences("pref", 0);
-//                int Reshap = settings.getInt("RESHAPE", -1);
-//                if(Reshap==2)
-//                    Reshap=Integer.parseInt(readFromFile());
-//                if(Reshap==-1&&com.github.florent37.materialviewpager.sample.attrib.attribute.RESHAPE==2)
-//                {
-//                    reshapedialog();
-//                }
-				/*else if(farin.code.rahnamaee.attrib.attribute.AUTOUPDATE)
-		        {
-		         	checkforupdate();
-		        }*/
+            public void onClick(View v){
+                if(edit.getText().toString().trim().length()==0)
+                {
+                    edit.setBackgroundColor(Color.RED);
+                    createToast(4000, "لطفا متن مورد نظر را وارد کنید");
+
+                }
+                else
+                {
+                    edit.setBackgroundColor(Color.WHITE);
+
+//                    Intent nextintend=new Intent(MainActivity.this, Search.class);
+//                    nextintend.putExtra("searchfor",edit.getText().toString());
+                    initialViewPager("search");
+                    edit.setText("");
+//
+
+                }
             }
-        };
-        notifyMgr=(NotificationManager)getSystemService(NOTIFICATION_SERVICE);
-        handler.postDelayed(runable, 3000);
-        search.setOnTouchListener(touch);
+        });
+
+
+
+//        if(com.github.florent37.materialviewpager.sample.attrib.attribute.pre!=null)
+//            com.github.florent37.materialviewpager.sample.attrib.attribute.pre.finish();
+//
+//        Runnable runable=new Runnable() {
+//
+//            @Override
+//            public void run() {
+//                Animation anim=(Animation) AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anim2);
+//                search.setVisibility(View.VISIBLE);
+//                search.startAnimation(anim);
+////                SharedPreferences settings = getSharedPreferences("pref", 0);
+////                int Reshap = settings.getInt("RESHAPE", -1);
+////                if(Reshap==2)
+////                    Reshap=Integer.parseInt(readFromFile());
+////                if(Reshap==-1&&com.github.florent37.materialviewpager.sample.attrib.attribute.RESHAPE==2)
+////                {
+////                    reshapedialog();
+////                }
+//				/*else if(farin.code.rahnamaee.attrib.attribute.AUTOUPDATE)
+//		        {
+//		         	checkforupdate();
+//		        }*/
+//            }
+//        };
+//        notifyMgr=(NotificationManager)getSystemService(NOTIFICATION_SERVICE);
+//        handler.postDelayed(runable, 3000);
+      // search.setOnTouchListener(touch);
+
+
+
 
         mViewPager = (MaterialViewPager) findViewById(R.id.materialViewPager);
         if(getIntent().getStringExtra("query")!=null) {
@@ -220,9 +281,9 @@ private static  int level=0;
             }
         }else{extra2="7";}
 
-
-
         initialViewPager(extra2);
+
+
 
         mViewPager.setMaterialViewPagerListener(new MaterialViewPager.Listener() {
             @Override
@@ -260,89 +321,89 @@ private static  int level=0;
 
 
     //
-    Handler handler=new Handler();
-
-
-    View.OnTouchListener touch=new View.OnTouchListener() {
-        @Override
-        public boolean onTouch(View v, MotionEvent event) {
-
-
-            Isclickable=false;
-            final Dialog dialog = new Dialog(MainActivity.this,android.R.style.Theme_Translucent_NoTitleBar);
-            dialog.setContentView(R.layout.search);
-            // set the custom dialog components - text, image and button
-            //Typeface face = Typeface.createFromAsset(contex.getAssets(),"font/"+farin.code.rahnamaee.attrib.attribute.font_title);
-
-            ImageView image=null;
-            try{
-                image = (ImageView) dialog.findViewById(R.id.closesearchbtn);
-            }catch(Exception e)
-            {
-                e.printStackTrace();
-            }
-            image.setOnTouchListener(new View.OnTouchListener() {
-                @Override
-                public boolean onTouch(View v, MotionEvent event) {
-                    dialog.dismiss();
-                    Isclickable=true;
-                    return false;
-                }
-            });
-            edit=(EditText)dialog.findViewById(R.id.editText1);
-            Button dialogButton = (Button) dialog.findViewById(R.id.searchdialogButton);
-            //dialogButton.setText(PersianReshape.reshape("جستجو"));
-            //dialogButton.setTypeface(face);
-            // if button is clicked, close the custom dialog
-            dialogButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v){
-                    if(edit.getText().toString().trim().length()==0)
-                    {
-                        edit.setBackgroundColor(Color.RED);
-                        createToast(4000, "لطفا متن مورد نظر را وارد کنید");
-
-                    }
-                    else
-                    {
-                        edit.setBackgroundColor(Color.WHITE);
-
-                        Intent nextintend=new Intent(MainActivity.this, Search.class);
-                        nextintend.putExtra("searchfor",edit.getText().toString());
-                        edit.setText("");
-                        dialog.dismiss();
-                        Isclickable=true;
-                        startActivity(nextintend);
-
-                    }
-                }
-            });
-            try{
-                //dialog.getWindow().getAttributes().windowAnimations = R.style.SearchDialogAnimation;
-                dialog.setOnKeyListener(new DialogInterface.OnKeyListener() {
-
-                    @Override
-                    public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) {
-                        if(keyCode==KeyEvent.KEYCODE_BACK)
-                        {
-                            dialog.dismiss();
-                            Isclickable=true;
-                            return false;
-                        }
-                        return false;
-                    }
-                });
-                dialog.getWindow().getAttributes().windowAnimations = R.style.SearchDialogAnimation;
-                dialog.show();
-            }
-            catch(Exception e)
-            {
-               // Log.d("hiiiiiiii",e.toString());
-                e.printStackTrace();
-            }
-            return false;
-        }
-    };
+//    Handler handler=new Handler();
+//
+//
+//    View.OnTouchListener touch=new View.OnTouchListener() {
+//        @Override
+//        public boolean onTouch(View v, MotionEvent event) {
+//
+//
+//            Isclickable=false;
+//            final Dialog dialog = new Dialog(MainActivity.this,android.R.style.Theme_Translucent_NoTitleBar);
+//            dialog.setContentView(R.layout.search);
+//            // set the custom dialog components - text, image and button
+//            //Typeface face = Typeface.createFromAsset(contex.getAssets(),"font/"+farin.code.rahnamaee.attrib.attribute.font_title);
+//
+//            ImageView image=null;
+//            try{
+//                image = (ImageView) dialog.findViewById(R.id.closesearchbtn);
+//            }catch(Exception e)
+//            {
+//                e.printStackTrace();
+//            }
+//            image.setOnTouchListener(new View.OnTouchListener() {
+//                @Override
+//                public boolean onTouch(View v, MotionEvent event) {
+//                    dialog.dismiss();
+//                    Isclickable=true;
+//                    return false;
+//                }
+//            });
+//            edit=(EditText)dialog.findViewById(R.id.editText1);
+//            Button dialogButton = (Button) dialog.findViewById(R.id.searchdialogButton);
+//            //dialogButton.setText(PersianReshape.reshape("جستجو"));
+//            //dialogButton.setTypeface(face);
+//            // if button is clicked, close the custom dialog
+//            dialogButton.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v){
+//                    if(edit.getText().toString().trim().length()==0)
+//                    {
+//                        edit.setBackgroundColor(Color.RED);
+//                        createToast(4000, "لطفا متن مورد نظر را وارد کنید");
+//
+//                    }
+//                    else
+//                    {
+//                        edit.setBackgroundColor(Color.WHITE);
+//
+//                        Intent nextintend=new Intent(MainActivity.this, Search.class);
+//                        nextintend.putExtra("searchfor",edit.getText().toString());
+//                        edit.setText("");
+//                        dialog.dismiss();
+//                        Isclickable=true;
+//                        startActivity(nextintend);
+//
+//                    }
+//                }
+//            });
+//            try{
+//                //dialog.getWindow().getAttributes().windowAnimations = R.style.SearchDialogAnimation;
+//                dialog.setOnKeyListener(new DialogInterface.OnKeyListener() {
+//
+//                    @Override
+//                    public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) {
+//                        if(keyCode==KeyEvent.KEYCODE_BACK)
+//                        {
+//                            dialog.dismiss();
+//                            Isclickable=true;
+//                            return false;
+//                        }
+//                        return false;
+//                    }
+//                });
+//                dialog.getWindow().getAttributes().windowAnimations = R.style.SearchDialogAnimation;
+//                dialog.show();
+//            }
+//            catch(Exception e)
+//            {
+//               // Log.d("hiiiiiiii",e.toString());
+//                e.printStackTrace();
+//            }
+//            return false;
+//        }
+//    };
 
 
 
@@ -367,6 +428,7 @@ private static  int level=0;
 
 
 
+
     public  void initialViewPager(final String extra)
     {
 
@@ -376,10 +438,14 @@ private static  int level=0;
                 public Fragment getItem(int position) {
                     switch (position % 3) {
                         case 0:
+                            if(extra.equals("search")){
+
+                                return Search.newInstance(edit.getText().toString(),MainActivity.this);
+                            }
                             if(extra.equals("ostan")){
                                 Ostan.back_frament="attach";
                                 Ostan.level=1;
-                                return Ostan.newInstance(MainActivity.this);
+                                return Ostan.newInstance(MainActivity.this, "school");
                             }
                             if(extra.equals("pelak")){
                                 Pelak.back_frament="attach";
@@ -426,7 +492,7 @@ private static  int level=0;
 
                                 ///////for back bt
                                 if(extra.equals("7")){
-//
+
                                     Slider.back_frament="Rule";
                                     Slider.level=1;
                                     return Slider.newInstance(extra, MainActivity.this);
@@ -434,6 +500,10 @@ private static  int level=0;
                                 if(extra.equals("0") ||extra.equals("1")||extra.equals("2")||extra.equals("3")
                                         ||extra.equals("4")||extra.equals("5")||extra.equals("6")
                                         ||extra.equals("10")){
+                                    back_fragment="Rule";
+                                    level=1;
+
+
                                     Slider.back_frament="Rule";
                                     Slider.level=1;
                                     return Slider.newInstance(extra, MainActivity.this);
@@ -441,6 +511,8 @@ private static  int level=0;
                                 if(extra.equals("71") ||
                                         extra.equals("72")|| extra.equals("05")||extra.equals("08")
                                         || extra.equals("36") || extra.equals("37")){
+                                    back_fragment="Rule";
+                                    level=1;
                                     Slider.back_frament="7";
                                     Slider.level=1;
                                     return Slider.newInstance(extra, MainActivity.this);
@@ -483,6 +555,7 @@ private static  int level=0;
                 public CharSequence getPageTitle(int position) {
                     switch (position % 4) {
                         case 0:
+                            if(extra.equals("search")){return "جستجو";}
                             if(extra.equals("ostan")){return "آموزشگاه های رانندگی";}
                             if(extra.equals("pelak")){return "تعویض پلاک";}
                             if(extra.equals("document")){

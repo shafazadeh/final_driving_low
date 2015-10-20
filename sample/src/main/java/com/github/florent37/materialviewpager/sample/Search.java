@@ -13,6 +13,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,23 +26,42 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
 
-public class Search extends Activity 
+public class Search extends Fragment
 {
+    public static boolean back_bt=false;
+    public static String cadid_for_back;
+    public static MainActivity m;
 	String searchfor;
 	ListView listView;
 	String q1;
 	String q2;
 	String q3;
 	DbAdapter database;
-	@Override
-	protected void onCreate(Bundle savedInstanceState){
-		super.onCreate(savedInstanceState);
-		searchfor=getIntent().getStringExtra("searchfor");
+
+    public static Search newInstance( String someTitle, MainActivity n) {
+        Search fragmentDemo = new Search();
+        Bundle args = new Bundle();
+        args.putString("searchfor", someTitle);
+
+        fragmentDemo.setArguments(args);
+        m=n;
+        return fragmentDemo;
+    }
+
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.list, container, false);
+    }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+		searchfor=getArguments().getString("searchfor");
 		try {
-			database=new DbAdapter(this);
+			database=new DbAdapter(this.getActivity());
 		} catch (Exception e) {
-			finish();
-			overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+			getActivity().finish();
+			getActivity().overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
 		}
 		//
 		q1="select * from "+rule.TableName+" where "+rule.KEY_CONTENT+" LIKE '%"+searchfor+"%' OR "+rule.KEY_NAME+" LIKE '%"+searchfor+"%'";
@@ -48,9 +69,9 @@ public class Search extends Activity
 		q3="select * from "+exam.TableName+" where "+exam.KEY_QUESTION+" LIKE '%"+searchfor+"%' OR "+exam.KEY_TYPE+" LIKE '%"+searchfor+"%'";
 		//
 		setListViewContent();
-		TextView textView = (TextView) findViewById(R.id.textView1);
+		TextView textView = (TextView) getActivity().findViewById(R.id.textView1);
 		textView.setText("نتایج جستجو "+searchfor);
-		Typeface face = Typeface.createFromAsset(this.getAssets(),"font/"+com.github.florent37.materialviewpager.sample.attrib.attribute.font_title);
+		Typeface face = Typeface.createFromAsset(this.getActivity().getAssets(),"font/"+com.github.florent37.materialviewpager.sample.attrib.attribute.font_title);
 		textView.setTextSize(com.github.florent37.materialviewpager.sample.attrib.attribute.title_font_size);
 		textView.setTextColor(com.github.florent37.materialviewpager.sample.attrib.attribute.title_font_color);
 		textView.setTypeface(face);
@@ -70,32 +91,23 @@ public class Search extends Activity
 						.findViewById(R.id.rowtitle);
 				if(textView.getText().toString().trim().equals("قوانین".trim()))
 				{
-					Intent i=new Intent(Search.this, RuleItem.class);
+					Intent i=new Intent(Search.this.getActivity(), RuleItem.class);
 					i.putExtra("query", q1);
 					startActivity(i);
 				}
 				else if(textView.getText().toString().trim().equals("تابلوها".trim()))
 				{
-					Intent i=new Intent(Search.this, SignItem.class);
+					Intent i=new Intent(Search.this.getActivity(), SignItem.class);
 					i.putExtra("query", q2);
 					startActivity(i);
 				}
 				else if(textView.getText().toString().trim().equals("سوالات".trim()))
 				{
-					Intent i=new Intent(Search.this, QuestionPage.class);
+					Intent i=new Intent(Search.this.getActivity(), QuestionPage.class);
 					i.putExtra("query", q3);
 					startActivity(i);
 				}
 				
-			}
-		});
-		Button button=(Button)this.findViewById(R.id.back);
-		button.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				finish();
-		    	overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
 			}
 		});
 
@@ -105,16 +117,16 @@ public class Search extends Activity
 	//
 	public void setListViewContent()
 	{
-			this.setContentView(R.layout.list3);
-			listView = (ListView) findViewById(R.id.items);
+			//this.setContentView(R.layout.list3);
+			listView = (ListView) getActivity().findViewById(R.id.items);
 			Item[] Values=getdata();
 			if(Values.length>0)
-			listView.setAdapter(new ListAdapter(this, Values));
+			listView.setAdapter(new ListAdapter(this.getActivity(), Values));
 			else
 			{
 				Values=new Item[1];
 				Values[0]=new Item("موردی یافت نشد", 0, "");
-				listView.setAdapter(new ListAdapter(this, Values));
+				listView.setAdapter(new ListAdapter(this.getActivity(), Values));
 			}
 		
 	}
@@ -126,8 +138,8 @@ public class Search extends Activity
 		try {
 			temp = database.selectRecordsFromDBList(q1);
 		} catch (Exception e) {
-			finish();
-	    	overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+			getActivity().finish();
+	    	getActivity().overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
 		}
 		if(temp.size()>0)
 			out[i++]=new Item("قوانین", temp.size(),q1);
@@ -136,8 +148,8 @@ public class Search extends Activity
 		try {
 			temp= database.selectRecordsFromDBList(q2);
 		} catch (Exception e) {
-			finish();
-	    	overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+			getActivity().finish();
+	    	getActivity().overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
 		}
 		if(temp.size()>0)
 			out[i++]=new Item("تابلوها", temp.size(),q2);
@@ -146,8 +158,8 @@ public class Search extends Activity
 		try {
 			temp= database.selectRecordsFromDBList(q3);
 		} catch (Exception e) {
-			finish();
-	    	overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+			getActivity().finish();
+	    	getActivity().overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
 		}
 		if(temp.size()>0)
 			out[i++]=new Item("سوالات", temp.size(),q3);

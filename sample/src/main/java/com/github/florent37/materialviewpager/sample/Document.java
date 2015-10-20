@@ -50,7 +50,7 @@ public class Document extends Fragment {
 		textView.setTextSize(com.github.florent37.materialviewpager.sample.attrib.attribute.title_font_size);
 		textView.setTextColor(com.github.florent37.materialviewpager.sample.attrib.attribute.title_font_color);
 		textView.setTypeface(face);
-        ImageButton backbt= (ImageButton)this.getActivity().findViewById(R.id.back_);
+        ImageButton backbt=m.mViewPager.getIB();
         if(level==1){
 //            Toast.makeText(getActivity().getApplicationContext(), String.valueOf(level),
 //                    Toast.LENGTH_LONG).show();

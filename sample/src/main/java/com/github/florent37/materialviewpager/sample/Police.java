@@ -68,7 +68,7 @@ public class Police extends Fragment {
 		textView.setTextColor(com.github.florent37.materialviewpager.sample.attrib.attribute.title_font_color);
 		textView.setTypeface(face);
 
-        ImageButton backbt= (ImageButton)this.getActivity().findViewById(R.id.back_);
+        ImageButton backbt=m.mViewPager.getIB();
         if(level==1){
 //            Toast.makeText(getActivity().getApplicationContext(), String.valueOf(level),
 //                    Toast.LENGTH_LONG).show();
@@ -85,7 +85,6 @@ public class Police extends Fragment {
         }else{
             backbt.setVisibility(View.INVISIBLE);
         }
-
 
         //
 		listView.setOnItemClickListener(new OnItemClickListener() 

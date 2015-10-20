@@ -48,22 +48,15 @@
         <activity android:label="@string/app_name"
             android:name=".Result" android:theme="@android:style/Theme.NoTitleBar"
             android:screenOrientation="portrait"/>
-        <activity android:label="@string/app_name"
-            android:name=".Document" android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait"/>
-        <activity android:label="@string/app_name"
-            android:name=".Ostan" android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait"/>
-        <activity android:label="@string/app_name"
-            android:name=".Pelak" android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait"/>
+
         <activity android:label="@string/app_name"
             android:name=".Detail" android:theme="@android:style/Theme.NoTitleBar"
             android:screenOrientation="portrait"/>
         <activity android:label="@string/app_name"
-            android:name=".Police" android:theme="@android:style/Theme.NoTitleBar"
+            android:name=".LearnSchool" android:theme="@android:style/Theme.NoTitleBar"
             android:screenOrientation="portrait"/>
 
+        <activity android:name=".Transparent" ></activity>
         <activity
             android:name=".Page"
             android:label="@string/app_name"

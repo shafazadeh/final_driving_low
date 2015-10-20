@@ -57,8 +57,7 @@ public class Slider extends Fragment {
 
     public List<List<Object>> exams=null;
     public List<List<Object>> rules=null;
-    public static boolean back_bt=false;
-    public static String cadid_for_back;
+
    public static MainActivity m;
     private ObservableScrollView mScrollView2;
     GridView gridView;
@@ -110,43 +109,7 @@ public class Slider extends Fragment {
 
 
 
-//    public boolean onKeyDown(int keyCode, KeyEvent event) {
-//        if ((keyCode == KeyEvent.KEYCODE_BACK)) {
 
-//            FragmentManager fragManager = getFragmentManager();
-//            FragmentTransaction backTransaction = fragManager.beginTransaction();
-//            Fragment frag = fragManager.findFragmentById(this.getId());
-//            if(frag != null) {
-//                backTransaction.detach(frag);
-//                backTransaction.commit();
-//            }
-            //m.initialViewPager("7");
-//        }
-//        return super.getActivity().onKeyDown(keyCode, event);
-//    }
-
-    public static void set_cadid_for_back(String s){
-       cadid_for_back=s;
-   }
-
-//    @Override
-//    public void onResume() {
-//        super.onResume();
-//
-//        getView().setFocusableInTouchMode(true);
-//        getView().requestFocus();
-//        getView().setOnKeyListener(new View.OnKeyListener() {
-//            @Override
-//            public boolean onKey(View v, int keyCode, KeyEvent event) {
-//
-//                if (event.getAction() == KeyEvent.ACTION_UP && keyCode == KeyEvent.KEYCODE_BACK){
-//                    // handle back button's click listener
-//                    return true;
-//                }
-//                return false;
-//            }
-//        });
-//    }
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.slider, container, false);
@@ -155,7 +118,7 @@ public class Slider extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        //mScrollView2 = (ObservableScrollView) view.findViewById(R.id.scrollView2);
+       mScrollView2 = (ObservableScrollView) view.findViewById(R.id.scrollView2);
 
 //
 
@@ -182,7 +145,7 @@ public class Slider extends Fragment {
 
 
 
-      //  MaterialViewPagerHelper.registerScrollView(getActivity(), mScrollView2, null);
+        MaterialViewPagerHelper.registerScrollView(getActivity(), mScrollView2, null);
     }
     private void loadhash() {
         for(int i=0;i<11;i++)
@@ -213,21 +176,22 @@ public class Slider extends Fragment {
 //
 
 
-        ImageButton backbt= (ImageButton)this.getActivity().findViewById(R.id.back_);
+        final ImageButton backbt=m.mViewPager.getIB();
         if(level==1){
 //            Toast.makeText(getActivity().getApplicationContext(), String.valueOf(level),
 //                    Toast.LENGTH_LONG).show();
-            backbt.setVisibility(View.VISIBLE);
+           backbt.setVisibility(View.VISIBLE);
 
             backbt.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v){
 //                    Toast.makeText(getActivity().getApplicationContext(), "fgdfgdfgdsgd",
 //                    Toast.LENGTH_LONG).show();
-                    m.initialViewPager(back_frament);
+                    backbt.setVisibility(View.INVISIBLE);
+                   m.initialViewPager(back_frament);
                 }});
 
-        }else{
+       }else{
             backbt.setVisibility(View.INVISIBLE);
         }
 

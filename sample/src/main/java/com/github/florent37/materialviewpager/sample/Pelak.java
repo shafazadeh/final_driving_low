@@ -60,7 +60,7 @@ public class Pelak extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 		//
 
-        ImageButton backbt= (ImageButton)this.getActivity().findViewById(R.id.back_);
+        ImageButton backbt=m.mViewPager.getIB();
         if(level==1){
 //            Toast.makeText(getActivity().getApplicationContext(), String.valueOf(level),
 //                    Toast.LENGTH_LONG).show();
@@ -77,7 +77,6 @@ public class Pelak extends Fragment {
         }else{
             backbt.setVisibility(View.INVISIBLE);
         }
-
 		try{
 		context=this.getActivity();
 		setListViewContent();

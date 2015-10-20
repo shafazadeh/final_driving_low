@@ -37,13 +37,13 @@ public class Ostan extends Fragment
 	 Bitmap[] Title_Image=new Bitmap[Title_String.length];
     public static String back_frament;
     public static int level=0;
-	 String Next="";
+	 static String Next="";
 	 ListView listView;
 	 Context context;
 
-    public static Ostan newInstance( MainActivity n) {
+    public static Ostan newInstance( MainActivity n,String s) {
         Ostan fragmentDemo = new Ostan();
-
+        Next=s;
         m=n;
         return fragmentDemo;
     }
@@ -60,7 +60,7 @@ public class Ostan extends Fragment
 		context=this.getActivity();
 		//setContentView(R.layout.list4);
 
-        ImageButton backbt= (ImageButton)this.getActivity().findViewById(R.id.back_);
+        ImageButton backbt=m.mViewPager.getIB();
         if(level==1){
 //            Toast.makeText(getActivity().getApplicationContext(), String.valueOf(level),
 //                    Toast.LENGTH_LONG).show();
@@ -79,7 +79,7 @@ public class Ostan extends Fragment
         }
 
 
-        Next=getActivity().getIntent().getStringExtra("next");
+       // Next=getActivity().getIntent().getStringExtra("next");
 		listView = (ListView) getActivity().findViewById(R.id.items);
 		listView.setAdapter(new OstanArrayAdapter(this.getActivity(), Title_String));
 		// set image based on selected text

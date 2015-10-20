@@ -25,14 +25,6 @@
             android:layout_marginTop="@dimen/cardMarginVertical"
             android:background="@android:color/white"
             app:cardElevation="4dp">
-            <ImageButton
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:background="@drawable/back_button"
-                android:layout_gravity="top"
-                android:id="@+id/back_"
-
-                />
 
     <RelativeLayout
         android:id="@+id/relativeLayout1"

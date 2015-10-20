@@ -158,16 +158,19 @@ public class RuleItem extends Fragment
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mScrollView = (ObservableScrollView) view.findViewById(R.id.scrollView);
+      //  mScrollView = (ObservableScrollView) view.findViewById(R.id.scrollView);
 
-        ImageButton backbt= (ImageButton)this.getActivity().findViewById(R.id.back_);
+        ImageButton backbt=m.mViewPager.getIB();
         if(level==1){
+//            Toast.makeText(getActivity().getApplicationContext(), String.valueOf(level),
+//                    Toast.LENGTH_LONG).show();
             backbt.setVisibility(View.VISIBLE);
 
             backbt.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v){
-
+//                    Toast.makeText(getActivity().getApplicationContext(), "fgdfgdfgdsgd",
+//                    Toast.LENGTH_LONG).show();
                     m.initialViewPager(back_frament);
                 }});
 
@@ -185,7 +188,7 @@ public class RuleItem extends Fragment
 		}
 		setGridViewContent();
 
-        MaterialViewPagerHelper.registerScrollView(getActivity(), mScrollView, null);
+      //  MaterialViewPagerHelper.registerScrollView(getActivity(), mScrollView, null);
 	}
 	//
 	public class RuleItemAdapter extends BaseAdapter 

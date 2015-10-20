@@ -7,6 +7,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
@@ -32,6 +33,7 @@ import com.nineoldandroids.view.ViewHelper;
  * Display a preview with header, actual logo and fake cells
  */
 public class MaterialViewPager extends FrameLayout implements ViewPager.OnPageChangeListener {
+
 
     public View vv;
     /**
@@ -89,7 +91,7 @@ public class MaterialViewPager extends FrameLayout implements ViewPager.OnPageCh
 
     ////////
 
-
+   public  ImageButton back;
     public MaterialViewPager(Context context) {
         super(context);
     }
@@ -466,5 +468,12 @@ public class MaterialViewPager extends FrameLayout implements ViewPager.OnPageCh
     public interface OnImageLoadListener {
         void OnImageLoad(ImageView imageView, Bitmap bitmap);
     }
+
+    public ImageButton getIB()
+    {
+        back =(ImageButton)findViewById(R.id.b);
+        return  back;
+    }
+
 
 }

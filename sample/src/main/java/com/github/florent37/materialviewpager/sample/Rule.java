@@ -63,7 +63,7 @@ public class Rule extends android.support.v4.app.Fragment
 		gridView = (GridView) this.getActivity().findViewById(R.id.gridView9);
 
         ViewGroup.LayoutParams layoutParams = gridView.getLayoutParams();
-        layoutParams.height = 1150; //this is in pixels
+        layoutParams.height = 900; //this is in pixels
         gridView.setLayoutParams(layoutParams);
 
 		gridView.setSelector(android.R.color.transparent);
