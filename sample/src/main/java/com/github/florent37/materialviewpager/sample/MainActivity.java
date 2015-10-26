@@ -30,6 +30,8 @@ import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -56,6 +58,8 @@ import io.fabric.sdk.android.Fabric;
 import android.view.ViewGroup;
 
 import java.util.List;
+
+import static android.view.View.VISIBLE;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -183,26 +187,61 @@ private static final long RIPPLE_DURATION = 250;
 //
         setTitle("");
         /////////////////////
-        final Transparent popup = (Transparent) findViewById(R.id.popup_window);
-        popup.setVisibility(View.GONE);
-
-        final Button btn=(Button)findViewById(R.id.handle);
-        btn.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-                if(key==0){
-                    key=1;
-                    popup.setVisibility(View.VISIBLE);
-                    //	btn.setBackgroundResource(R.drawable.ic_launcher);
-                }
-                else if(key==1){
-                    key=0;
-                    popup.setVisibility(View.GONE);
-                    //	btn.setBackgroundResource(R.drawable.ic_action_search);
-                }
-            }
-        });
+//        final Transparent popup = (Transparent) findViewById(R.id.popup_window);
+//        //popup.setVisibility(View.GONE);
+//
+//        //
+//      //  LinearLayout l=(LinearLayout)findViewById(R.id.li);
+//       popup.setY(-200);
+//        //////
+//
+//        final Button btn=(Button)findViewById(R.id.handle);
+//        btn.setOnClickListener(new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View arg0) {
+//                if(key==0){
+//                    key=1;
+//
+//                    Animation anim1=(Animation)AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anim1);
+//                    popup.startAnimation(anim1);
+//                    popup.setY(0);
+//                    anim1.setAnimationListener(new Animation.AnimationListener() {
+//
+//                        @Override
+//                        public void onAnimationStart(Animation animation) {
+//                            // TODO Auto-generated method stub
+//
+//                        }
+//
+//                        @Override
+//                        public void onAnimationRepeat(Animation animation) {
+//                            // TODO Auto-generated method stub
+//
+//                        }
+//
+//                        @Override
+//                        public void onAnimationEnd(Animation animation) {
+//                            // TODO Auto-generated method stub
+////                            im2.setVisibility(View.VISIBLE);
+////                            im2.startAnimation(anim2);
+//
+//                           //popup.setVisibility(VISIBLE);
+//
+//                        }
+//                    });
+////
+////                    //	btn.setBackgroundResource(R.drawable.ic_launcher);
+//
+//                }
+//                else if(key==1){
+//                    key=0;
+//                    popup.setY(-200);
+//                 //  popup.setVisibility(View.GONE);
+//                    //	btn.setBackgroundResource(R.drawable.ic_action_search);
+//                }
+//            }
+//        });
 
 //      /////////
         mMenu = new CustomMenu(MainActivity.this,null, getLayoutInflater());
@@ -211,64 +250,38 @@ private static final long RIPPLE_DURATION = 250;
         mMenu.setItemsPerLineInLandscapeOrientation(8);
 
         ///////////
-        //search=(ImageView)findViewById(R.id.se);
-        edit=(EditText)findViewById(R.id.et);
-        Button dialogButton = (Button) findViewById(R.id.se);
-        //dialogButton.setText(PersianReshape.reshape("جستجو"));
-        //dialogButton.setTypeface(face);
-        // if button is clicked, close the custom dialog
-        dialogButton.setOnClickListener(new View.OnClickListener() {
+        search=(ImageView)findViewById(R.id.ser);
+
+
+
+
+        if(com.github.florent37.materialviewpager.sample.attrib.attribute.pre!=null)
+            com.github.florent37.materialviewpager.sample.attrib.attribute.pre.finish();
+
+        Runnable runable=new Runnable() {
+
             @Override
-            public void onClick(View v){
-                if(edit.getText().toString().trim().length()==0)
-                {
-                    edit.setBackgroundColor(Color.RED);
-                    createToast(4000, "لطفا متن مورد نظر را وارد کنید");
-
-                }
-                else
-                {
-                    edit.setBackgroundColor(Color.WHITE);
-
-//                    Intent nextintend=new Intent(MainActivity.this, Search.class);
-//                    nextintend.putExtra("searchfor",edit.getText().toString());
-                    initialViewPager("search");
-                    edit.setText("");
-//
-
-                }
+            public void run() {
+                Animation anim=(Animation) AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anim2);
+                search.setVisibility(VISIBLE);
+                search.startAnimation(anim);
+//                SharedPreferences settings = getSharedPreferences("pref", 0);
+//                int Reshap = settings.getInt("RESHAPE", -1);
+//                if(Reshap==2)
+//                    Reshap=Integer.parseInt(readFromFile());
+//                if(Reshap==-1&&com.github.florent37.materialviewpager.sample.attrib.attribute.RESHAPE==2)
+//                {
+//                    reshapedialog();
+//                }
+				/*else if(farin.code.rahnamaee.attrib.attribute.AUTOUPDATE)
+		        {
+		         	checkforupdate();
+		        }*/
             }
-        });
-
-
-
-//        if(com.github.florent37.materialviewpager.sample.attrib.attribute.pre!=null)
-//            com.github.florent37.materialviewpager.sample.attrib.attribute.pre.finish();
-//
-//        Runnable runable=new Runnable() {
-//
-//            @Override
-//            public void run() {
-//                Animation anim=(Animation) AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anim2);
-//                search.setVisibility(View.VISIBLE);
-//                search.startAnimation(anim);
-////                SharedPreferences settings = getSharedPreferences("pref", 0);
-////                int Reshap = settings.getInt("RESHAPE", -1);
-////                if(Reshap==2)
-////                    Reshap=Integer.parseInt(readFromFile());
-////                if(Reshap==-1&&com.github.florent37.materialviewpager.sample.attrib.attribute.RESHAPE==2)
-////                {
-////                    reshapedialog();
-////                }
-//				/*else if(farin.code.rahnamaee.attrib.attribute.AUTOUPDATE)
-//		        {
-//		         	checkforupdate();
-//		        }*/
-//            }
-//        };
-//        notifyMgr=(NotificationManager)getSystemService(NOTIFICATION_SERVICE);
-//        handler.postDelayed(runable, 3000);
-      // search.setOnTouchListener(touch);
+        };
+        notifyMgr=(NotificationManager)getSystemService(NOTIFICATION_SERVICE);
+        handler.postDelayed(runable, 3000);
+      search.setOnTouchListener(touch);
 
 
 
@@ -320,90 +333,95 @@ private static final long RIPPLE_DURATION = 250;
     }
 
 
-    //
-//    Handler handler=new Handler();
-//
-//
-//    View.OnTouchListener touch=new View.OnTouchListener() {
-//        @Override
-//        public boolean onTouch(View v, MotionEvent event) {
-//
-//
-//            Isclickable=false;
-//            final Dialog dialog = new Dialog(MainActivity.this,android.R.style.Theme_Translucent_NoTitleBar);
-//            dialog.setContentView(R.layout.search);
-//            // set the custom dialog components - text, image and button
-//            //Typeface face = Typeface.createFromAsset(contex.getAssets(),"font/"+farin.code.rahnamaee.attrib.attribute.font_title);
-//
-//            ImageView image=null;
-//            try{
-//                image = (ImageView) dialog.findViewById(R.id.closesearchbtn);
-//            }catch(Exception e)
-//            {
-//                e.printStackTrace();
-//            }
-//            image.setOnTouchListener(new View.OnTouchListener() {
-//                @Override
-//                public boolean onTouch(View v, MotionEvent event) {
-//                    dialog.dismiss();
-//                    Isclickable=true;
-//                    return false;
-//                }
-//            });
-//            edit=(EditText)dialog.findViewById(R.id.editText1);
-//            Button dialogButton = (Button) dialog.findViewById(R.id.searchdialogButton);
-//            //dialogButton.setText(PersianReshape.reshape("جستجو"));
-//            //dialogButton.setTypeface(face);
-//            // if button is clicked, close the custom dialog
-//            dialogButton.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v){
-//                    if(edit.getText().toString().trim().length()==0)
-//                    {
-//                        edit.setBackgroundColor(Color.RED);
-//                        createToast(4000, "لطفا متن مورد نظر را وارد کنید");
-//
-//                    }
-//                    else
-//                    {
-//                        edit.setBackgroundColor(Color.WHITE);
-//
-//                        Intent nextintend=new Intent(MainActivity.this, Search.class);
-//                        nextintend.putExtra("searchfor",edit.getText().toString());
-//                        edit.setText("");
-//                        dialog.dismiss();
-//                        Isclickable=true;
-//                        startActivity(nextintend);
-//
-//                    }
-//                }
-//            });
-//            try{
-//                //dialog.getWindow().getAttributes().windowAnimations = R.style.SearchDialogAnimation;
-//                dialog.setOnKeyListener(new DialogInterface.OnKeyListener() {
-//
-//                    @Override
-//                    public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) {
-//                        if(keyCode==KeyEvent.KEYCODE_BACK)
-//                        {
-//                            dialog.dismiss();
-//                            Isclickable=true;
-//                            return false;
-//                        }
-//                        return false;
-//                    }
-//                });
-//                dialog.getWindow().getAttributes().windowAnimations = R.style.SearchDialogAnimation;
-//                dialog.show();
-//            }
-//            catch(Exception e)
-//            {
-//               // Log.d("hiiiiiiii",e.toString());
-//                e.printStackTrace();
-//            }
-//            return false;
-//        }
-//    };
+
+    Handler handler=new Handler();
+
+
+    View.OnTouchListener touch=new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+
+
+            Isclickable=true;
+            final Dialog dialog = new Dialog(MainActivity.this,android.R.style.Theme_Translucent_NoTitleBar);
+            dialog.setContentView(R.layout.search);
+
+            //RelativeLayout layout = (RelativeLayout) View.inflate(MainActivity.this, R.layout.search, null);
+
+            edit=(EditText) dialog.findViewById(R.id.editText1);
+            Button dialogButton = (Button) dialog.findViewById(R.id.sdB);
+            // set the custom dialog components - text, image and button
+            //Typeface face = Typeface.createFromAsset(contex.getAssets(),"font/"+farin.code.rahnamaee.attrib.attribute.font_title);
+
+            ImageView image=null;
+            try{
+                image = (ImageView) dialog.findViewById(R.id.closesearchbtn);
+            }catch(Exception e)
+            {
+                e.printStackTrace();
+            }
+            image.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    dialog.dismiss();
+                   // Isclickable=true;
+                    return false;
+                }
+            });
+
+            //dialogButton.setText(PersianReshape.reshape("جستجو"));
+            //dialogButton.setTypeface(face);
+            // if button is clicked, close the custom dialog
+            dialogButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v){
+                    if(edit.getText().toString().trim().length()==0)
+                    {
+                        edit.setBackgroundColor(Color.RED);
+                        createToast(4000, "لطفا متن مورد نظر را وارد کنید");
+
+                    }
+                    else
+                    {
+                        edit.setBackgroundColor(Color.BLACK);
+
+//                    Intent nextintend=new Intent(MainActivity.this, Search.class);
+//                    nextintend.putExtra("searchfor",edit.getText().toString());
+                       initialViewPager("search");
+                        edit.setText("");
+                       dialog.dismiss();
+                        Isclickable=true;
+
+
+                    }
+                }
+            });
+            try{
+                //dialog.getWindow().getAttributes().windowAnimations = R.style.SearchDialogAnimation;
+                dialog.setOnKeyListener(new DialogInterface.OnKeyListener() {
+
+                    @Override
+                    public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) {
+                        if(keyCode==KeyEvent.KEYCODE_BACK)
+                        {
+                            dialog.dismiss();
+                            Isclickable=true;
+                            return false;
+                        }
+                        return false;
+                    }
+                });
+                dialog.getWindow().getAttributes().windowAnimations = R.style.SearchDialogAnimation;
+                dialog.show();
+            }
+            catch(Exception e)
+            {
+               // Log.d("hiiiiiiii",e.toString());
+                e.printStackTrace();
+            }
+            return false;
+        }
+    };
 
 
 

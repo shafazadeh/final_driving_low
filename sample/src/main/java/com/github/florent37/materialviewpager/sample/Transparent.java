@@ -48,7 +48,7 @@ public class Transparent extends LinearLayout
     @Override
     protected void dispatchDraw(Canvas canvas) {
         RectF drawRect = new RectF();
-        drawRect.set(0,0, getMeasuredWidth(), getMeasuredHeight());
+        drawRect.set(-50,-50, getMeasuredWidth(), getMeasuredHeight());
         canvas.drawRoundRect(drawRect, 5, 5, innerPaint);
         canvas.drawRoundRect(drawRect, 5, 5, borderPaint);
         super.dispatchDraw(canvas);
