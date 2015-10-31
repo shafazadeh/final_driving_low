@@ -3,6 +3,7 @@ package com.github.florent37.materialviewpager.sample;
 import android.app.ActivityManager;
 import android.app.Dialog;
 import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.app.NotificationManager;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -12,12 +13,16 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.transition.Slide;
 import android.util.Log;
+import android.util.SparseArray;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -57,6 +62,8 @@ import io.fabric.sdk.android.Fabric;
 
 import android.view.ViewGroup;
 
+import java.lang.ref.WeakReference;
+import java.util.ArrayList;
 import java.util.List;
 
 import static android.view.View.VISIBLE;
@@ -71,8 +78,9 @@ public class MainActivity extends AppCompatActivity {
 //    private Toolbar toolbar;
 private static final long RIPPLE_DURATION = 250;
 
-
+    Fragment current_fr;
     static String extra2;
+    static String extra;
 
     @InjectView(R.id.toolbar)
     Toolbar toolbar;
@@ -95,11 +103,14 @@ private static final long RIPPLE_DURATION = 250;
     ImageButton back;
     String back_fragment;
     int level=0;
-
+    Fragment myFragment;
     ////////
     CheckBox cb1,cb2,cb3;
     int key=0;
+    private List<WeakReference<Fragment>> mFragments =
+            new ArrayList<WeakReference<Fragment>>();
 
+    private SparseArray<Fragment> mPageReferenceMap = new SparseArray<Fragment>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -115,7 +126,7 @@ private static final long RIPPLE_DURATION = 250;
 
         }
 
-//
+
 
         TextView txt=(TextView)findViewById(R.id.tabloha_txt);
         txt.setOnClickListener(new View.OnClickListener() {
@@ -186,64 +197,7 @@ private static final long RIPPLE_DURATION = 250;
             Fabric.with(this, new Crashlytics());
 //
         setTitle("");
-        /////////////////////
-//        final Transparent popup = (Transparent) findViewById(R.id.popup_window);
-//        //popup.setVisibility(View.GONE);
-//
-//        //
-//      //  LinearLayout l=(LinearLayout)findViewById(R.id.li);
-//       popup.setY(-200);
-//        //////
-//
-//        final Button btn=(Button)findViewById(R.id.handle);
-//        btn.setOnClickListener(new View.OnClickListener() {
-//
-//            @Override
-//            public void onClick(View arg0) {
-//                if(key==0){
-//                    key=1;
-//
-//                    Animation anim1=(Animation)AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anim1);
-//                    popup.startAnimation(anim1);
-//                    popup.setY(0);
-//                    anim1.setAnimationListener(new Animation.AnimationListener() {
-//
-//                        @Override
-//                        public void onAnimationStart(Animation animation) {
-//                            // TODO Auto-generated method stub
-//
-//                        }
-//
-//                        @Override
-//                        public void onAnimationRepeat(Animation animation) {
-//                            // TODO Auto-generated method stub
-//
-//                        }
-//
-//                        @Override
-//                        public void onAnimationEnd(Animation animation) {
-//                            // TODO Auto-generated method stub
-////                            im2.setVisibility(View.VISIBLE);
-////                            im2.startAnimation(anim2);
-//
-//                           //popup.setVisibility(VISIBLE);
-//
-//                        }
-//                    });
-////
-////                    //	btn.setBackgroundResource(R.drawable.ic_launcher);
-//
-//                }
-//                else if(key==1){
-//                    key=0;
-//                    popup.setY(-200);
-//                 //  popup.setVisibility(View.GONE);
-//                    //	btn.setBackgroundResource(R.drawable.ic_action_search);
-//                }
-//            }
-//        });
 
-//      /////////
         mMenu = new CustomMenu(MainActivity.this,null, getLayoutInflater());
         mMenu.setHideOnSelect(true);
         mMenu.setItemsPerLineInPortraitOrientation(3);
@@ -265,18 +219,7 @@ private static final long RIPPLE_DURATION = 250;
                 Animation anim=(Animation) AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anim2);
                 search.setVisibility(VISIBLE);
                 search.startAnimation(anim);
-//                SharedPreferences settings = getSharedPreferences("pref", 0);
-//                int Reshap = settings.getInt("RESHAPE", -1);
-//                if(Reshap==2)
-//                    Reshap=Integer.parseInt(readFromFile());
-//                if(Reshap==-1&&com.github.florent37.materialviewpager.sample.attrib.attribute.RESHAPE==2)
-//                {
-//                    reshapedialog();
-//                }
-				/*else if(farin.code.rahnamaee.attrib.attribute.AUTOUPDATE)
-		        {
-		         	checkforupdate();
-		        }*/
+
             }
         };
         notifyMgr=(NotificationManager)getSystemService(NOTIFICATION_SERVICE);
@@ -446,176 +389,268 @@ private static final long RIPPLE_DURATION = 250;
 
 
 
-
     public  void initialViewPager(final String extra)
     {
+        if(myFragment !=null){
+            // myFragment.onDestroy();
+            android.support.v4.app.FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+
+            for (WeakReference<Fragment> ref : mFragments) {
+                Fragment fragment = ref.get();
+                if (fragment != null) {
+                    ft.remove(fragment);
+
+                }
+            }
+
+            ft.commit();
+        }
 
         mViewPager.getViewPager().setAdapter(new FragmentStatePagerAdapter(getSupportFragmentManager()) {
 
-                @Override
-                public Fragment getItem(int position) {
-                    switch (position % 3) {
-                        case 0:
-                            if(extra.equals("search")){
+            int currentPage = 0;
 
-                                return Search.newInstance(edit.getText().toString(),MainActivity.this);
-                            }
-                            if(extra.equals("ostan")){
-                                Ostan.back_frament="attach";
-                                Ostan.level=1;
-                                return Ostan.newInstance(MainActivity.this, "school");
-                            }
-                            if(extra.equals("pelak")){
-                                Pelak.back_frament="attach";
-                                Pelak.level=1;
-                                return Pelak.newInstance(MainActivity.this);
-                            }
-                            if(extra.equals("document")){
-                                Document.back_frament="attach";
-                                Document.level=1;
-                                return Document.newInstance(MainActivity.this);
-                            }
-                            if(extra.equals("police")){
-                                Police.back_frament="attach";
-                                Police.level=1;
-                                return Police.newInstance(MainActivity.this);
-                            }
-                            if(extra.equals("attach")){
-                                return Attach.newInstance(MainActivity.this);
-                            }
-                            if(extra.equals("sign")){
-                                Sign.back_frament="7";
-                                Sign.level=1;
-                                return Sign.newInstance(MainActivity.this);
-                            }
-                            if( extra.equals("8")||extra.equals("9")){
-                                RuleItem.back_frament="Rule";
-                                RuleItem.level=1;
-                                return RuleItem.newInstance("select * from rules" +
-                                " where category='" + String.valueOf((int) (Math.floor(Integer.parseInt(extra)))) + "'",MainActivity.this);
-                            }
-                            if(extra.equals("exam")){
+            private SparseArray<Fragment> mPageReferenceMap = new SparseArray<Fragment>();
+            int pos;
 
-                                return Exam.newInstance();
-                            }
 
-                            if(extra.equals("Rule")){
-                                return Rule.newInstance(MainActivity.this);
+            @Override
+            public Fragment getItem(int position) {
+                switch (position % 3) {
+                    case 0:
+                        pos=0;
+                        if(extra.equals("search")){
+
+                            myFragment = Search.newInstance(edit.getText().toString(),MainActivity.this);
+
+                            mFragments.add(new WeakReference<Fragment>(myFragment));
+                            return myFragment;
+                        }
+                        if(extra.equals("ostan")){
+                            Ostan.back_frament="attach";
+                            Ostan.level=1;
+                            myFragment =Ostan.newInstance(MainActivity.this, "school");
+
+                            mFragments.add(new WeakReference<Fragment>(myFragment));
+                            return myFragment;
+                            // return Ostan.newInstance(MainActivity.this, "school");
+                        }
+                        if(extra.equals("pelak")){
+                            Pelak.back_frament="attach";
+                            Pelak.level=1;
+                            myFragment =Pelak.newInstance(MainActivity.this);
+
+                            mFragments.add(new WeakReference<Fragment>(myFragment));
+                            return myFragment;
+
+                        }
+                        if(extra.equals("document")){
+                            Document.back_frament="attach";
+                            Document.level=1;
+                            myFragment =Document.newInstance(MainActivity.this);
+
+                            mFragments.add(new WeakReference<Fragment>(myFragment));
+                            return myFragment;
+
+                        }
+                        if(extra.equals("police")){
+                            Police.back_frament="attach";
+                            Police.level=1;
+                            myFragment =Police.newInstance(MainActivity.this);
+
+                            mFragments.add(new WeakReference<Fragment>(myFragment));
+                            return myFragment;
+
+                        }
+                        if(extra.equals("attach")){
+                            myFragment = Attach.newInstance(MainActivity.this);
+
+                            mFragments.add(new WeakReference<Fragment>(myFragment));
+                            return myFragment;
+
+                        }
+                        if(extra.equals("sign")){
+                            Sign.back_frament="7";
+                            Sign.level=1;
+                            myFragment =  Sign.newInstance(MainActivity.this);
+
+                            mFragments.add(new WeakReference<Fragment>(myFragment));
+                            return myFragment;
+
+                        }
+                        if( extra.equals("8")||extra.equals("9")){
+                            RuleItem.back_frament="Rule";
+                            RuleItem.level=1;
+                            myFragment = RuleItem.newInstance("select * from rules" +
+                                    " where category='" + String.valueOf((int) (Math.floor(Integer.parseInt(extra)))) + "'",MainActivity.this);
+
+                            mFragments.add(new WeakReference<Fragment>(myFragment));
+                            return myFragment;
+
+                        }
+                        if(extra.equals("exam")){
+                            myFragment = Exam.newInstance();
+
+                            mFragments.add(new WeakReference<Fragment>(myFragment));
+                            return myFragment;
+
+                        }
+
+                        if(extra.equals("Rule")){
+                            myFragment =Rule.newInstance(MainActivity.this);
+
+                            mFragments.add(new WeakReference<Fragment>(myFragment));
+                            return myFragment;
+
+                        }
+                        if(extra.equals("0") ||extra.equals("1")||extra.equals("2")||extra.equals("3")
+                                ||extra.equals("4")||extra.equals("5")||extra.equals("6")||
+                                extra.equals("10")|| extra.equals("7")||extra.equals("71") ||
+                                extra.equals("72")|| extra.equals("05")||extra.equals("08")
+                                || extra.equals("36") || extra.equals("37")) {
+
+                            ///////for back bt
+                            if(extra.equals("7")){
+
+                                Slider.back_frament="Rule";
+                                Slider.level=1;
+                                myFragment =Slider.newInstance(extra, MainActivity.this);
+
+                                mFragments.add(new WeakReference<Fragment>(myFragment));
+                                return myFragment;
+
+
                             }
                             if(extra.equals("0") ||extra.equals("1")||extra.equals("2")||extra.equals("3")
-                             ||extra.equals("4")||extra.equals("5")||extra.equals("6")||
-                               extra.equals("10")|| extra.equals("7")||extra.equals("71") ||
-                                extra.equals("72")|| extra.equals("05")||extra.equals("08")
-                               || extra.equals("36") || extra.equals("37")) {
+                                    ||extra.equals("4")||extra.equals("5")||extra.equals("6")
+                                    ||extra.equals("10")){
 
-                                ///////for back bt
-                                if(extra.equals("7")){
+                                Slider.back_frament="Rule";
+                                Slider.level=1;
+                                myFragment =Slider.newInstance(extra, MainActivity.this);
 
-                                    Slider.back_frament="Rule";
-                                    Slider.level=1;
-                                    return Slider.newInstance(extra, MainActivity.this);
-                                }
-                                if(extra.equals("0") ||extra.equals("1")||extra.equals("2")||extra.equals("3")
-                                        ||extra.equals("4")||extra.equals("5")||extra.equals("6")
-                                        ||extra.equals("10")){
-                                    back_fragment="Rule";
-                                    level=1;
+                                mFragments.add(new WeakReference<Fragment>(myFragment));
+                                return myFragment;
 
+                            }
+                            if(extra.equals("71") ||
+                                    extra.equals("72")|| extra.equals("05")||extra.equals("08")
+                                    || extra.equals("36") || extra.equals("37")){
+                                back_fragment="Rule";
+                                level=1;
+                                Slider.back_frament="7";
+                                Slider.level=1;
 
-                                    Slider.back_frament="Rule";
-                                    Slider.level=1;
-                                    return Slider.newInstance(extra, MainActivity.this);
-                                }
-                                if(extra.equals("71") ||
-                                        extra.equals("72")|| extra.equals("05")||extra.equals("08")
-                                        || extra.equals("36") || extra.equals("37")){
-                                    back_fragment="Rule";
-                                    level=1;
-                                    Slider.back_frament="7";
-                                    Slider.level=1;
-                                    return Slider.newInstance(extra, MainActivity.this);
-                                }
+                                myFragment =Slider.newInstance(extra, MainActivity.this);
+
+                                mFragments.add(new WeakReference<Fragment>(myFragment));
+                                return myFragment;
 
                             }
 
-                        case 1:
-                            if( extra.equals("8")||extra.equals("9")){
+                        }
 
-                                return QuestionPage.newInstance("select * from exam" +
-                                " where " + exam.KEY_TYPE + "='" + extra + "'",MainActivity.this);
-                            }
-                            if(extra.equals("7")  ){
-//                                RuleItem.level=0;
-//                                RuleItem.back_frament="";
-                                return RuleItem.newInstance("select * from rules" +
-                                " where category='" + String.valueOf((int) (Math.floor(Integer.parseInt("7")))) + "'",MainActivity.this);
-                            }
-                        case 2:
-                            if(extra.equals("7")  ) {
-//                                QuestionPage.level=0;
-//                                QuestionPage.back_frament="";
-                                return QuestionPage.newInstance("select * from exam" +
-                                        " where " + exam.KEY_TYPE + "='" + "7" + "'",MainActivity.this);
-                            }
-                        default:
-                            return RecyclerViewFragment.newInstance();
+                    case 1:
+                        pos=1;
+                        if( extra.equals("8")||extra.equals("9")){
 
-                    }
+                            myFragment =QuestionPage.newInstance("select * from exam" +
+                                    " where " + exam.KEY_TYPE + "='" + extra + "'",MainActivity.this);
+
+
+                            mFragments.add(new WeakReference<Fragment>(myFragment));
+                            return myFragment;
+                        }
+                        if(extra.equals("7")  ){
+                            myFragment =RuleItem.newInstance("select * from rules" +
+                                    " where category='" + String.valueOf((int) (Math.floor(Integer.parseInt("7")))) + "'",MainActivity.this);
+
+                            mFragments.add(new WeakReference<Fragment>(myFragment));
+                            return myFragment;
+
+                        }
+                    case 2:
+                        pos=2;
+                        if(extra.equals("7")  ) {
+                            myFragment =QuestionPage.newInstance("select * from exam" +
+                                    " where " + exam.KEY_TYPE + "='" + "7" + "'",MainActivity.this);
+
+
+                            mFragments.add(new WeakReference<Fragment>(myFragment));
+                            return myFragment;
+
+                        }
+                    default:
+                        return RecyclerViewFragment.newInstance();
+
                 }
+            }
 
-                @Override
-                public int getCount() {
-                    return 3;
+            @Override
+            public int getCount() {
+                return 3;
+            }
+
+
+            @Override
+            public CharSequence getPageTitle(int position) {
+                switch (position % 4) {
+                    case 0:
+                        if(extra.equals("search")){return "جستجو";}
+                        if(extra.equals("ostan")){return "آموزشگاه های رانندگی";}
+                        if(extra.equals("pelak")){return "تعویض پلاک";}
+                        if(extra.equals("document")){
+                            return "مدارک اخذ گواهینامه";
+                        }
+                        if(extra.equals("police")){
+                            return "مراکز پلیس +10";
+                        }
+                        if(extra.equals("attach")){return "ضمائم";
+                        }
+                        if(extra.equals("71") || extra.equals("72")|| extra.equals("05")||extra.equals("08")
+                                || extra.equals("36") || extra.equals("37")|| extra.equals("7")|| extra.equals("sign")) {
+                            return getString(R.string.tab1);}
+                        if(extra.equals("0") ||extra.equals("1")||extra.equals("2")||extra.equals("3")
+                                ||extra.equals("4")||extra.equals("5")||extra.equals("6")||
+                                extra.equals("10")){
+                            return tab_name;}
+                        if( extra.equals("8")||extra.equals("9")){
+                            return "قوانین";
+                        }
+                        if(extra.equals("exam")){
+                            return "آزمون";
+                        }
+                        if(extra.equals("Rule")){
+                            return "آموزش";
+                        }
+                    case 1:
+                        if( extra.equals("8")||extra.equals("9")){
+                            return "سوالات";
+                        }
+                        if(extra.equals("7")  ){
+                            return getString(R.string.tab2);
+                        }
+                    case 2:
+                        if(extra.equals("7")  ) {
+                            return getString(R.string.tab3);
+                        }
+
                 }
+                return "";
+            }
 
+            @Override
+            public void destroyItem(ViewGroup container, int position, Object object) {
 
-                @Override
-                public CharSequence getPageTitle(int position) {
-                    switch (position % 4) {
-                        case 0:
-                            if(extra.equals("search")){return "جستجو";}
-                            if(extra.equals("ostan")){return "آموزشگاه های رانندگی";}
-                            if(extra.equals("pelak")){return "تعویض پلاک";}
-                            if(extra.equals("document")){
-                                return "مدارک اخذ گواهینامه";
-                            }
-                            if(extra.equals("police")){
-                                return "مراکز پلیس +10";
-                            }
-                            if(extra.equals("attach")){return "ضمائم";
-                            }
-                            if(extra.equals("71") || extra.equals("72")|| extra.equals("05")||extra.equals("08")
-                             || extra.equals("36") || extra.equals("37")|| extra.equals("7")|| extra.equals("sign")) {
-                                     return getString(R.string.tab1);}
-                             if(extra.equals("0") ||extra.equals("1")||extra.equals("2")||extra.equals("3")
-                             ||extra.equals("4")||extra.equals("5")||extra.equals("6")||
-                              extra.equals("10")){
-                                 return tab_name;}
-                            if( extra.equals("8")||extra.equals("9")){
-                                return "قوانین";
-                            }
-                            if(extra.equals("exam")){
-                                return "آزمون";
-                            }
-                            if(extra.equals("Rule")){
-                                return "آموزش";
-                            }
-                        case 1:
-                            if( extra.equals("8")||extra.equals("9")){
-                                return "سوالات";
-                            }
-                            if(extra.equals("7")  ){
-                                return getString(R.string.tab2);
-                            }
-                        case 2:
-                            if(extra.equals("7")  ) {
-                                return getString(R.string.tab3);
-                            }
+                super.destroyItem(container, position, object);
 
-                    }
-                    return "";
-                }
-            });
+                mPageReferenceMap.remove(Integer.valueOf(position));
+            }
+
+            public Fragment getCurrentItem() {
+                return mPageReferenceMap.get(currentPage);
+            }
+        });
 
 
 
@@ -669,26 +704,16 @@ private static final long RIPPLE_DURATION = 250;
                 image.setImageResource(R.drawable.exit);
 
                 Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
-                //dialogButton.setText(PersianReshape.reshape("بله	"));
-                //dialogButton.setTypeface(face);
-                // if button is clicked, close the custom dialog
+
                 dialogButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        //handler1.removeCallbacks(updaterun);
-//                    Calendar c = Calendar.getInstance();
-//                    int month = c.get(Calendar.MONTH);
-//                    int day=c.get(Calendar.DAY_OF_MONTH);
-//                    if(month==Calendar.MARCH||(month==Calendar.APRIL&&day<10))
-//                        startActivity(new Intent(MainActivity.this,splash2.class));
-                      //  finish();
+
                         finishAffinity();
                     }
                 });
                 Button dialogButton1 = (Button) dialog.findViewById(R.id.dialogButtonNo);
-                //dialogButton1.setText(PersianReshape.reshape("خیر"));
-                //dialogButton1.setTypeface(face);
-                // if button is clicked, close the custom dialog
+
                 dialogButton1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -713,4 +738,234 @@ private static final long RIPPLE_DURATION = 250;
             return true;}
     }
 
+
+
+
+
+
+
+
+
+     public class FragmentStatePagerWithCurrentAdapter
+            extends FragmentStatePagerAdapter
+            implements ViewPager.OnPageChangeListener {
+        int currentPage = 0;
+
+        private SparseArray<Fragment> mPageReferenceMap = new SparseArray<Fragment>();
+
+        public FragmentStatePagerWithCurrentAdapter(android.support.v4.app.FragmentManager fm,String e) {
+            super(fm);
+            extra=e;
+        }
+
+        @Override
+        public final Fragment getItem(int index) {
+//            Fragment myFragment = getItemAtIndex(index);
+            mPageReferenceMap.put(index, myFragment);
+//            return myFragment;
+            switch (index % 3) {
+                case 0:
+
+                    if(extra.equals("search")){
+                        Fragment myFragment = Search.newInstance(edit.getText().toString(),MainActivity.this);
+
+                        // mPageReferenceMap.put(index, myFragment);
+                        return myFragment;
+                    }
+                    if(extra.equals("ostan")){
+                        Ostan.back_frament="attach";
+                        Ostan.level=1;
+
+                        return Ostan.newInstance(MainActivity.this, "school");
+                    }
+                    if(extra.equals("pelak")){
+                        Pelak.back_frament="attach";
+                        Pelak.level=1;
+                        current_fr=Pelak.newInstance(MainActivity.this);
+                        return Pelak.newInstance(MainActivity.this);
+                    }
+                    if(extra.equals("document")){
+                        Document.back_frament="attach";
+                        Document.level=1;
+
+                        return Document.newInstance(MainActivity.this);
+                    }
+                    if(extra.equals("police")){
+                        Police.back_frament="attach";
+                        Police.level=1;
+
+                        return Police.newInstance(MainActivity.this);
+                    }
+                    if(extra.equals("attach")){
+
+                        return Attach.newInstance(MainActivity.this);
+                    }
+                    if(extra.equals("sign")){
+                        Sign.back_frament="7";
+                        Sign.level=1;
+
+                        return Sign.newInstance(MainActivity.this);
+                    }
+                    if( extra.equals("8")||extra.equals("9")){
+                        RuleItem.back_frament="Rule";
+                        RuleItem.level=1;
+
+                        return RuleItem.newInstance("select * from rules" +
+                                " where category='" + String.valueOf((int) (Math.floor(Integer.parseInt(extra)))) + "'",MainActivity.this);
+                    }
+                    if(extra.equals("exam")){
+                        current_fr=Exam.newInstance();
+                        return Exam.newInstance();
+                    }
+
+                    if(extra.equals("Rule")){
+
+                        return Rule.newInstance(MainActivity.this);
+                    }
+                    if(extra.equals("0") ||extra.equals("1")||extra.equals("2")||extra.equals("3")
+                            ||extra.equals("4")||extra.equals("5")||extra.equals("6")||
+                            extra.equals("10")|| extra.equals("7")||extra.equals("71") ||
+                            extra.equals("72")|| extra.equals("05")||extra.equals("08")
+                            || extra.equals("36") || extra.equals("37")) {
+
+                        ///////for back bt
+                        if(extra.equals("7")){
+
+                            Slider.back_frament="Rule";
+                            Slider.level=1;
+
+                            return Slider.newInstance(extra, MainActivity.this);
+                        }
+                        if(extra.equals("0") ||extra.equals("1")||extra.equals("2")||extra.equals("3")
+                                ||extra.equals("4")||extra.equals("5")||extra.equals("6")
+                                ||extra.equals("10")){
+
+                            Slider.back_frament="Rule";
+                            Slider.level=1;
+
+                            return Slider.newInstance(extra, MainActivity.this);
+//
+
+                        }
+                        if(extra.equals("71") ||
+                                extra.equals("72")|| extra.equals("05")||extra.equals("08")
+                                || extra.equals("36") || extra.equals("37")){
+                            back_fragment="Rule";
+                            level=1;
+                            Slider.back_frament="7";
+                            Slider.level=1;
+                            return Slider.newInstance(extra, MainActivity.this);
+                        }
+
+                    }
+
+                case 1:
+
+                    if( extra.equals("8")||extra.equals("9")){
+
+                        return QuestionPage.newInstance("select * from exam" +
+                                " where " + exam.KEY_TYPE + "='" + extra + "'",MainActivity.this);
+                    }
+                    if(extra.equals("7")  ){
+//
+                        return RuleItem.newInstance("select * from rules" +
+                                " where category='" + String.valueOf((int) (Math.floor(Integer.parseInt("7")))) + "'",MainActivity.this);
+                    }
+                case 2:
+
+                    if(extra.equals("7")  ) {
+//
+                        return QuestionPage.newInstance("select * from exam" +
+                                " where " + exam.KEY_TYPE + "='" + "7" + "'",MainActivity.this);
+                    }
+                default:
+                    return RecyclerViewFragment.newInstance();
+
+            }
+        }
+        @Override
+        public int getCount() {
+            return 3;
+        }
+
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            switch (position % 4) {
+                case 0:
+                    if(extra.equals("search")){return "جستجو";}
+                    if(extra.equals("ostan")){return "آموزشگاه های رانندگی";}
+                    if(extra.equals("pelak")){return "تعویض پلاک";}
+                    if(extra.equals("document")){
+                        return "مدارک اخذ گواهینامه";
+                    }
+                    if(extra.equals("police")){
+                        return "مراکز پلیس +10";
+                    }
+                    if(extra.equals("attach")){return "ضمائم";
+                    }
+                    if(extra.equals("71") || extra.equals("72")|| extra.equals("05")||extra.equals("08")
+                            || extra.equals("36") || extra.equals("37")|| extra.equals("7")|| extra.equals("sign")) {
+                        return getString(R.string.tab1);}
+                    if(extra.equals("0") ||extra.equals("1")||extra.equals("2")||extra.equals("3")
+                            ||extra.equals("4")||extra.equals("5")||extra.equals("6")||
+                            extra.equals("10")){
+                        return tab_name;}
+                    if( extra.equals("8")||extra.equals("9")){
+                        return "قوانین";
+                    }
+                    if(extra.equals("exam")){
+                        return "آزمون";
+                    }
+                    if(extra.equals("Rule")){
+                        return "آموزش";
+                    }
+                case 1:
+                    if( extra.equals("8")||extra.equals("9")){
+                        return "سوالات";
+                    }
+                    if(extra.equals("7")  ){
+                        return getString(R.string.tab2);
+                    }
+                case 2:
+                    if(extra.equals("7")  ) {
+                        return getString(R.string.tab3);
+                    }
+
+            }
+            return "";
+        }
+
+
+
+        @Override
+        public void destroyItem(ViewGroup container, int position, Object object) {
+
+            super.destroyItem(container, position, object);
+
+            mPageReferenceMap.remove(Integer.valueOf(position));
+            Log.d("dfffdfdfdf","fgdfgdfgdf");
+        }
+
+        public Fragment getCurrentItem() {
+            return mPageReferenceMap.get(currentPage);
+        }
+
+
+        @Override
+        public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+        }
+
+        @Override
+        public void onPageSelected(int position) {
+
+        }
+
+        @Override
+        public void onPageScrollStateChanged(int state) {
+
+        }
+    }
 }
+

@@ -33,6 +33,8 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.GridLayout;
 import android.widget.GridView;
+
+import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 
 import java.util.Calendar;
@@ -54,6 +56,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class Slider extends Fragment {
+
 
     public List<List<Object>> exams=null;
     public List<List<Object>> rules=null;
@@ -96,7 +99,13 @@ public class Slider extends Fragment {
 
 /////////////////////////////
 
+    @Override
+    public void onDestroy() {
+        //destroy();
+        super.onDestroyView();
 
+
+    }
     public static Slider newInstance( String someTitle, MainActivity n) {
         Slider fragmentDemo = new Slider();
         Bundle args = new Bundle();
@@ -257,9 +266,12 @@ public class Slider extends Fragment {
                 if(holder.index==1 && Catid.equals("7"))
                 {
 //
-//                    Intent i=new Intent(Slider.this.getActivity(),Sign.class);
-//                    startActivity(i);
-                    m.initialViewPager("sign");
+//
+
+//
+                        m.initialViewPager("sign");
+//
+
                     //overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
                     return;
                 }
@@ -319,7 +331,6 @@ public class Slider extends Fragment {
     }
 
 //////////////////////////////////
-
 
 
 }

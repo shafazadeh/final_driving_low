@@ -12,6 +12,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -55,9 +56,14 @@ public class Rule extends android.support.v4.app.Fragment
 	 GridView gridView;
 	 Context contex;
     private ObservableScrollView mScrollView2;
+
+
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+
+
 		//this.getActivity().setContentView(R.layout.main);
         mScrollView2 = (ObservableScrollView) view.findViewById(R.id.scrollView3);
 		gridView = (GridView) this.getActivity().findViewById(R.id.gridView9);
@@ -188,5 +194,30 @@ public class Rule extends android.support.v4.app.Fragment
 			return 0;
 		}
 	}
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Log.i("onDestroy", "onDestroy position ImageGridFragment");
+        Title_Image=null;
+        android.support.v4.app.FragmentTransaction ft = getFragmentManager().beginTransaction();
+        ft.remove(this);
+        ft.commit();
+        System.gc();
+        Runtime.getRuntime().gc();
+    }
+
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        Log.i("onDestroy", "onDestroy position ImageGridFragment");
+        Title_Image=null;
+        android.support.v4.app.FragmentTransaction ft = getFragmentManager().beginTransaction();
+        ft.remove(this);
+        ft.commit();
+        System.gc();
+        Runtime.getRuntime().gc();
+    }
 
 }
