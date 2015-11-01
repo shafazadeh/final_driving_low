@@ -61,7 +61,7 @@ public class Slider extends Fragment {
     public List<List<Object>> exams=null;
     public List<List<Object>> rules=null;
 
-   public static MainActivity m;
+   public  MainActivity m;
     private ObservableScrollView mScrollView2;
     GridView gridView;
     ArrayList<Item> gridArray = new ArrayList<Item>();
@@ -106,18 +106,33 @@ public class Slider extends Fragment {
 
 
     }
+    public void setActivity(MainActivity n)
+    {
+        m=n;
+    }
     public static Slider newInstance( String someTitle, MainActivity n) {
         Slider fragmentDemo = new Slider();
         Bundle args = new Bundle();
         args.putString("query", someTitle);
 
         fragmentDemo.setArguments(args);
-        m=n;
+        fragmentDemo.setActivity(n);
+
         return fragmentDemo;
     }
 
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        Log.i("onDestroy_slider", "onDestroy position ImageGridFragment");
 
+        android.support.v4.app.FragmentTransaction ft = getFragmentManager().beginTransaction();
+        ft.remove(this);
+        ft.commit();
+        System.gc();
+        Runtime.getRuntime().gc();
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

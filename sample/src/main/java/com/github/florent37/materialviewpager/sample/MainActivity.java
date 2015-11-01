@@ -10,7 +10,9 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.Debug;
 import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -50,7 +52,7 @@ import com.github.florent37.materialviewpager.sample.fragment.QuestionPage;
 import com.github.florent37.materialviewpager.sample.fragment.RecyclerViewFragment;
 import com.github.florent37.materialviewpager.sample.fragment.RuleItem;
 import com.github.florent37.materialviewpager.sample.fragment.Slider;
-import com.github.florent37.materialviewpager.sample.fragment.slider2;
+
 import com.github.florent37.materialviewpager.sample.menu.CustomMenu;
 import com.github.florent37.materialviewpager.sample.menu.CustomMenuItem;
 
@@ -246,21 +248,21 @@ private static final long RIPPLE_DURATION = 250;
             public HeaderDesign getHeaderDesign(int page) {
                 switch (page) {
                     case 0:
-                        return HeaderDesign.fromColorResAndUrl(
+                        return HeaderDesign.fromColorResAndDrawable(
                                 R.color.green,
-                                "https://fs01.androidpit.info/a/63/0e/android-l-wallpapers-630ea6-h900.jpg");
+                                getApplicationContext().getResources().getDrawable(R.drawable.bbacc));
                     case 1:
-                        return HeaderDesign.fromColorResAndUrl(
+                        return HeaderDesign.fromColorResAndDrawable(
                                 R.color.blue,
-                                "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/06/wallpaper_51.jpg");
+                                getApplicationContext().getResources().getDrawable(R.drawable.bbacc));
                     case 2:
-                        return HeaderDesign.fromColorResAndUrl(
+                        return HeaderDesign.fromColorResAndDrawable(
                                 R.color.cyan,
-                                "http://www.droid-life.com/wp-content/uploads/2014/10/lollipop-wallpapers10.jpg");
+                                getApplicationContext().getResources().getDrawable(R.drawable.bbacc));
                     case 3:
-                        return HeaderDesign.fromColorResAndUrl(
+                        return HeaderDesign.fromColorResAndDrawable(
                                 R.color.red,
-                                "http://www.tothemobile.com/wp-content/uploads/2014/07/original.jpg");
+                                getApplicationContext().getResources().getDrawable(R.drawable.bbacc));
                 }
 
                 //execute others actions if needed (ex : modify your header logo)
@@ -312,9 +314,6 @@ private static final long RIPPLE_DURATION = 250;
                 }
             });
 
-            //dialogButton.setText(PersianReshape.reshape("جستجو"));
-            //dialogButton.setTypeface(face);
-            // if button is clicked, close the custom dialog
             dialogButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v){
@@ -328,8 +327,7 @@ private static final long RIPPLE_DURATION = 250;
                     {
                         edit.setBackgroundColor(Color.BLACK);
 
-//                    Intent nextintend=new Intent(MainActivity.this, Search.class);
-//                    nextintend.putExtra("searchfor",edit.getText().toString());
+//
                        initialViewPager("search");
                         edit.setText("");
                        dialog.dismiss();
@@ -391,266 +389,30 @@ private static final long RIPPLE_DURATION = 250;
 
     public  void initialViewPager(final String extra)
     {
+        Log.d("heep_size:befor", String.valueOf(Runtime.getRuntime().totalMemory()));
+        Log.d("native:", String.valueOf(Debug.getNativeHeapAllocatedSize()));
         if(myFragment !=null){
-            // myFragment.onDestroy();
+
             android.support.v4.app.FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
 
             for (WeakReference<Fragment> ref : mFragments) {
                 Fragment fragment = ref.get();
                 if (fragment != null) {
                     ft.remove(fragment);
+                    System.gc();
+                    Debug.getNativeHeapAllocatedSize();
 
+                    if(fragment.isRemoving()){
+                        Log.d("heep_size:after", String.valueOf(Runtime.getRuntime().totalMemory()));
+                        Log.d("native:", String.valueOf(Debug.getNativeHeapAllocatedSize()));
+                    }
                 }
             }
 
             ft.commit();
         }
 
-        mViewPager.getViewPager().setAdapter(new FragmentStatePagerAdapter(getSupportFragmentManager()) {
-
-            int currentPage = 0;
-
-            private SparseArray<Fragment> mPageReferenceMap = new SparseArray<Fragment>();
-            int pos;
-
-
-            @Override
-            public Fragment getItem(int position) {
-                switch (position % 3) {
-                    case 0:
-                        pos=0;
-                        if(extra.equals("search")){
-
-                            myFragment = Search.newInstance(edit.getText().toString(),MainActivity.this);
-
-                            mFragments.add(new WeakReference<Fragment>(myFragment));
-                            return myFragment;
-                        }
-                        if(extra.equals("ostan")){
-                            Ostan.back_frament="attach";
-                            Ostan.level=1;
-                            myFragment =Ostan.newInstance(MainActivity.this, "school");
-
-                            mFragments.add(new WeakReference<Fragment>(myFragment));
-                            return myFragment;
-                            // return Ostan.newInstance(MainActivity.this, "school");
-                        }
-                        if(extra.equals("pelak")){
-                            Pelak.back_frament="attach";
-                            Pelak.level=1;
-                            myFragment =Pelak.newInstance(MainActivity.this);
-
-                            mFragments.add(new WeakReference<Fragment>(myFragment));
-                            return myFragment;
-
-                        }
-                        if(extra.equals("document")){
-                            Document.back_frament="attach";
-                            Document.level=1;
-                            myFragment =Document.newInstance(MainActivity.this);
-
-                            mFragments.add(new WeakReference<Fragment>(myFragment));
-                            return myFragment;
-
-                        }
-                        if(extra.equals("police")){
-                            Police.back_frament="attach";
-                            Police.level=1;
-                            myFragment =Police.newInstance(MainActivity.this);
-
-                            mFragments.add(new WeakReference<Fragment>(myFragment));
-                            return myFragment;
-
-                        }
-                        if(extra.equals("attach")){
-                            myFragment = Attach.newInstance(MainActivity.this);
-
-                            mFragments.add(new WeakReference<Fragment>(myFragment));
-                            return myFragment;
-
-                        }
-                        if(extra.equals("sign")){
-                            Sign.back_frament="7";
-                            Sign.level=1;
-                            myFragment =  Sign.newInstance(MainActivity.this);
-
-                            mFragments.add(new WeakReference<Fragment>(myFragment));
-                            return myFragment;
-
-                        }
-                        if( extra.equals("8")||extra.equals("9")){
-                            RuleItem.back_frament="Rule";
-                            RuleItem.level=1;
-                            myFragment = RuleItem.newInstance("select * from rules" +
-                                    " where category='" + String.valueOf((int) (Math.floor(Integer.parseInt(extra)))) + "'",MainActivity.this);
-
-                            mFragments.add(new WeakReference<Fragment>(myFragment));
-                            return myFragment;
-
-                        }
-                        if(extra.equals("exam")){
-                            myFragment = Exam.newInstance();
-
-                            mFragments.add(new WeakReference<Fragment>(myFragment));
-                            return myFragment;
-
-                        }
-
-                        if(extra.equals("Rule")){
-                            myFragment =Rule.newInstance(MainActivity.this);
-
-                            mFragments.add(new WeakReference<Fragment>(myFragment));
-                            return myFragment;
-
-                        }
-                        if(extra.equals("0") ||extra.equals("1")||extra.equals("2")||extra.equals("3")
-                                ||extra.equals("4")||extra.equals("5")||extra.equals("6")||
-                                extra.equals("10")|| extra.equals("7")||extra.equals("71") ||
-                                extra.equals("72")|| extra.equals("05")||extra.equals("08")
-                                || extra.equals("36") || extra.equals("37")) {
-
-                            ///////for back bt
-                            if(extra.equals("7")){
-
-                                Slider.back_frament="Rule";
-                                Slider.level=1;
-                                myFragment =Slider.newInstance(extra, MainActivity.this);
-
-                                mFragments.add(new WeakReference<Fragment>(myFragment));
-                                return myFragment;
-
-
-                            }
-                            if(extra.equals("0") ||extra.equals("1")||extra.equals("2")||extra.equals("3")
-                                    ||extra.equals("4")||extra.equals("5")||extra.equals("6")
-                                    ||extra.equals("10")){
-
-                                Slider.back_frament="Rule";
-                                Slider.level=1;
-                                myFragment =Slider.newInstance(extra, MainActivity.this);
-
-                                mFragments.add(new WeakReference<Fragment>(myFragment));
-                                return myFragment;
-
-                            }
-                            if(extra.equals("71") ||
-                                    extra.equals("72")|| extra.equals("05")||extra.equals("08")
-                                    || extra.equals("36") || extra.equals("37")){
-                                back_fragment="Rule";
-                                level=1;
-                                Slider.back_frament="7";
-                                Slider.level=1;
-
-                                myFragment =Slider.newInstance(extra, MainActivity.this);
-
-                                mFragments.add(new WeakReference<Fragment>(myFragment));
-                                return myFragment;
-
-                            }
-
-                        }
-
-                    case 1:
-                        pos=1;
-                        if( extra.equals("8")||extra.equals("9")){
-
-                            myFragment =QuestionPage.newInstance("select * from exam" +
-                                    " where " + exam.KEY_TYPE + "='" + extra + "'",MainActivity.this);
-
-
-                            mFragments.add(new WeakReference<Fragment>(myFragment));
-                            return myFragment;
-                        }
-                        if(extra.equals("7")  ){
-                            myFragment =RuleItem.newInstance("select * from rules" +
-                                    " where category='" + String.valueOf((int) (Math.floor(Integer.parseInt("7")))) + "'",MainActivity.this);
-
-                            mFragments.add(new WeakReference<Fragment>(myFragment));
-                            return myFragment;
-
-                        }
-                    case 2:
-                        pos=2;
-                        if(extra.equals("7")  ) {
-                            myFragment =QuestionPage.newInstance("select * from exam" +
-                                    " where " + exam.KEY_TYPE + "='" + "7" + "'",MainActivity.this);
-
-
-                            mFragments.add(new WeakReference<Fragment>(myFragment));
-                            return myFragment;
-
-                        }
-                    default:
-                        return RecyclerViewFragment.newInstance();
-
-                }
-            }
-
-            @Override
-            public int getCount() {
-                return 3;
-            }
-
-
-            @Override
-            public CharSequence getPageTitle(int position) {
-                switch (position % 4) {
-                    case 0:
-                        if(extra.equals("search")){return "جستجو";}
-                        if(extra.equals("ostan")){return "آموزشگاه های رانندگی";}
-                        if(extra.equals("pelak")){return "تعویض پلاک";}
-                        if(extra.equals("document")){
-                            return "مدارک اخذ گواهینامه";
-                        }
-                        if(extra.equals("police")){
-                            return "مراکز پلیس +10";
-                        }
-                        if(extra.equals("attach")){return "ضمائم";
-                        }
-                        if(extra.equals("71") || extra.equals("72")|| extra.equals("05")||extra.equals("08")
-                                || extra.equals("36") || extra.equals("37")|| extra.equals("7")|| extra.equals("sign")) {
-                            return getString(R.string.tab1);}
-                        if(extra.equals("0") ||extra.equals("1")||extra.equals("2")||extra.equals("3")
-                                ||extra.equals("4")||extra.equals("5")||extra.equals("6")||
-                                extra.equals("10")){
-                            return tab_name;}
-                        if( extra.equals("8")||extra.equals("9")){
-                            return "قوانین";
-                        }
-                        if(extra.equals("exam")){
-                            return "آزمون";
-                        }
-                        if(extra.equals("Rule")){
-                            return "آموزش";
-                        }
-                    case 1:
-                        if( extra.equals("8")||extra.equals("9")){
-                            return "سوالات";
-                        }
-                        if(extra.equals("7")  ){
-                            return getString(R.string.tab2);
-                        }
-                    case 2:
-                        if(extra.equals("7")  ) {
-                            return getString(R.string.tab3);
-                        }
-
-                }
-                return "";
-            }
-
-            @Override
-            public void destroyItem(ViewGroup container, int position, Object object) {
-
-                super.destroyItem(container, position, object);
-
-                mPageReferenceMap.remove(Integer.valueOf(position));
-            }
-
-            public Fragment getCurrentItem() {
-                return mPageReferenceMap.get(currentPage);
-            }
-        });
+        mViewPager.getViewPager().setAdapter(new FragmentStatePagerWithCurrentAdapter(getSupportFragmentManager(),extra));
 
 
 
@@ -751,7 +513,7 @@ private static final long RIPPLE_DURATION = 250;
             implements ViewPager.OnPageChangeListener {
         int currentPage = 0;
 
-        private SparseArray<Fragment> mPageReferenceMap = new SparseArray<Fragment>();
+        //private SparseArray<Fragment> mPageReferenceMap = new SparseArray<Fragment>();
 
         public FragmentStatePagerWithCurrentAdapter(android.support.v4.app.FragmentManager fm,String e) {
             super(fm);
@@ -761,8 +523,15 @@ private static final long RIPPLE_DURATION = 250;
         @Override
         public final Fragment getItem(int index) {
 //            Fragment myFragment = getItemAtIndex(index);
-            mPageReferenceMap.put(index, myFragment);
+            //mPageReferenceMap.put(index, myFragment);
 //            return myFragment;
+            List<Fragment> f=getSupportFragmentManager().getFragments();
+            if(f!=null)
+            for (Fragment ff:f)
+            {
+                if (ff!=null)
+                    getSupportFragmentManager().beginTransaction().remove(ff).commit();
+            }
             switch (index % 3) {
                 case 0:
 
@@ -943,13 +712,13 @@ private static final long RIPPLE_DURATION = 250;
 
             super.destroyItem(container, position, object);
 
-            mPageReferenceMap.remove(Integer.valueOf(position));
-            Log.d("dfffdfdfdf","fgdfgdfgdf");
+            //mPageReferenceMap.remove(Integer.valueOf(position));
+
         }
 
-        public Fragment getCurrentItem() {
-            return mPageReferenceMap.get(currentPage);
-        }
+       // public Fragment getCurrentItem() {
+       //     return mPageReferenceMap.get(currentPage);
+       // }
 
 
         @Override

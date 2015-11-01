@@ -471,6 +471,7 @@ public class MaterialViewPager extends FrameLayout implements ViewPager.OnPageCh
 
     public ImageButton getIB()
     {
+
         back =(ImageButton)findViewById(R.id.b);
         return  back;
     }

@@ -24,12 +24,16 @@ import com.github.florent37.materialviewpager.sample.R;
 
 public class Attach extends Fragment
 {
-    public static MainActivity m;
-
+    public  MainActivity m;
+    public void setActivity(MainActivity n)
+    {
+        m=n;
+    }
     public static Attach newInstance(  MainActivity n) {
         Attach fragmentDemo = new Attach();
 
-        m=n;
+        fragmentDemo.setActivity(n);
+
         return fragmentDemo;
     }
 

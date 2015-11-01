@@ -39,11 +39,15 @@ public class RuleItem extends Fragment
     public static int level;
 
     private ObservableScrollView mScrollView;
+    public void setActivity(MainActivity n)
+    {
+        m=n;
+    }
     public static RuleItem newInstance( String someTitle, MainActivity n) {
         RuleItem fragmentDemo = new RuleItem();
         Bundle args = new Bundle();
         args.putString("query", someTitle);
-         m=n;
+        fragmentDemo.setActivity(n);
         fragmentDemo.setArguments(args);
         return fragmentDemo;
     }
@@ -64,7 +68,7 @@ public class RuleItem extends Fragment
 	public  static String CatId=null;
 	//int [] offset={257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 	//
-    public static MainActivity m;
+    public  MainActivity m;
 	DbAdapter database;
 //	public boolean onKeyDown(int keyCode, KeyEvent event)
 //	 {

@@ -34,15 +34,24 @@ import com.github.ksoichiro.android.observablescrollview.ObservableScrollView;
 
 public class Rule extends android.support.v4.app.Fragment
 {
-    public static MainActivity m;
+    public  MainActivity m;
+
+    public void setActivity(MainActivity n)
+    {
+        m=n;
+    }
+
+
     public static Rule newInstance(MainActivity n) {
         Rule fragmentDemo = new Rule();
-        m=n;
+        fragmentDemo.setActivity(n);
+
         return fragmentDemo;
     }
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.main2, container, false);
+
     }
 	 /*String[] Title_String = new String[] 
 			 {"تصادفات" , "هوشیاری" ,"آلودگی",
@@ -75,8 +84,10 @@ public class Rule extends android.support.v4.app.Fragment
 		gridView.setSelector(android.R.color.transparent);
 		contex=this.getActivity();
 
-		for(int i=0;i<Title_Image.length;i++)
-			Title_Image[i]=BitmapFactory.decodeResource(getResources(), R.drawable.cat01+i);
+		for(int i=0;i<Title_Image.length;i++) {
+            Title_Image[i] = BitmapFactory.decodeResource(getResources(), R.drawable.cat01 + i);
+
+        }
 
 
 		gridView.setAdapter(new RuleArrayAdapter(this.getActivity(), Title_String,Title_Image));
