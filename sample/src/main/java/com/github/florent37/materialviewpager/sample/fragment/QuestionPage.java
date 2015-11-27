@@ -64,17 +64,13 @@ public class QuestionPage extends Fragment
 
     public static String back_frament;
     public static int level;
+    public static MainActivity m;
 
-    public  MainActivity m;
-    public void setActivity(MainActivity n)
-    {
-        m=n;
-    }
     public static QuestionPage newInstance(String s, MainActivity n){
     QuestionPage fragmentDemo = new QuestionPage();
     Bundle args = new Bundle();
     args.putString("query", s);
-    fragmentDemo.setActivity(n);
+    m=n;
     fragmentDemo.setArguments(args);
     return fragmentDemo;
     }

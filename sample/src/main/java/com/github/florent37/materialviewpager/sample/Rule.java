@@ -12,7 +12,6 @@ import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,24 +33,15 @@ import com.github.ksoichiro.android.observablescrollview.ObservableScrollView;
 
 public class Rule extends android.support.v4.app.Fragment
 {
-    public  MainActivity m;
-
-    public void setActivity(MainActivity n)
-    {
-        m=n;
-    }
-
-
+    public static MainActivity m;
     public static Rule newInstance(MainActivity n) {
         Rule fragmentDemo = new Rule();
-        fragmentDemo.setActivity(n);
-
+        m=n;
         return fragmentDemo;
     }
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.main2, container, false);
-
     }
 	 /*String[] Title_String = new String[] 
 			 {"تصادفات" , "هوشیاری" ,"آلودگی",
@@ -65,29 +55,22 @@ public class Rule extends android.support.v4.app.Fragment
 	 GridView gridView;
 	 Context contex;
     private ObservableScrollView mScrollView2;
-
-
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-
-
 		//this.getActivity().setContentView(R.layout.main);
         mScrollView2 = (ObservableScrollView) view.findViewById(R.id.scrollView3);
 		gridView = (GridView) this.getActivity().findViewById(R.id.gridView9);
 
         ViewGroup.LayoutParams layoutParams = gridView.getLayoutParams();
-        layoutParams.height = 900; //this is in pixels
+        layoutParams.height = 1150; //this is in pixels
         gridView.setLayoutParams(layoutParams);
 
 		gridView.setSelector(android.R.color.transparent);
 		contex=this.getActivity();
 
-		for(int i=0;i<Title_Image.length;i++) {
-            Title_Image[i] = BitmapFactory.decodeResource(getResources(), R.drawable.cat01 + i);
-
-        }
+		for(int i=0;i<Title_Image.length;i++)
+			Title_Image[i]=BitmapFactory.decodeResource(getResources(), R.drawable.cat01+i);
 
 
 		gridView.setAdapter(new RuleArrayAdapter(this.getActivity(), Title_String,Title_Image));
@@ -205,30 +188,5 @@ public class Rule extends android.support.v4.app.Fragment
 			return 0;
 		}
 	}
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        Log.i("onDestroy", "onDestroy position ImageGridFragment");
-        Title_Image=null;
-        android.support.v4.app.FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.remove(this);
-        ft.commit();
-        System.gc();
-        Runtime.getRuntime().gc();
-    }
-
-
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        Log.i("onDestroy", "onDestroy position ImageGridFragment");
-        Title_Image=null;
-        android.support.v4.app.FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.remove(this);
-        ft.commit();
-        System.gc();
-        Runtime.getRuntime().gc();
-    }
 
 }

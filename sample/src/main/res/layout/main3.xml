@@ -3,7 +3,7 @@
     android:id="@+id/rel1"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/bgmain" >
+    android:background="@drawable/forground" >
     <RelativeLayout
         android:id="@+id/relativeLayout2"
         android:layout_width="fill_parent"
